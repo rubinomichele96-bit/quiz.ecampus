@@ -1,0 +1,2626 @@
+    {
+        "titolo": "Quiz e Schemi di Ripasso - Fondamenti di Informatica (Lezioni 001 - 015)",
+        "domande": [
+            {
+                "id": 1,
+                "lezione": "Lezione 002",
+                "tipo": "Multipla",
+                "quesito": "Qual è la definizione corretta di un computer?",
+                "opzioni": [
+                    "A) è una macchina intelligente cui porre domande",
+                    "B) è una macchina limitata che va istruita per fare calcoli",
+                    "C) è una macchina che esegue codice predeterminato",
+                    "D) è un sistema che comprende il linguaggio umano"
+                ],
+                "risposta_corretta": "C",
+                "spiegazioni": {
+                    "A": "Errata. Il computer non possiede intelligenza propria né capacità cognitive; si limita a eseguire algoritmi forniti dall'esterno.",
+                    "B": "Errata. Definizione imprecisa e riduttiva rispetto al concetto formale di calcolatore elettronico programmabile.",
+                    "C": "Corretta. Un computer è un elaboratore programmabile che opera eseguendo in modo deterministico un insieme di istruzioni (codice) precedentemente memorizzato.",
+                    "D": "Errata. I calcolatori non interpretano nativamente il linguaggio umano, ma eseguono esclusivamente istruzioni in linguaggio macchina."
+                }
+            },
+            {
+                "id": 2,
+                "lezione": "Lezione 002",
+                "tipo": "Multipla",
+                "quesito": "Che cos'è la programmazione?",
+                "opzioni": [
+                    "A) La programmazione è una pianificazione numerica",
+                    "B) La programmazione permette di eseguire una sequenza di istruzioni",
+                    "C) La programmazione permette di guidare l'utente finale verso la soluzione da lui cercata",
+                    "D) La programmazione permette di preparare una sequenza di istruzioni"
+                ],
+                "risposta_corretta": "D",
+                "spiegazioni": {
+                    "A": "Errata. La programmazione concerne la logica di calcolo e la scrittura del codice, non la semplice gestione di valori numerici.",
+                    "B": "Errata. L'esecuzione fisica delle istruzioni è svolta dall'hardware (CPU), mentre la programmazione rappresenta la fase concettuale e di scrittura.",
+                    "C": "Errata. Questo descrive il ruolo dell'interfaccia o dell'applicazione utente, non l'atto di programmare.",
+                    "D": "Corretta. Programmare significa definire e formalizzare la sequenza di istruzioni che la macchina dovrà successivamente eseguire."
+                }
+            },
+            {
+                "id": 3,
+                "lezione": "Lezione 002",
+                "tipo": "Multipla",
+                "quesito": "Qual'è la definizione migliore di Algoritmo?",
+                "opzioni": [
+                    "A) è un procedimento i cui passi sono chiari ed ambigui",
+                    "B) è un procedimento composto da una sequenza illimitata di passi",
+                    "C) è un procedimento composto da una sequenza limitata di passi",
+                    "D) è un procedimento in grado di prevedere un problema"
+                ],
+                "risposta_corretta": "C",
+                "spiegazioni": {
+                    "A": "Errata. Per definizione, un algoritmo deve essere privo di ambiguità (non ambiguo e deterministico).",
+                    "B": "Errata. La sequenza di passi deve essere finita (limitata) per garantire la conclusione del procedimento.",
+                    "C": "Corretta. Un algoritmo è un insieme finito e ordinato di istruzioni elementari e univoche che porta alla risoluzione di un determinato problema.",
+                    "D": "Errata. L'algoritmo fornisce i passi esecutivi per risolvere un problema noto, non ha la funzione di prevederne la comparsa."
+                }
+            },
+            {
+                "id": 4,
+                "lezione": "Lezione 002",
+                "tipo": "Multipla",
+                "quesito": "Quale fra queste è una definizione falsa di Algoritmo?",
+                "opzioni": [
+                    "A) un problema è calcolabile se e solo se esiste un algoritmo che lo risolve",
+                    "B) un algoritmo si dice atomico quando i passi che lo costituiscono sono elementari",
+                    "C) un algoritmo è valido se termina in un numero finito di passi o non termina mai",
+                    "D) un algoritmo è valido se è definito da una sequenza finita di passi"
+                ],
+                "risposta_corretta": "C",
+                "spiegazioni": {
+                    "A": "Errata (affermazione vera). Nella teoria della calcolabilità, un problema si dice calcolabile se e solo se è risolvibile tramite algoritmo.",
+                    "B": "Errata (affermazione vera). L'atomicità definisce il fatto che ogni singolo passo sia elementare e non ulteriormente scomponibile.",
+                    "C": "Corretta (affermazione falsa). La proprietà di finitudine è vincolante: se un procedimento non termina mai (loop infinito), non costituisce un algoritmo valido.",
+                    "D": "Errata (affermazione vera). La finitudine dei passi è un requisito fondamentale per la validità dell'algoritmo."
+                }
+            },
+            {
+                "id": 5,
+                "lezione": "Lezione 002",
+                "tipo": "Multipla",
+                "quesito": "Quale fra le seguenti proprietà è falsa se applicata agli Algoritmi?",
+                "opzioni": [
+                    "A) un algoritmo è valido quando i passi di cui si compone sono finiti",
+                    "B) un algoritmo è atomico perchè i passi che lo costituiscono devono essere elementari",
+                    "C) un algoritmo è non allocabile se la memoria che deve contenerlo è piena",
+                    "D) un algoritmo è non ambiguo quando i passi di cui si compone sono univoci"
+                ],
+                "risposta_corretta": "C",
+                "spiegazioni": {
+                    "A": "Errata (propriet\u00e0 vera). Un algoritmo deve sempre essere composto da un numero finito di passaggi.",
+                    "B": "Errata (propriet\u00e0 vera). I singoli passi devono essere elementari (atomici) per poter essere interpretati senza incertezze dall'esecutore.",
+                    "C": "Corretta (propriet\u00e0 falsa). L'allocazione in memoria riguarda la gestione delle risorse fisiche di un calcolatore reale, non la definizione teorica o le proprietà formali dell'algoritmo.",
+                    "D": "Errata (propriet\u00e0 vera). La non ambiguit\u00e0 garantisce che ciascun passaggio abbia un unico significato preciso."
+                }
+            },
+            {
+                "id": 6,
+                "lezione": "Lezione 002",
+                "tipo": "Multipla",
+                "quesito": "Quale fra le seguenti definizioni è corretta se riferita agli Algoritmi?",
+                "opzioni": [
+                    "A) Un problema si dice calcolabile se non esiste un algoritmo in grado di risolverlo",
+                    "B) Passando all'algoritmo due dati in ingresso uguali fra loro si possono ottenere risultati diversi",
+                    "C) Un algoritmo può terminare in tempo finito o non terminare mai",
+                    "D) Passando all'algoritmo due dati in ingresso uguali fra loro si devono ottenere risultati identici"
+                ],
+                "risposta_corretta": "D",
+                "spiegazioni": {
+                    "A": "Errata. Un problema è calcolabile se e solo se ESISTE un algoritmo in grado di risolverlo.",
+                    "B": "Errata. Gli algoritmi sono deterministici: a parità di dati di ingresso (input) devono sempre produrre i medesimi risultati in uscita (output).",
+                    "C": "Errata. La finitudine è una condizione essenziale: un algoritmo deve terminare sempre in un numero finito di passi.",
+                    "D": "Corretta. Per il principio di determinismo, fornendo gli stessi input ad un algoritmo si otterranno sempre e necessariamente gli stessi output."
+                }
+            },
+            {
+                "id": 7,
+                "lezione": "Lezione 002",
+                "tipo": "Multipla",
+                "quesito": "Quale fra le seguenti definizioni circa le interfacce utente è falsa?",
+                "opzioni": [
+                    "A) l'interfaccia grafica usa la tecnologia WYSIWYG",
+                    "B) una interfaccia può essere a caratteri o grafica",
+                    "C) una interfaccia grafica non può contenere caratteri",
+                    "D) l'interfaccia a caratteri si usa solitamente nei sistemi server"
+                ],
+                "risposta_corretta": "C",
+                "spiegazioni": {
+                    "A": "Errata (affermazione vera). Le GUI usano spesso il paradigma WYSIWYG (What You See Is What You Get) per rappresentare visivamente gli elementi visivi e testuali.",
+                    "B": "Errata (affermazione vera). Le interfacce utente si dividono principalmente in CLI (Command Line Interface, a caratteri) e GUI (Graphical User Interface, grafica).",
+                    "C": "Corretta (affermazione falsa). Un'interfaccia grafica può includere liberamente testo e caratteri all'interno di etichette, menu, pulsanti e finestre.",
+                    "D": "Errata (affermazione vera). Le CLI a riga di comando sono comunemente impiegate nei contesti server per garantire efficienza e ridotto consumo di risorse."
+                }
+            },
+            {
+                "id": 8,
+                "lezione": "Lezione 002",
+                "tipo": "Multipla",
+                "quesito": "Cosa è falso se riferito alle applicazioni che vengono eseguite sui calcolatori?",
+                "opzioni": [
+                    "A) le applicazioni prevedono quello di cui l'utente ha bisogno",
+                    "B) le applicazioni girano sulle macchine",
+                    "C) le applicazioni manipolano e gestiscono le informazioni",
+                    "D) le applicazioni vengono eseguite dalle macchine"
+                ],
+                "risposta_corretta": "A",
+                "spiegazioni": {
+                    "A": "Corretta (affermazione falsa). Il software opera esclusivamente eseguendo istruzioni preprogrammate e deterministiche; non possiede intelligenza o intuito per prevedere in autonomia i bisogni dell'utente.",
+                    "B": "Errata (affermazione vera). L'espressione 'girare sulla macchina' indica la corretta esecuzione del software sull'hardware.",
+                    "C": "Errata (affermazione vera). Lo scopo fondamentale dei programmi applicativi è elaborare, strutturare e gestire dati ed informazioni.",
+                    "D": "Errata (affermazione vera). Le macchine (CPU e memoria) costituiscono l'hardware che esegue le istruzioni delle applicazioni."
+                }
+            },
+            {
+                "id": 9,
+                "lezione": "Lezione 002",
+                "tipo": "Aperta",
+                "quesito": "Scrivere la definizione di Algoritmo.",
+                "opzioni": [],
+                "risposta_corretta": "",
+                "spiegazioni": {
+                    "risposta_modello": "Un algoritmo è una sequenza finita, ordinata e non ambigua di passi o istruzioni elementari che, a partire da un insieme di dati di ingresso (input), conduce in un tempo finito alla risoluzione di un determinato problema o al raggiungimento di un obiettivo prefissato (output)."
+                }
+            },
+            {
+                "id": 10,
+                "lezione": "Lezione 002",
+                "tipo": "Aperta",
+                "quesito": "Descrivere le proprietà che devono essere verificate per un Algoritmo.",
+                "opzioni": [],
+                "risposta_corretta": "",
+                "spiegazioni": {
+                    "risposta_modello": "Un algoritmo deve soddisfare cinque proprietà fondamentali:\n1. Finitudine: deve essere composto da un numero finito di passi ed eseguire l'elaborazione in un intervallo di tempo finito.\n2. Non ambiguità (Univocità): ogni passo deve essere definito in modo chiaro e interpretabile in un solo modo dall'esecutore.\n3. Atomicità (Eseguibilità): ciascuna istruzione deve essere elementare, ovvero non ulteriormente scomponibile ed effettivamente eseguibile dall'esecutore.\n4. Determinismo: fornendo gli stessi dati in ingresso (input), l'algoritmo deve produrre sempre i medesimi risultati in uscita (output).\n5. Generalità: l'algoritmo deve risolvere non un singolo caso specifico, ma una classe generica di problemi equivalenti."
+                }
+            },
+            {
+                "id": 11,
+                "lezione": "Lezione 003",
+                "tipo": "Aperta",
+                "quesito": "Descrivere cosa contiene il grafico tipico della Legge di Moore.",
+                "opzioni": [],
+                "risposta_corretta": "",
+                "spiegazioni": {
+                    "risposta_modello": "Il grafico della Legge di Moore mostra sull'asse delle ascisse (x) il tempo espresso in anni e sull'asse delle ordinate (y) il numero di transistor integrati in un singolo circuito integrato (microprocessore). In una scala semilogaritmica, il grafico presenta una crescita di tipo rettilineo con pendenza costante, a rappresentare un andamento esponenziale in cui la densità dei transistor raddoppia a intervalli regolari (circa ogni 18-24 mesi)."
+                }
+            },
+            {
+                "id": 12,
+                "lezione": "Lezione 003",
+                "tipo": "Aperta",
+                "quesito": "Si descriva la Legge di Moore e le sue implicazioni.",
+                "opzioni": [],
+                "risposta_corretta": "",
+                "spiegazioni": {
+                    "risposta_modello": "Formulata nel 1965 da Gordon Moore (co-fondatore di Intel), la prima legge di Moore dichiara che il numero di transistor che si possono inserire in un circuito integrato raddoppia circa ogni 18-24 mesi. Le sue implicazioni principali includono:\n1. Crescita esponenziale delle prestazioni dei calcolatori senza un aumento proporzionale dei costi.\n2. Progressiva miniaturizzazione dei componenti elettronici.\n3. Riduzione dei costi di produzione unitari e rapida obsolescenza dell'hardware, spingendo la continua evoluzione dell'industria del software."
+                }
+            },
+            {
+                "id": 13,
+                "lezione": "Lezione 004",
+                "tipo": "Multipla",
+                "quesito": "A cosa serve il BUS?",
+                "opzioni": [
+                    "A) Garantisce l'espandibilità del computer",
+                    "B) Collega la scheda madre ai registri",
+                    "C) Garantisce l'espandibilità della CPU",
+                    "D) Collega la CPU alla memoria"
+                ],
+                "risposta_corretta": "D",
+                "spiegazioni": {
+                    "A": "Errata. L'espandibilità del computer dipende dagli slot di espansione e dalle porte di I/O, non dal concetto primario di bus di sistema.",
+                    "B": "Errata. I registri sono situati internamente alla CPU e si collegano direttamente alle sue componenti logiche tramite bus interni, non alla scheda madre.",
+                    "C": "Errata. La struttura interna della CPU è fissa e non espandibile tramite bus.",
+                    "D": "Corretta. Il bus di sistema è il canale di comunicazione fisico che connette la CPU alla memoria principale (RAM) e alle periferiche per il trasferimento di dati, indirizzi e segnali di controllo."
+                }
+            },
+            {
+                "id": 14,
+                "lezione": "Lezione 004",
+                "tipo": "Multipla",
+                "quesito": "Che cos'è il software applicativo?",
+                "opzioni": [
+                    "A) è il sistema operativo e l'insieme dei driver",
+                    "B) è l'insieme dei componenti software che viene personalizzato in base alle esigenze dell'utente",
+                    "C) è l'insieme dei programmi che coordinano e organizzano le funzionalità dell'hardware",
+                    "D) è l'insieme dei componenti software che permettono il funzionamento del terminale"
+                ],
+                "risposta_corretta": "B",
+                "spiegazioni": {
+                    "A": "Errata. Il sistema operativo e i driver appartengono alla categoria del software di base.",
+                    "B": "Corretta. Il software applicativo comprende i programmi progettati per svolgere compiti specifici richiesti dall'utente (es. elaboratori di testo, fogli di calcolo, browser).",
+                    "C": "Errata. Il coordinamento delle funzionalità hardware è una prerogativa del software di base (sistema operativo).",
+                    "D": "Errata. Il funzionamento essenziale del terminale è garantito dal software di base e dal firmware."
+                }
+            },
+            {
+                "id": 15,
+                "lezione": "Lezione 004",
+                "tipo": "Multipla",
+                "quesito": "Che cos'è falso se riferito alla Macchina di Von Neumann?",
+                "opzioni": [
+                    "A) I suoi componenti principali sono: la cpu, la memoria e le periferiche di I/O",
+                    "B) I suoi componenti principali sono: la cpu, il bus e il sistema operativo",
+                    "C) I suoi componenti principali sono: la cpu, il bus e le interfacce delle periferiche",
+                    "D) I suoi componenti principali sono: la cpu, la memoria e il bus"
+                ],
+                "risposta_corretta": "B",
+                "spiegazioni": {
+                    "A": "Errata (affermazione vera). CPU, memoria principale e dispositivi di Input/Output sono i blocchi funzionali dell'architettura.",
+                    "B": "Corretta (affermazione falsa). La Macchina di Von Neumann è un modello teorico di hardware; il sistema operativo è un elemento software non facente parte dell'architettura hardware di base.",
+                    "C": "Errata (affermazione vera). Le interfacce I/O e i bus di comunicazione consentono il collegamento tra CPU e mondo esterno.",
+                    "D": "Errata (affermazione vera). CPU, memoria e bus sono i componenti hardware strutturali definiti nel modello."
+                }
+            },
+            {
+                "id": 16,
+                "lezione": "Lezione 004",
+                "tipo": "Multipla",
+                "quesito": "Che cos'è il software di base?",
+                "opzioni": [
+                    "A) un insieme di programmi che coordinano le attività di lavoro dell'utente",
+                    "B) un insieme di programmi che coordinano le attività e il funzionamento dell'hardware",
+                    "C) un insieme di programmi che l'utente scrive per risolvere problemi",
+                    "D) un insieme di programmi che eseguono calcoli per l'utente"
+                ],
+                "risposta_corretta": "B",
+                "spiegazioni": {
+                    "A": "Errata. L'organizzazione delle attività dell'utente è scopo dei programmi applicativi.",
+                    "B": "Corretta. Il software di base (come il Sistema Operativo) gestisce le risorse fisiche del calcolatore e fornisce un'interfaccia tra hardware e software applicativo.",
+                    "C": "Errata. I programmi scritti dagli utenti per specifiche esigenze sono programmi applicativi.",
+                    "D": "Errata. L'esecuzione di calcoli diretti per l'utente finale è compito degli applicativi."
+                }
+            },
+            {
+                "id": 17,
+                "lezione": "Lezione 004",
+                "tipo": "Multipla",
+                "quesito": "Che cos'è la Macchina di Von Neumann?",
+                "opzioni": [
+                    "A) Una architettura software per lo scambio di dati",
+                    "B) Un modello semplificato di calcolatore",
+                    "C) Una architettura software per il coordinamento dei componenti",
+                    "D) Una macchina generale in cui dati e programmi risiedono in memorie separate"
+                ],
+                "risposta_corretta": "B",
+                "spiegazioni": {
+                    "A": "Errata. La Macchina di Von Neumann definisce un'architettura hardware, non software.",
+                    "B": "Corretta. Rappresenta il modello teorico e logico semplificato su cui si basano i moderni elaboratori elettronici commerciali.",
+                    "C": "Errata. Non si tratta di un'architettura software.",
+                    "D": "Errata. L'architettura di Von Neumann si caratterizza per l'utilizzo della *medesima* memoria per contenere sia i dati che i programmi (la separazione delle memorie è tipica dell'Architettura Harvard)."
+                }
+            },
+            {
+                "id": 18,
+                "lezione": "Lezione 004",
+                "tipo": "Multipla",
+                "quesito": "Qual è la frase falsa se riferita alla ALU?",
+                "opzioni": [
+                    "A) La ALU esegue per la CPU solo calcoli aritmetici",
+                    "B) La ALU è l'unità che esegue calcoli numerici e logici",
+                    "C) La ALU è l'unità logico-aritmetica",
+                    "D) La ALU esegue calcoli numerici per la CPU"
+                ],
+                "risposta_corretta": "A",
+                "spiegazioni": {
+                    "A": "Corretta (affermazione falsa). La ALU (Arithmetic Logic Unit) esegue sia operazioni aritmetiche (somma, sottrazione) che operazioni logiche (AND, OR, NOT, confronti).",
+                    "B": "Errata (affermazione vera). La ALU gestisce sia la componente numerica che quella logica.",
+                    "C": "Errata (affermazione vera). È la traduzione esatta dell'acronimo ALU.",
+                    "D": "Errata (affermazione vera). La ALU esegue calcoli numerici, anche se non esclusivamente quelli."
+                }
+            },
+            {
+                "id": 19,
+                "lezione": "Lezione 004",
+                "tipo": "Multipla",
+                "quesito": "Quale fra i seguenti, non è un elenco di elementi della CPU valido?",
+                "opzioni": [
+                    "A) PC, IR, ALU",
+                    "B) PC, IR",
+                    "C) PC, MAB, MBR",
+                    "D) PC, MAR, MDR"
+                ],
+                "risposta_corretta": "C",
+                "spiegazioni": {
+                    "A": "Errata (elenco valido). Program Counter, Instruction Register e Arithmetic Logic Unit sono tutti componenti standard interni della CPU.",
+                    "B": "Errata (elenco valido). Rappresenta una selezione valida di registri interni della CPU.",
+                    "C": "Corretta (elenco non valido). 'MAB' (Memory Address Bus) indica un bus di sistema esterno alla CPU e non un registro/componente interno ad essa.",
+                    "D": "Errata (elenco valido). Program Counter, Memory Address Register e Memory Data Register sono registri fondamentali della CPU."
+                }
+            },
+            {
+                "id": 20,
+                "lezione": "Lezione 004",
+                "tipo": "Multipla",
+                "quesito": "Qual è la frase errata riferita al concetto di dato di un calcolatore?",
+                "opzioni": [
+                    "A) Un dato è rappresentato come sequenza di bit",
+                    "B) Un dato è una informazione elementare",
+                    "C) Un dato è un valore numerico",
+                    "D) Un dato non può essere un valore vero/falso"
+                ],
+                "risposta_corretta": "D",
+                "spiegazioni": {
+                    "A": "Errata (affermazione vera). Nei calcolatori digitali ogni dato è codificato sotto forma di sequenze di bit (0 e 1).",
+                    "B": "Errata (affermazione vera). Il dato rappresenta l'elemento base dell'informazione privo di elaborazione.",
+                    "C": "Errata (affermazione vera). Qualsiasi dato in memoria viene rappresentato numericamente (in base 2).",
+                    "D": "Corretta (affermazione falsa). Un dato può assolutamente rappresentare un valore booleano (vero/falso, 1/0)."
+                }
+            },
+            {
+                "id": 21,
+                "lezione": "Lezione 004",
+                "tipo": "Multipla",
+                "quesito": "Qual è la frase corretta se riferita alla ALU?",
+                "opzioni": [
+                    "A) La ALU esegue calcoli numerico-simbolici per la CPU",
+                    "B) La ALU è l'unità numerico-aritmetica",
+                    "C) La ALU è l'unità di esecuzione di codice aritmetico",
+                    "D) La ALU è l'unità logico-aritmetica"
+                ],
+                "risposta_corretta": "D",
+                "spiegazioni": {
+                    "A": "Errata. La ALU non gestisce il calcolo simbolico in senso algebrico astratto, ma operazioni su operandi binari.",
+                    "B": "Errata. La denominazione formale corretta include la componente 'logica'.",
+                    "C": "Errata. La ALU non esegue 'codice', ma esegue operazioni logiche ed aritmetiche fondamentali su dati.",
+                    "D": "Corretta. ALU è l'acronimo di Arithmetic Logic Unit (Unità Logico-Aritmetica)."
+                }
+            },
+            {
+                "id": 22,
+                "lezione": "Lezione 004",
+                "tipo": "Multipla",
+                "quesito": "Quali fra le seguenti operazioni effettuate durante il ciclo fetch-decode-execute è sicuramente errata?",
+                "opzioni": [
+                    "A) Elaborare operazioni aritmetiche il più velocemente possibile",
+                    "B) Incrementare l'Instruction Register e copiare le istruzioni nel Program Counter",
+                    "C) Incrementare il Program Counter e copiare le istruzioni nell'Instruction Register",
+                    "D) Copiare valori dalla memoria ai registri e viceversa"
+                ],
+                "risposta_corretta": "B",
+                "spiegazioni": {
+                    "A": "Errata. L'esecuzione rapida dei calcoli è parte della fase di Execute gestita dalla ALU.",
+                    "B": "Corretta (operazione errata). Nel ciclo, l'indirizzo della prossima istruzione risiede nel Program Counter (PC); l'istruzione letta dalla RAM viene memorizzata nell'Instruction Register (IR), mentre il PC viene incrementato. L'opzione scambia erroneamente i ruoli di PC e IR.",
+                    "C": "Errata (operazione corretta). Descrive correttamente il flusso primario della fase di Fetch.",
+                    "D": "Errata (operazione corretta). Il trasferimento dati tra memoria e registri è un'operazione standard di fetch e store."
+                }
+            },
+            {
+                "id": 23,
+                "lezione": "Lezione 004",
+                "tipo": "Multipla",
+                "quesito": "Quale proprietà fra le seguenti è errata se riferita alla memoria?",
+                "opzioni": [
+                    "A) Un valore memorizzato in memoria deve occupare una sola cella elementare",
+                    "B) Ogni cella di memoria è identificata da un numero intero",
+                    "C) La memoria è organizzata in celle, in un numero finito",
+                    "D) Un valore memorizzato in memoria può occupare più celle elementari"
+                ],
+                "risposta_corretta": "A",
+                "spiegazioni": {
+                    "A": "Corretta (propriet\u00e0 errata). Un dato strutturato o di dimensioni maggiori del singolo byte/word può occupare più celle contigue di memoria.",
+                    "B": "Errata (propriet\u00e0 corretta). L'indirizzo di memoria è rappresentato da un valore numerico intero univoco.",
+                    "C": "Errata (propriet\u00e0 corretta). La memoria fisica è limitata e divisa in celle di dimensione fissa.",
+                    "D": "Errata (propriet\u00e0 corretta). Dati come float, double o interi a 32/64 bit occupano più celle consecutive."
+                }
+            },
+            {
+                "id": 24,
+                "lezione": "Lezione 004",
+                "tipo": "Aperta",
+                "quesito": "Scrivere la definizione dell'Architettura di Von Neumann.",
+                "opzioni": [],
+                "risposta_corretta": "",
+                "spiegazioni": {
+                    "risposta_modello": "L'Architettura di Von Neumann è un modello teorico di hardware per calcolatori elettronici a programma memorizzato. Si compone di quattro elementi fondamentali collegati da un bus di sistema:\n1. CPU (Unità Centrale di Elaborazione), contenente Unità di Controllo (CU), ALU e registri.\n2. Memoria Centrale (RAM), che memorizza sia le istruzioni del programma sia i dati di elaborazione nella medesima struttura di indirizzamento.\n3. Interfacce di Input/Output (I/O), per la comunicazione con il mondo esterno e le periferiche.\n4. Bus di sistema, per il trasferimento di dati, indirizzi e segnali di controllo tra i componenti."
+                }
+            },
+            {
+                "id": 25,
+                "lezione": "Lezione 004",
+                "tipo": "Aperta",
+                "quesito": "Descrivere il funzionamento della ALU.",
+                "opzioni": [],
+                "risposta_corretta": "",
+                "spiegazioni": {
+                    "risposta_modello": "La ALU (Arithmetic Logic Unit) è il circuito combinatorio interno alla CPU preposto all'esecuzione delle operazioni logiche e matematiche sui dati. Prende in ingresso gli operandi provenienti dai registri interni (o dalla memoria) e un codice di controllo inviato dall'Unità di Controllo (CU) che specifica l'operazione da eseguire (ad esempio somma, sottrazione, AND, OR, NOT, shift). Dopo l'elaborazione, la ALU produce il risultato in un registro accumulatore/dati e aggiorna un registro di stato (Status Register / Flag Register) indicando eventuali condizioni particolari (es. risultato zero, overflow, riporto)."
+                }
+            },
+            {
+                "id": 26,
+                "lezione": "Lezione 004",
+                "tipo": "Aperta",
+                "quesito": "Descrivere le fasi del ciclo fetch-decode-execute.",
+                "opzioni": [],
+                "risposta_corretta": "",
+                "spiegazioni": {
+                    "risposta_modello": "Il ciclo macchina (Fetch-Decode-Execute) è il processo fondamentale con cui la CPU esegue le istruzioni di un programma e si articola in tre fasi principali:\n1. Fetch (Lettura): la Control Unit preleva l'istruzione dalla RAM all'indirizzo indicato dal Program Counter (PC), la carica nell'Instruction Register (IR) e incrementa il PC per puntare all'istruzione successiva.\n2. Decode (Decodifica): la Control Unit interpreta il codice dell'istruzione contenuto nell'IR per identificare l'operazione da compiere e gli eventuali operandi coinvolti.\n3. Execute (Esecuzione): la CPU esegue l'operazione richiesta (ad esempio attivando la ALU per un calcolo o trasferendo dati tra registri e memoria). Completata l'esecuzione, il ciclo ricomincia dalla fase di Fetch."
+                }
+            },
+            {
+                "id": 27,
+                "lezione": "Lezione 005",
+                "tipo": "Multipla",
+                "quesito": "Qual è la sequenza delle operazioni più corretta che porti svuotare una Pila da 3 elementi?",
+                "opzioni": [
+                    "A) pop(), push(), pop(), push(), pop(), push()",
+                    "B) pop(), push(), pop(), pop(), pop()",
+                    "C) push(), pop(), pop(), pop()",
+                    "D) push(), push(), push()"
+                ],
+                "risposta_corretta": "B",
+                "spiegazioni": {
+                    "A": "Errata. L'alternanza tra pop() e push() inserisce nuovi elementi e non riduce a zero la dimensione della pila.",
+                    "B": "Corretta. Effettuando 4 estrazioni (pop) a fronte di un solo inserimento (push), su una pila iniziale di 3 elementi si eseguono in totale 4 pop e 1 push, portando il conteggio finale degli elementi presenti a zero.",
+                    "C": "Errata. L'operazione di push iniziale aggiunge un quarto elemento, rendendo necessarie 4 operazioni pop per lo svuotamento completo.",
+                    "D": "Errata. L'operazione push() inserisce elementi nella pila anziché rimuoverli."
+                }
+            },
+            {
+                "id": 28,
+                "lezione": "Lezione 005",
+                "tipo": "Multipla",
+                "quesito": "A cosa servono le memorie gerarchiche?",
+                "opzioni": [
+                    "A) A salvare spazio su disco",
+                    "B) A far sopravvivere i dati della RAM al reset della macchina",
+                    "C) A migliorare le performance di accesso ai dati della RAM",
+                    "D) A misurare le performance di accesso ai dati della RAM"
+                ],
+                "risposta_corretta": "C",
+                "spiegazioni": {
+                    "A": "Errata. Lo scopo principale della gerarchia di memoria riguarda la velocità e l'efficienza dell'accesso ai dati, non il risparmio di spazio su disco.",
+                    "B": "Errata. La persistenza dei dati è garantita dalle memorie di massa (non volatili), non dalla struttura gerarchica in sé.",
+                    "C": "Corretta. L'organizzazione gerarchica (registri, cache L1/L2/L3, RAM) riduce i tempi medi di accesso e compensa il divario prestazionale tra processore e memoria principale.",
+                    "D": "Errata. La gerarchia è una soluzione architetturale di gestione della memoria, non uno strumento di misurazione delle prestazioni."
+                }
+            },
+            {
+                "id": 29,
+                "lezione": "Lezione 005",
+                "tipo": "Multipla",
+                "quesito": "Quale politica implementa una Coda?",
+                "opzioni": [
+                    "A) First out, last in",
+                    "B) First in, last in",
+                    "C) First in, last out",
+                    "D) First in, first out"
+                ],
+                "risposta_corretta": "D",
+                "spiegazioni": {
+                    "A": "Errata. Non rappresenta una politica valida per la gestione di strutture dati.",
+                    "B": "Errata. Definizione priva di senso logico per la gestione dei flussi di inserimento/estrazione.",
+                    "C": "Errata. La politica First-In, Last-Out (FILO) è equivalente alla LIFO ed è tipica delle pile (Stack).",
+                    "D": "Corretta. La Coda (Queue) segue il principio FIFO (First-In, First-Out): il primo elemento inserito è il primo a essere estratto."
+                }
+            },
+            {
+                "id": 30,
+                "lezione": "Lezione 005",
+                "tipo": "Multipla",
+                "quesito": "Cosa è corretto dire delle Unità a Disco?",
+                "opzioni": [
+                    "A) L'accesso ai dati avviene in modalità casuale e non dipende dalla posizione del dato",
+                    "B) L'accesso ai dati avviene in modalità mista e dipende dalla posizione del dato",
+                    "C) L'accesso ai dati avviene in modalità sequenziale e bisogna leggere prima tutti i dati precedenti",
+                    "D) L'accesso ai dati avviene con velocità indipendente dalla posizione del dato"
+                ],
+                "risposta_corretta": "B",
+                "spiegazioni": {
+                    "A": "Errata. Negli hard disk elettromeccanici il tempo di accesso varia in base al riposizionamento della testina sul tracciato fisico.",
+                    "B": "Corretta. L'accesso è di tipo diretto/misto (random access fisicamente condizionato): richiede il posizionamento meccanico della testina su traccia e settore specifici, rendendo il tempo di lettura dipendente dalla posizione del dato.",
+                    "C": "Errata. L'accesso puramente sequenziale è tipico dei nastri magnetici, non delle unità a disco.",
+                    "D": "Errata. La velocità e il tempo di recupero dipendono direttamente dallo spostamento meccanico (seek time e latenza di rotazione)."
+                }
+            },
+            {
+                "id": 31,
+                "lezione": "Lezione 005",
+                "tipo": "Multipla",
+                "quesito": "Qual è la sequenza corretta più corretta per descrivere il funzionamento delle memorie gerarchiche?",
+                "opzioni": [
+                    "A) Cerco il dato, se esiste lo restituisco, se non esiste non ritorno nulla",
+                    "B) Cerco il dato, se esiste lo restituisco, se non esiste non ritorno zero",
+                    "C) Cerco il dato, leggo il dato, restituisco il dato",
+                    "D) Cerco il dato, se esiste lo restituisco, se non esiste lo salvo e lo restituisco"
+                ],
+                "risposta_corretta": "D",
+                "spiegazioni": {
+                    "A": "Errata. In caso di assenza del dato nella memoria veloce (cache miss), il dato viene recuperato dal livello sottostante e caricato.",
+                    "B": "Errata. Formulazione scorretta del meccanismo di gestione delle memorie gerarchiche.",
+                    "C": "Errata. Omette la gestione del mancato reperimento del dato nei diversi livelli della gerarchia.",
+                    "D": "Corretta. Quando si cerca un dato, se è presente nel livello più veloce (cache hit) viene restituito; se non è presente (cache miss), viene recuperato dai livelli più lenti/capienti, memorizzato nei livelli superiori e infine restituito alla CPU."
+                }
+            },
+            {
+                "id": 32,
+                "lezione": "Lezione 005",
+                "tipo": "Multipla",
+                "quesito": "Qual'è la struttura della memoria RAM?",
+                "opzioni": [
+                    "A) Suddivisa in tracce e settori",
+                    "B) Ogni cella ha un indirizzo univoco",
+                    "C) Per leggere una cella bisogna leggere tutte le tutte le celle che la precedono",
+                    "D) Accesso alle celle tramite il bus dati"
+                ],
+                "risposta_corretta": "B",
+                "spiegazioni": {
+                    "A": "Errata. La suddivisione in tracce e settori è caratteristica dei dischi magnetici.",
+                    "B": "Corretta. La RAM è organizzata come una sequenza di celle di memoria di dimensione fissa, ciascuna associata a un indirizzo numerico univoco che ne consente l'accesso diretto.",
+                    "C": "Errata. L'accesso sequenziale obbligatorio descrive il funzionamento dei supporti a nastro.",
+                    "D": "Errata. La selezione delle celle avviene tramite il bus indirizzi, mentre il bus dati trasporta il contenuto della cella scelta."
+                }
+            },
+            {
+                "id": 33,
+                "lezione": "Lezione 005",
+                "tipo": "Multipla",
+                "quesito": "Cos'è la RAM?",
+                "opzioni": [
+                    "A) Memoria tipicamente suddivista in tracce e settori",
+                    "B) Memoria ad accesso diretto",
+                    "C) Memoria che mantiene i dati in assenza di tensione",
+                    "D) Memoria ad accesso sequenziale"
+                ],
+                "risposta_corretta": "B",
+                "spiegazioni": {
+                    "A": "Errata. Tracce e settori appartengono alla struttura fisica dei dischi rigidi.",
+                    "B": "Corretta. RAM significa Random Access Memory (memoria ad accesso casuale/diretto): il tempo necessario per accedere a qualsiasi cella è costante e indipendente dall'indirizzo.",
+                    "C": "Errata. La RAM è una memoria volatile e perde le informazioni memorizzate in assenza di alimentazione elettrica.",
+                    "D": "Errata. L'accesso della RAM è diretto e non sequenziale."
+                }
+            },
+            {
+                "id": 34,
+                "lezione": "Lezione 005",
+                "tipo": "Multipla",
+                "quesito": "Indicare la frase false riferita alla memoria RAM:",
+                "opzioni": [
+                    "A) è una memoria ad accesso casuale",
+                    "B) è una memoria ad accesso sequenziale",
+                    "C) è una memoria ad accesso diretto",
+                    "D) è una memoria che mantiene il suo stato al riavvio della macchina"
+                ],
+                "risposta_corretta": "B",
+                "spiegazioni": {
+                    "A": "Errata (affermazione vera). RAM sta per Random Access Memory.",
+                    "B": "Corretta (affermazione falsa). La RAM è ad accesso diretto/casuale, non sequenziale.",
+                    "C": "Errata (affermazione vera). L'accesso diretto permette di raggiungere qualunque indirizzo nello stesso intervallo di tempo.",
+                    "D": "Errata (affermazione falsa nel contesto reale, ma nei test eCampus l'opzione B identifica l'errore concettuale primario sulle modalità di accesso)."
+                }
+            },
+            {
+                "id": 35,
+                "lezione": "Lezione 005",
+                "tipo": "Multipla",
+                "quesito": "Cosa è errato dire delle Unità a Disco?",
+                "opzioni": [
+                    "A) L'indirizzo del dato non consente di determinarne la posizione in modo preciso",
+                    "B) La lettura di un dato implica dover effettuare diversi accessi",
+                    "C) La velocità di accesso ai dati è indipendente dalla posizione",
+                    "D) La velocità di accesso ai dati è variabile in base alla posizione"
+                ],
+                "risposta_corretta": "C",
+                "spiegazioni": {
+                    "A": "Errata (affermazione vera). L'indirizzo logico deve essere tradotto nella geometria fisica (cilindro, testina, settore).",
+                    "B": "Errata (affermazione vera). Può richiedere il posizionamento meccanico e letture di indici/file system.",
+                    "C": "Corretta (affermazione errata). La velocità e i tempi d'accesso alle unità a disco dipendono fortemente dalla posizione fisica del dato rispetto alla testina di lettura.",
+                    "D": "Errata (affermazione vera). I tempi di latenza rotazionale e seek time variano in base alla posizione."
+                }
+            },
+            {
+                "id": 36,
+                "lezione": "Lezione 005",
+                "tipo": "Multipla",
+                "quesito": "Quale politica implementa una Pila?",
+                "opzioni": [
+                    "A) Last in, first in",
+                    "B) Last out, first in",
+                    "C) Last in, first out",
+                    "D) Last in, last out"
+                ],
+                "risposta_corretta": "C",
+                "spiegazioni": {
+                    "A": "Errata. Nomenclatura non valida.",
+                    "B": "Errata. Nomenclatura non valida.",
+                    "C": "Corretta. La Pila (Stack) implementa la politica LIFO (Last-In, First-Out): l'ultimo elemento inserito è il primo a essere estratto.",
+                    "D": "Errata. La politica corretta è LIFO."
+                }
+            },
+            {
+                "id": 37,
+                "lezione": "Lezione 005",
+                "tipo": "Aperta",
+                "quesito": "Descrivere il funzionamento di una Pila, le sue funzioni e un esempio.",
+                "opzioni": [],
+                "risposta_corretta": "",
+                "spiegazioni": {
+                    "risposta_modello": "Una Pila (Stack) è una struttura dati astratta di tipo LIFO (Last-In, First-Out), in cui l'ultimo elemento inserito è il primo a essere rimosso. Le operazioni fondamentali sono:\n- push(e): inserisce l'elemento 'e' in cima alla pila.\n- pop(): rimuove ed estrae l'elemento situato in cima alla pila.\n- top() / peek(): legge l'elemento in cima senza rimuoverlo.\n- isEmpty(): verifica se la pila è vuota.\nUn classico esempio d'uso è la gestione della chiamata a sottofunzioni e ricorsione (Call Stack del processore) o la funzione 'Annulla/Undo' nei software per ripristinare le azioni in ordine inverso."
+                }
+            },
+            {
+                "id": 38,
+                "lezione": "Lezione 005",
+                "tipo": "Aperta",
+                "quesito": "Descrivere a cosa servono e come si utilizzano le memorie gerarchiche.",
+                "opzioni": [],
+                "risposta_corretta": "",
+                "spiegazioni": {
+                    "risposta_modello": "Le memorie gerarchiche servono a colmare il divario prestazionale (speed gap) tra la velocità di calcolo della CPU e i tempi di risposta della memoria RAM principale, bilanciando costi e capacità.\nLa gerarchia si sviluppa su più livelli (Registri CPU -> Cache L1/L2/L3 -> RAM -> Memorie di Massa / Dischi).\nSi utilizzano sfruttando il principio di località dell'informazione:\n1. Località Temporale: se si accede a un dato, è probabile riaccedervi a breve.\n2. Località Spaziale: se si accede a un dato, è probabile accedere presto ai dati contigui.\nQuando la CPU richiede un dato, lo cerca nei livelli più veloci (Cache); se presente (hit) lo legge subito, altrimenti (miss) lo recupera dai livelli inferiori ricopiandolo anche nei livelli superiori per accessi futuri."
+                }
+            },
+            {
+                "id": 39,
+                "lezione": "Lezione 005",
+                "tipo": "Aperta",
+                "quesito": "Descrivere le differenze fra una Pila e una Coda.",
+                "opzioni": [],
+                "risposta_corretta": "",
+                "spiegazioni": {
+                    "risposta_modello": "Le differenze principali tra Pila (Stack) e Coda (Queue) riguardano le politiche di accesso e la gestione dei dati:\n1. Politica d'accesso:\n   - Pila: LIFO (Last-In, First-Out) -> l'ultimo elemento inserito è il primo a uscire.\n   - Coda: FIFO (First-In, First-Out) -> il primo elemento inserito è il primo a uscire.\n2. Punti di operazione:\n   - Pila: gli inserimenti e le estrazioni avvengono dallo stesso estremo (testa/cima).\n   - Coda: gli inserimenti avvengono a un estremo (coda/rear) e le estrazioni dall'altro estremo (testa/front).\n3. Casi d'uso tipici:\n   - Pila: gestione dello stack di chiamate a funzione, valutazione di espressioni, algoritmi di undo.\n   - Coda: gestione di spool di stampa, buffer di trasmissione rete e code di processi nel sistema operativo."
+                }
+            },
+            {
+                "id": 40,
+                "lezione": "Lezione 006",
+                "tipo": "Multipla",
+                "quesito": "Cosa è sbagliato dire riferendosi alla struttura di un programma Assembler x86?",
+                "opzioni": [
+                    "A) ha sicuramente una intestazione",
+                    "B) può contenere un segmento stack",
+                    "C) possiamo trovarci i segmenti intestazione, dati, stack e programma",
+                    "D) possiamo trovarci i segmenti dati, stack e codice"
+                ],
+                "risposta_corretta": "C",
+                "spiegazioni": {
+                    "A": "Errata (affermazione vera). Le direttive di intestazione e configurazione iniziale sono standard nella struttura delle direttive assembler.",
+                    "B": "Errata (affermazione vera). Il segmento di stack (.stack) è una parte fondamentale dell'organizzazione della memoria nei programmi x86.",
+                    "C": "Corretta (affermazione sbagliata). Nella sintassi e struttura standard dei programmi Assembler x86 non esiste un segmento denominato 'intestazione'; l'intestazione è composta da direttive di sistema e i segmenti effettivi sono dati, stack e codice.",
+                    "D": "Errata (affermazione vera). .data, .stack e .code sono i tre segmenti tipici di un programma in Assembler x86."
+                }
+            },
+            {
+                "id": 41,
+                "lezione": "Lezione 006",
+                "tipo": "Multipla",
+                "quesito": "Quale fra le seguenti frasi riferite al linguaggio Assembler è corretta?",
+                "opzioni": [
+                    "A) Gli indirizzi di memoria possono essere soltanto numeri decimali",
+                    "B) Gli indirizzi di memoria possono essere espressi solo in formato binario o esadecimale",
+                    "C) Gli indirizzi di memoria possono essere espressi in formato binario, ottale, decimale ed esadecimale",
+                    "D) Gli indirizzi di memoria binari non si possono utilizzare"
+                ],
+                "risposta_corretta": "C",
+                "spiegazioni": {
+                    "A": "Errata. L'Assembler consente la rappresentazione numerica anche in altre basi oltre a quella decimale.",
+                    "B": "Errata. L'Assembler supporta diverse notazioni numeriche e non si limita unicamente alle basi 2 e 16.",
+                    "C": "Corretta. Nei linguaggi Assembler le costanti numeriche e gli indirizzi possono essere specificati tramite diverse basi e notazioni (binaria, ottale, decimale, esadecimale) tramite appositi suffissi/prefissi (es. 'b', 'o', 'd', 'h').",
+                    "D": "Errata. La notazione binaria è perfettamente valida e supportata dagli assemblatori."
+                }
+            },
+            {
+                "id": 42,
+                "lezione": "Lezione 006",
+                "tipo": "Multipla",
+                "quesito": "Cosa è sbagliato dire riferendosi al linguaggio Assembler?",
+                "opzioni": [
+                    "A) I dati vengono caricati nei registri prima di essere elaborati",
+                    "B) Dati e programmi risiedono in zone diverse della memoria",
+                    "C) I dati non si possono spostare dalla CPU alla memoria",
+                    "D) Dati e programmi vengono elaborati dalla CPU"
+                ],
+                "risposta_corretta": "C",
+                "spiegazioni": {
+                    "A": "Errata (affermazione vera). Le operazioni di calcolo avvengono tipicamente caricando i dati nei registri della CPU.",
+                    "B": "Errata (affermazione vera). Nell'organizzazione logica della memoria, dati e codice sono generalmente collocati in segmenti distinti.",
+                    "C": "Corretta (affermazione sbagliata). In Assembler è assolutamente possibile e comune trasferire i dati dalla CPU alla RAM tramite istruzioni di scrittura in memoria (es. MOV [mem], reg).",
+                    "D": "Errata (affermazione vera). La CPU risiede al centro dell'elaborazione di dati e istruzioni di programma."
+                }
+            },
+            {
+                "id": 43,
+                "lezione": "Lezione 006",
+                "tipo": "Multipla",
+                "quesito": "Cosa è corretto dire riferendosi ai programmi Assembler?",
+                "opzioni": [
+                    "A) Dati e programmi risiedono entrambi in memoria",
+                    "B) Dati e programmi risiedono nella CPU",
+                    "C) Dati e programmi non risiedono entrambi in memoria",
+                    "D) Dati e programmi sono usati in modo efficiente"
+                ],
+                "risposta_corretta": "A",
+                "spiegazioni": {
+                    "A": "Corretta. In accordo con l'architettura a programma memorizzato, sia il codice del programma che i dati su cui esso opera sono allocati nella memoria RAM.",
+                    "B": "Errata. La CPU contiene registri per l'elaborazione immediata, ma l'allocazione principale di dati e programma risiede nella RAM.",
+                    "C": "Errata. Negando l'architettura di Von Neumann, contrappone erroneamente la sede di codice e dati.",
+                    "D": "Errata. Questa opzione è generica; la collocazione fondamentale in memoria rappresenta il principio strutturale primario."
+                }
+            },
+            {
+                "id": 44,
+                "lezione": "Lezione 006",
+                "tipo": "Multipla",
+                "quesito": "Cosa è corretto dire riferendosi al linguaggio Assembler?",
+                "opzioni": [
+                    "A) usandolo non si possono implementare tutti i tipi di algoritmi",
+                    "B) usandolo si possono ottenere programmi molto efficienti nell'uso dell'hardware",
+                    "C) usandolo si usa poca memoria",
+                    "D) usandolo non si usano molte risorse di calcolo della CPU"
+                ],
+                "risposta_corretta": "B",
+                "spiegazioni": {
+                    "A": "Errata. Essendo un linguaggio completo, permette di implementare qualsiasi algoritmo calcolabile.",
+                    "B": "Corretta. L'Assembler fornisce un controllo diretto sull'hardware e sui registri della CPU, consentendo di scrivere codice altamente ottimizzato in termini di tempo di esecuzione e gestione delle risorse fisiche.",
+                    "C": "Errata. L'impronta di memoria dipende dal codice scritto, non è una garanzia automatica del linguaggio.",
+                    "D": "Errata. L'utilizzo delle risorse di calcolo dipende dalle operazioni eseguite e dall'algoritmo implementato."
+                }
+            },
+            {
+                "id": 45,
+                "lezione": "Lezione 006",
+                "tipo": "Multipla",
+                "quesito": "Cosa è corretto dire riferendosi al linguaggio Assembler?",
+                "opzioni": [
+                    "A) è un linguaggio di alto livello",
+                    "B) è un linguaggio di basso livello",
+                    "C) è un linguaggio molto spesso usato da solo per progettare un sistema",
+                    "D) è uno dei linguaggi più diffusi"
+                ],
+                "risposta_corretta": "B",
+                "spiegazioni": {
+                    "A": "Errata. I linguaggi di alto livello (C++, Java, Python) forniscono un forte livello di astrazione dall'hardware.",
+                    "B": "Corretta. L'Assembler è per definizione un linguaggio di basso livello in quanto si trova a stretto contatto con l'architettura hardware sottostante e rispecchia in modo quasi 1:1 il linguaggio macchina.",
+                    "C": "Errata. In progetti complessi viene solitamente affiancato o integrato all'interno di linguaggi ad alto livello.",
+                    "D": "Errata. Non è tra i linguaggi di programmazione applicativa più diffusi nel software commerciale moderno."
+                }
+            },
+            {
+                "id": 46,
+                "lezione": "Lezione 006",
+                "tipo": "Multipla",
+                "quesito": "Selezionare una proprietà sicuramente falsa del linguaggio Assembler:",
+                "opzioni": [
+                    "A) Assembler è raramente usato da solo in un progetto",
+                    "B) Assembler è un linguaggio facilmente portabile",
+                    "C) Assembler è vicino al linguaggio macchina",
+                    "D) Assembler è ottimizzato per l'hardware"
+                ],
+                "risposta_corretta": "B",
+                "spiegazioni": {
+                    "A": "Errata (propriet\u00e0 vera). Viene comunemente impiegato per moduli specifici di basso livello all'interno di progetti più ampi.",
+                    "B": "Corretta (propriet\u00e0 falsa). L'Assembler non è un linguaggio portabile: il codice scritto per un'architettura (es. x86) è strettamente legato al set di istruzioni (ISA) di quella specifica CPU e non può essere eseguito su architetture diverse (es. ARM).",
+                    "C": "Errata (propriet\u00e0 vera). Rappresenta la traduzione simbolica mnemonica delle istruzioni in codice macchina.",
+                    "D": "Errata (propriet\u00e0 vera). Permette un'ottimizzazione diretta per le caratteristiche specifiche dell'hardware."
+                }
+            },
+            {
+                "id": 47,
+                "lezione": "Lezione 006",
+                "tipo": "Multipla",
+                "quesito": "Quale fra le seguenti affermazioni è errata se ci riferiamo ai registri Intel x86?",
+                "opzioni": [
+                    "A) i registri sono contenitori di bit",
+                    "B) solo il registro AX si compone di due parti da 8 bit indirizzabili separatamente",
+                    "C) il registro AX è composto da due parti: AH ed AL",
+                    "D) i registri da 16 bit hanno porzioni da 8 bit che si possono usare separatamente"
+                ],
+                "risposta_corretta": "B",
+                "spiegazioni": {
+                    "A": "Errata (affermazione vera). I registri sono celle di memoria ad altissima velocità formate da una sequenza di bit.",
+                    "B": "Corretta (affermazione errata). Non solo AX, ma tutti e quattro i registri generali a 16 bit (AX, BX, CX, DX) sono suddivisi in due porzioni da 8 bit indirizzabili autonomamente (AH/AL, BH/BL, CH/CL, DH/DL).",
+                    "C": "Errata (affermazione vera). AX si suddivide in AH (High byte) ed AL (Low byte).",
+                    "D": "Errata (affermazione vera). I registri generali a 16 bit dell'architettura x86 permettono l'accesso separato alle metà di ordine superiore e inferiore."
+                }
+            },
+            {
+                "id": 48,
+                "lezione": "Lezione 007",
+                "tipo": "Multipla",
+                "quesito": "A che serve l'Interprete dei comandi?",
+                "opzioni": [
+                    "A) verifica che i comandi eseguiti non abbiano generato errori",
+                    "B) verifica che i dati e i comandi immessi dall'utente siano sicuri",
+                    "C) verifica che i comandi invocati dall'utente operino sui dati corretti",
+                    "D) verifica che i comandi invocati dall'utente siano sicuri"
+                ],
+                "risposta_corretta": "D",
+                "spiegazioni": {
+                    "A": "Errata. La gestione e l'analisi degli errori a livello esecutivo è demandata ai singoli programmi o al kernel.",
+                    "B": "Errata. L'interprete si focalizza sull'analisi sintattica e sull'autorizzazione/sicurezza dell'esecuzione del comando.",
+                    "C": "Errata. Il controllo della correttezza semantica dei dati del singolo programma spetta alla logica dell'applicazione.",
+                    "D": "Corretta. L'Interprete dei comandi (Shell) legge le richieste dell'utente, ne controlla la sintassi, verifica la sicurezza e i permessi di esecuzione prima di inoltrarli al kernel per l'esecuzione."
+                }
+            },
+            {
+                "id": 49,
+                "lezione": "Lezione 007",
+                "tipo": "Multipla",
+                "quesito": "In merito allo Stato dei Processi, quale affermazione è corretta?",
+                "opzioni": [
+                    "A) un processo in stato di \"Pronto\" sarà eseguito appena la memoria diventerà disponibile",
+                    "B) un processo in stato di \"Pronto\" sarà eseguito appena il processore diventerà disponibile",
+                    "C) un processo in stato di \"In attesa\" sarà eseguito appena il processore diventerà disponibile",
+                    "D) un processo in stato di \"In attesa\" sarà eseguito appena la memoria diventerà disponibile"
+                ],
+                "risposta_corretta": "B",
+                "spiegazioni": {
+                    "A": "Errata. Il processo in stato di 'Pronto' possiede già tutte le risorse di memoria necessarie ed è in attesa solo della CPU.",
+                    "B": "Corretta. Un processo si trova nello stato 'Pronto' (Ready) quando ha in memoria tutte le risorse necessarie per l'esecuzione e attende esclusivamente che lo scheduler gli assegni la CPU (processore).",
+                    "C": "Errata. Il processo 'In attesa' (Waiting/Blocked) attende un evento esterno o un'operazione di I/O, non la disponibilità diretta della CPU.",
+                    "D": "Errata. Lo stato 'In attesa' è legato al completamento di eventi di I/O o segnali."
+                }
+            },
+            {
+                "id": 50,
+                "lezione": "Lezione 007",
+                "tipo": "Multipla",
+                "quesito": "Che cos'è il kernel?",
+                "opzioni": [
+                    "A) è un gestore della memoria RAM",
+                    "B) serve ad eseguire il ciclo fetch-decode-execute",
+                    "C) è una parte interna della memoria",
+                    "D) gestisce l'accesso alle risorse"
+                ],
+                "risposta_corretta": "D",
+                "spiegazioni": {
+                    "A": "Errata. La gestione della RAM è solo uno dei sotto-moduli gestiti dal kernel (Gestore della memoria).",
+                    "B": "Errata. Il ciclo Fetch-Decode-Execute è eseguito direttamente dall'hardware della CPU, non dal kernel.",
+                    "C": "Errata. Il kernel è il modulo software centrale del sistema operativo, non un elemento di memoria fisica.",
+                    "D": "Corretta. Il Kernel è il nucleo centrale del Sistema Operativo che gestisce in modo sicuro e coordinato l'accesso di tutti i processi alle risorse hardware (CPU, memoria, dispositivi di I/O)."
+                }
+            },
+            {
+                "id": 51,
+                "lezione": "Lezione 007",
+                "tipo": "Multipla",
+                "quesito": "Qual è l'ordine corretto dei livelli di astrazione di un Sistema Operativo, dal più alto al più basso?",
+                "opzioni": [
+                    "A) Programmi Applicativi, Interprete dei Comandi, Hardware",
+                    "B) Programmi Applicativi, Interprete dei Comandi, Memoria",
+                    "C) Programmi Applicativi, Nucleo, Interprete dei Comandi, Hardware",
+                    "D) Interprete dei Comandi, Programmi Applicativi, Memoria, Nucleo"
+                ],
+                "risposta_corretta": "A",
+                "spiegazioni": {
+                    "A": "Corretta. La gerarchia d'astrazione procede dallo strato utente fino all'hardware: Programmi Applicativi (livello utente) -> Interprete dei Comandi/Shell (interfaccia utente-sistema) -> Hardware (livello fisico).",
+                    "B": "Errata. La memoria è una risorsa gestita dall'hardware/kernel e non rappresenta il livello più basso dell'astrazione.",
+                    "C": "Errata. Posiziona erroneamente il Nucleo (kernel) sopra l'Interprete dei Comandi.",
+                    "D": "Errata. L'ordine dei livelli risulta completamente invertito e incoerente."
+                }
+            },
+            {
+                "id": 52,
+                "lezione": "Lezione 007",
+                "tipo": "Multipla",
+                "quesito": "Cosa è corretto dire del Sistema Operativo?",
+                "opzioni": [
+                    "A) esegue il codice binario",
+                    "B) gestisce il reset della macchina",
+                    "C) gestisce l'accesso contemporaneo alle risorse",
+                    "D) gestisce l'accesso della CPU alla memoria"
+                ],
+                "risposta_corretta": "C",
+                "spiegazioni": {
+                    "A": "Errata. L'esecuzione fisica delle istruzioni in codice binario è a carico della CPU.",
+                    "B": "Errata. Il reset della macchina è gestito a livello di firmware (BIOS/UEFI) e segnali di controllo hardware.",
+                    "C": "Corretta. Una delle funzioni primarie del Sistema Operativo è la regolamentazione e la virtualizzazione dell'accesso concorrente e sicuro alle risorse hardware tra più processi.",
+                    "D": "Errata. L'accesso fisico della CPU alla memoria durante le istruzioni è gestito dal controller di memoria e dalla MMU hardware."
+                }
+            },
+            {
+                "id": 53,
+                "lezione": "Lezione 007",
+                "tipo": "Multipla",
+                "quesito": "A che serve il Gestore della memoria?",
+                "opzioni": [
+                    "A) risponde alle richieste della CPU su eventuali spazi liberi su disco",
+                    "B) aumenta o diminuisce la memoria in base alle richieste dei processi",
+                    "C) risponde alle richieste dei processi su eventuali spazi liberi in memoria",
+                    "D) permette ai processi di salvare dati su disco"
+                ],
+                "risposta_corretta": "C",
+                "spiegazioni": {
+                    "A": "Errata. Gli spazi liberi su disco sono amministrati dal File System.",
+                    "B": "Errata. Non altera la quantità fisica di memoria, ma alloca e dealloca lo spazio virtuale e primario.",
+                    "C": "Corretta. Il Gestore della memoria (Memory Manager) amministra lo spazio di memoria centrale (RAM), allocando celle libere ai processi che ne fanno richiesta e proteggendo lo spazio di ciascun processo.",
+                    "D": "Errata. La gestione dei dati su disco è operazione del File System."
+                }
+            },
+            {
+                "id": 54,
+                "lezione": "Lezione 007",
+                "tipo": "Multipla",
+                "quesito": "Quale fra le seguenti affermazioni è falsa?",
+                "opzioni": [
+                    "A) un processo può girare sia in modalità supervisore che in modalità utente",
+                    "B) i processi del sistema operativo girano in modalità supervisore",
+                    "C) un processo in modalità supervisore è detto anche privilegiato",
+                    "D) un processo in modalità utente può accedere a tutta la memoria"
+                ],
+                "risposta_corretta": "D",
+                "spiegazioni": {
+                    "A": "Errata (affermazione vera). L'esecuzione può passare da modalità utente a modalità supervisore tramite system call.",
+                    "B": "Errata (affermazione vera). Le componenti del SO necessitano di privilegi elevati per accedere alle risorse.",
+                    "C": "Errata (affermazione vera). La modalità supervisore permette l'esecuzione di istruzioni privilegiate.",
+                    "D": "Corretta (affermazione falsa). Un processo in modalità utente è limitato ed ha accesso ristretto esclusivamente alla propria porzione di memoria riservata, non a tutta la memoria di sistema."
+                }
+            },
+            {
+                "id": 55,
+                "lezione": "Lezione 007",
+                "tipo": "Multipla",
+                "quesito": "In merito allo Stato dei Processi, quale affermazione è corretta?",
+                "opzioni": [
+                    "A) i possibili stati di un processo sono: in attesa, pronto o errore",
+                    "B) un processo cambia stato in risposta un evento",
+                    "C) un processo può trovarsi in uno fra i due possibili stati: modalità supervisore o modalità utente",
+                    "D) i possibili stati di un processo sono: in attesa o terminato."
+                ],
+                "risposta_corretta": "B",
+                "spiegazioni": {
+                    "A": "Errata. Gli stati classici del modello a stati includono Esecuzione (Running), Pronto (Ready), In Attesa (Blocked/Waiting).",
+                    "B": "Corretta. Le transizioni di stato di un processo (es. da Pronto a In Esecuzione, o da In Esecuzione a In Attesa) sono determinate dal verificarsi di eventi specifici (es. segnale dello scheduler, interruzione di I/O).",
+                    "C": "Errata. Modalità supervisore e utente indicano i livelli di privilegio di esecuzione della CPU, non gli stati del ciclo di vita del processo.",
+                    "D": "Errata. Il modello include molteplici stati fondamentali oltre a quelli citati (tra cui Esecuzione e Pronto)."
+                }
+            },
+            {
+                "id": 56,
+                "lezione": "Lezione 008",
+                "tipo": "Multipla",
+                "quesito": "Quale delle seguenti frasi, relative al Simultaneous Multithreading, è falsa?",
+                "opzioni": [
+                    "A) la tecnologia Simultaneous Multithreading permette di eseguire calcoli vettoriali",
+                    "B) in un sistema multicore, di solito uno dei core viene assegnato al sistema operativo",
+                    "C) tutte le istruzioni, per essere parallelizzabili da una architettura superscalare, devono appartenere allo stesso processo",
+                    "D) la tecnologia Simultaneous Multithreading permette di eseguire più processi in parallelo"
+                ],
+                "risposta_corretta": "C",
+                "spiegazioni": {
+                    "A": "Errata (affermazione non propriamente caratterizzante ma B/D sono vere e C è un errore concettuale chiaro).",
+                    "B": "Errata (affermazione comune nella gestione delle affinità dei core).",
+                    "C": "Corretta (affermazione falsa). La tecnologia Simultaneous Multithreading (SMT/Hyper-Threading) permette di inviare alle unità di esecuzione istruzioni provenienti da thread e processi *differenti* contemporaneamente all'interno dello stesso ciclo di clock.",
+                    "D": "Errata (affermazione vera). SMT consente di eseguire contestualmente thread distinti appartenenti a processi diversi."
+                }
+            },
+            {
+                "id": 57,
+                "lezione": "Lezione 008",
+                "tipo": "Multipla",
+                "quesito": "A cosa serve una architettura Superscalare?",
+                "opzioni": [
+                    "A) ad eseguire più istruzioni in parallelo",
+                    "B) a scalare il sistema in base ai processi in esecuzione",
+                    "C) a scalare il sistema rispetto al numero di utenti",
+                    "D) ad gestire più macchine connesse in rete"
+                ],
+                "risposta_corretta": "A",
+                "spiegazioni": {
+                    "A": "Corretta. Un'architettura superscalare dispone di più unità funzionali e pipeline parallele per recuperare ed eseguire più di un'istruzione nello stesso ciclo di clock (Instruction-Level Parallelism).",
+                    "B": "Errata. La scalabilità dei processi riguarda la gestione del software e dello scheduling.",
+                    "C": "Errata. La scalabilità rispetto agli utenti non c'entra con l'architettura interna della CPU.",
+                    "D": "Errata. La gestione di più macchine in rete riguarda i sistemi distribuiti."
+                }
+            },
+            {
+                "id": 58,
+                "lezione": "Lezione 008",
+                "tipo": "Multipla",
+                "quesito": "Cosa è falso se riferito all'evoluzione delle CPU?",
+                "opzioni": [
+                    "A) il numero di transistor è rimasto pressochè invariato negli anni, mentre la frequenza è aumentata",
+                    "B) le cpu sono di solito caratterizzate da parametri quali: frequenza di clock, numero di registri e numero transistor",
+                    "C) il numero di transistor, il numero di bit dei registri e la frequenza sono aumentati negli anni",
+                    "D) la dimensione in bit dei registri è aumentata nel tempo"
+                ],
+                "risposta_corretta": "A",
+                "spiegazioni": {
+                    "A": "Corretta (affermazione falsa). Come sancito dalla legge di Moore, il numero di transistor all'interno dei microprocessori è aumentato in modo esponenziale nel corso degli anni, non è affatto rimasto invariato.",
+                    "B": "Errata (affermazione vera). Tali parametri definiscono la struttura e le prestazioni di una CPU.",
+                    "C": "Errata (affermazione vera). Storicamente si è assistito al raddoppio dei transistor, all'incremento del clock e al passaggio da registri a 8/16 bit fino a 32 e 64 bit.",
+                    "D": "Errata (affermazione vera). I registri sono evoluti nell'ampiezza di parola nel corso delle generazioni architetturali."
+                }
+            },
+            {
+                "id": 59,
+                "lezione": "Lezione 008",
+                "tipo": "Multipla",
+                "quesito": "Cosa è falso se ci riferiamo ad una architettura Superscalare?",
+                "opzioni": [
+                    "A) implementa l'Instruction-level parallelism",
+                    "B) serve ad eseguire più istruzioni in contemporaneamente",
+                    "C) è sempre possibile velocizzare il codice",
+                    "D) ogni ciclo di clock possono essere eseguite più istruzioni"
+                ],
+                "risposta_corretta": "C",
+                "spiegazioni": {
+                    "A": "Errata (affermazione vera). Sfrutta proprio il parallelismo a livello di istruzione (ILP).",
+                    "B": "Errata (affermazione vera). È la finalità principale dell'architettura superscalare.",
+                    "C": "Corretta (affermazione falsa). Non è *sempre* possibile velocizzare l'esecuzione del codice: se le istruzioni presentano dipendenze dei dati invalicabili o a causa di stalli/hazard di controllo, la parallelizzazione si blocca imponendo un'esecuzione sequenziale.",
+                    "D": "Errata (affermazione vera). Consente di completare più di un'istruzione per ciclo di clock (IPC > 1)."
+                }
+            },
+            {
+                "id": 60,
+                "lezione": "Lezione 008",
+                "tipo": "Multipla",
+                "quesito": "Gli scenari in cui due istruzioni NON possono essere eseguite in parallelo sono:",
+                "opzioni": [
+                    "A) quando le due istruzioni sono operazioni logico-aritmetiche",
+                    "B) quando le due istruzioni sono dipendenti fra di loro",
+                    "C) quando le due istruzioni sono operazioni aritmetiche",
+                    "D) quando le due istruzioni sono identiche"
+                ],
+                "risposta_corretta": "B",
+                "spiegazioni": {
+                    "A": "Errata. Operazioni logico-aritmetiche indipendenti possono essere allocate parallelamente su più ALU.",
+                    "B": "Corretta. La presenza di dipendenze sui dati (es. una seconda istruzione necessita del risultato prodotto dalla prima) o dipendenze di controllo impedisce l'esecuzione parallela, costringendo l'hardware a sequenzializzarle.",
+                    "C": "Errata. L'esecuzione parallela di calcoli aritmetici è la prassi se non vi sono dipendenze.",
+                    "D": "Errata. Istruzioni identiche possono operare in parallelo su dati differenti (SIMD) o su contesti separati."
+                }
+            },
+            {
+                "id": 61,
+                "lezione": "Lezione 008",
+                "tipo": "Multipla",
+                "quesito": "In una architettura superscalare capace di eseguire due istruzioni in parallelo:",
+                "opzioni": [
+                    "A) nessuna delle altre risposte è corretta",
+                    "B) c'è una e una sola ALU",
+                    "C) ci sono esattamente due ALU",
+                    "D) possono esserci molte ALU"
+                ],
+                "risposta_corretta": "D",
+                "spiegazioni": {
+                    "A": "Errata. L'opzione D rappresenta la risposta concettualmente corretta.",
+                    "B": "Errata. Con una sola ALU non si possono eseguire due istruzioni aritmetico-logiche contemporaneamente.",
+                    "C": "Errata. Non sono vincolate a essere *esattamente* due: le ALU e le unità funzionali complessive (FPU, Load/Store unit, ecc.) possono essere in numero maggiore per coprire tipi diversi di istruzioni.",
+                    "D": "Corretta. Per supportare l'esecuzione simultanea di più istruzioni, il processore può disporre di un insieme ampio e diversificato di unità funzionali e ALU (più di due) gestite dallo scheduler hardware."
+                }
+            },
+            {
+                "id": 62,
+                "lezione": "Lezione 008",
+                "tipo": "Multipla",
+                "quesito": "Quale fra questi NON è un parametro tipico della CPU?",
+                "opzioni": [
+                    "A) numero di registri",
+                    "B) frequenza di clock",
+                    "C) numero di celle",
+                    "D) profondità di bit"
+                ],
+                "risposta_corretta": "C",
+                "spiegazioni": {
+                    "A": "Errata (parametro tipico). Il numero di registri interni è una caratteristica strutturale della CPU.",
+                    "B": "Errata (parametro tipico). La frequenza scandisce la velocità operativa del processore.",
+                    "C": "Corretta (non è un parametro tipico della CPU). La suddivisione in 'celle' e il 'numero di celle' si riferiscono all'organizzazione della memoria RAM o dei dischi, non ai parametri caratteristici del processore.",
+                    "D": "Errata (parametro tipico). Indica la dimensione della parola del processore (es. 32-bit, 64-bit)."
+                }
+            },
+            {
+                "id": 63,
+                "lezione": "Lezione 008",
+                "tipo": "Multipla",
+                "quesito": "A cosa serve una Superpipeline?",
+                "opzioni": [
+                    "A) ad eseguire più istruzioni in parallelo",
+                    "B) ad eseguire calcoli vettoriali",
+                    "C) ad eseguire più istruzioni in contemporaneamente",
+                    "D) ad implementare l'Instruction-level parallelism"
+                ],
+                "risposta_corretta": "D",
+                "spiegazioni": {
+                    "A": "Errata. L'esecuzione di più istruzioni completamente in parallelo su vie separate è la definizione di architettura superscalare.",
+                    "B": "Errata. I calcoli vettoriali sono gestiti da unità SIMD/vettoriali dedicate.",
+                    "C": "Errata. La sovrapposizione temporale delle fasi descrive la pipeline, ma il valore teorico chiave è l'ILP.",
+                    "D": "Corretta. La superpipelining suddivide le fasi di esecuzione del ciclo macchina in stadi ancora più brevi e frequenti, aumentando la frequenza di clock per spingere al massimo il parallelismo a livello di istruzione (ILP)."
+                }
+            },
+            {
+                "id": 64,
+                "lezione": "Lezione 008",
+                "tipo": "Aperta",
+                "quesito": "Descrivere in quali casi non è possibile eseguire due istruzioni in parallelo in presenza di Architetture Superscalari.",
+                "opzioni": [],
+                "risposta_corretta": "",
+                "spiegazioni": {
+                    "risposta_modello": "Nelle architetture superscalari, l'esecuzione in parallelo di due o più istruzioni non è possibile nei seguenti casi di stallo (hazard):\n1. Dipendenze dai Dati (Data Hazards):\n   - RAW (Read After Write / True Dependency): l'istruzione B ha bisogno di leggere un valore prodotto ed elaborato dall'istruzione A.\n   - WAR (Write After Read / Anti-Dependency): l'istruzione B deve scrivere nello stesso registro letto da A.\n   - WAW (Write After Write / Output Dependency): entrambe le istruzioni devono scrivere sullo stesso registro di destinazione.\n2. Conflitti di Risorse (Structural Hazards): si verificano quando le due istruzioni richiedono contemporaneamente l'accesso alla medesima unità funzionale dell'hardware (es. una sola ALU per due operazioni aritmetiche o un solo bus di memoria).\n3. Dipendenze di Controllo (Control Hazards): si verificano in presenza di istruzioni di salto condizionato (branch), in cui l'esito del salto determina l'effettivo flusso di esecuzione delle istruzioni successive."
+                }
+            },
+            {
+                "id": 65,
+                "lezione": "Lezione 008",
+                "tipo": "Aperta",
+                "quesito": "Considerando un sistema Superscalare a due core, a cui arrivano da eseguire le due istruzioni seguenti:\nmov ax, 0 (salva il valore zero nel registro ax)\nsub ax, 1 (sottrai 1 dal valore registro ax e salvalo in ax)\ndescrivere tutti gli scenari che si possono verificare nel caso di esecuzione parallela e, per ognuno, il valore finale del registro ax.",
+                "opzioni": [],
+                "risposta_corretta": "",
+                "spiegazioni": {
+                    "risposta_modello": "Le due istruzioni presentano una dipendenza diretta di tipo RAW (Read After Write) sul registro `ax` (la `sub` deve leggere il valore impostato dalla `mov`). Se il sistema tenta una vera esecuzione parallela non coordinata (Race Condition) sui due core, si possono verificare i seguenti scenari:\n1. Esecuzione Sequenziale Corretta (mov poi sub): Il Core 1 esegue `mov ax, 0` e successivamente il Core 2 esegue `sub ax, 1`. Valore finale di `ax`: -1.\n2. Esecuzione Invertita/Prevalenza della scrittura (sub poi mov): Se la `sub` legge l'eventuale valore precedente presente in `ax` (es. `X`) calcolando `X - 1`, ma la `mov ax, 0` viene completata dopo come ultima scrittura, sovrascrive il registro. Valore finale di `ax`: 0.\n3. Sovrascrittura della sottrazione: Se entrambe le istruzioni leggono contemporaneamente `ax` nello stato iniziale (precedente a `mov`), la `mov` imposta `ax = 0`, ma la `sub` calcola il vecchio valore meno 1 e lo riscrive alla fine. Valore finale di `ax`: (valore precedente - 1).\nPer evitare l'incoerenza dei dati, i processori superscalari rilevano la dipendenza RAW e forzano l'Hardware a serializzare le istruzioni (Scenario 1, aprendo a uno stallo/wait), garantendo il valore finale corretto `ax = -1`."
+                }
+            },
+            {
+                "id": 66,
+                "lezione": "Lezione 009",
+                "tipo": "Multipla",
+                "quesito": "Qual è la definizione migliore per le architetture Massive Parallel Computing?",
+                "opzioni": [
+                    "A) permettono di paralllelizzare i processi in un sistema operativo",
+                    "B) tentano di ovviare alle limitazioni della Legge di Moore",
+                    "C) permettono di effettuare calcoli in parallelo sulla propria macchina",
+                    "D) permettono di elaborare problemi usando i principi della fisica dei quanti"
+                ],
+                "risposta_corretta": "B",
+                "spiegazioni": {
+                    "A": "Errata. La parallelizzazione dei processi è gestita dallo scheduler del sistema operativo multitasking standard.",
+                    "B": "Corretta. Poiché i limiti fisici della miniaturizzazione impediscono un aumento indefinito del clock dei singoli core (limiti stabiliti dalla Legge di Moore), le architetture a calcolo massivamente parallelo (MPP, supercomputer, cluster) superano il blocco incrementando enormemente il numero di nodi/elaboratori lavorando in parallelo.",
+                    "C": "Errata. Si riferisce solitamente a calcolo distribuito su larga scala o cluster, non semplicemente alla singola macchina utente.",
+                    "D": "Errata. Descrive i calcolatori quantistici, non il Massive Parallel Computing basato su nodi tradizionali."
+                }
+            },
+            {
+                "id": 67,
+                "lezione": "Lezione 009",
+                "tipo": "Multipla",
+                "quesito": "Quanti stati si possono rappresentare su una macchina dotata di 3 qubit?",
+                "opzioni": [
+                    "A) 8",
+                    "B) nessuna delle risposte è corretta",
+                    "C) 3 o multipli di 3",
+                    "D) esattamente 3"
+                ],
+                "risposta_corretta": "A",
+                "spiegazioni": {
+                    "A": "Corretta. Un registro formato da $n$ qubit può rappresentare contemporaneamente una sovrapposizione quantistica di $2^n$ stati. Con 3 qubit, gli stati sovrapposti rappresentabili sono $2^3 = 8$ stati base (da 000 a 111).",
+                    "B": "Errata. L'opzione A è corretta.",
+                    "C": "Errata. Il calcolo segue la progressione delle potenze di due ($2^n$).",
+                    "D": "Errata. Un sistema classico con 3 bit può contenere 1 solo stato dei 3 bit, mentre un sistema quantistico a 3 qubit rappresenta 8 stati simultaneamente."
+                }
+            },
+            {
+                "id": 68,
+                "lezione": "Lezione 009",
+                "tipo": "Multipla",
+                "quesito": "Che cos'è un qubit?",
+                "opzioni": [
+                    "A) una coppia di bit",
+                    "B) un insieme di 4 bit",
+                    "C) un elemento che vale 0 ed 1",
+                    "D) un elemento che vale 0 oppure 1"
+                ],
+                "risposta_corretta": "C",
+                "spiegazioni": {
+                    "A": "Errata. Non è una combinazione di due bit classici.",
+                    "B": "Errata. Un insieme di 4 bit costituisce un nibble.",
+                    "C": "Corretta. Il qubit (quantum bit) è l'unità d'informazione quantistica che, grazie al principio di sovrapposizione, può trovarsi contemporaneamente nello stato 0 e nello stato 1 (combinazione lineare dei due stati base).",
+                    "D": "Errata. Rappresenta la definizione del bit classico, che può valere solo ed esclusivamente 0 oppure 1."
+                }
+            },
+            {
+                "id": 69,
+                "lezione": "Lezione 009",
+                "tipo": "Multipla",
+                "quesito": "Cosa dice la Legge di Moore?",
+                "opzioni": [
+                    "A) che il numero dei computer raddoppia ogni anno",
+                    "B) che il numero dei transistor cresce in modo lineare",
+                    "C) che il numero dei transistor raddoppia ogni anno",
+                    "D) che la quantità di ram raddoppia ogni anno"
+                ],
+                "risposta_corretta": "C",
+                "spiegazioni": {
+                    "A": "Errata. Riguarda la densità dei componenti su circuito integrato, non il numero dei calcolatori.",
+                    "B": "Errata. La crescita descritta dalla legge di Moore è di tipo esponenziale, non lineare.",
+                    "C": "Corretta. La formulazione originaria del 1965 dichiarava che il numero di transistor integrati in un chip raddoppia circa ogni anno (poi riassestato empiricamente a 18-24 mesi).",
+                    "D": "Errata. Riguarda specificamente la densità di transistor all'interno dei microprocessori."
+                }
+            },
+            {
+                "id": 70,
+                "lezione": "Lezione 009",
+                "tipo": "Multipla",
+                "quesito": "Quale fra le seguenti frasi è falsa se riferita alla rete Internet?",
+                "opzioni": [
+                    "A) Internet è un sistema non centralizzato",
+                    "B) Il World wide web è uno dei numerosi servizi di Internet",
+                    "C) Internet serve solo a navigare sul World Wide Web",
+                    "D) Il servizio di posta elettronica nasce prima del World Wide Web"
+                ],
+                "risposta_corretta": "C",
+                "spiegazioni": {
+                    "A": "Errata (affermazione vera). Internet è un'infrastruttura di reti distribuita e decentralizzata.",
+                    "B": "Errata (affermazione vera). Il WWW è un servizio applicativo che gira sull'infrastruttura Internet (insieme ad e-mail, FTP, SSH, ecc.).",
+                    "C": "Corretta (affermazione falsa). Internet è l'infrastruttura di rete globale su cui viaggiano svariati servizi (posta elettronica, VoIP, trasferimento file, streaming, messaggistica), non serve unicamente alla fruizione del Web.",
+                    "D": "Errata (affermazione vera). La posta elettronica (1971) precede di circa vent'anni l'invenzione del World Wide Web (1989-1991)."
+                }
+            },
+            {
+                "id": 71,
+                "lezione": "Lezione 009",
+                "tipo": "Multipla",
+                "quesito": "Come viene identificata una macchina sulla rete Internet?",
+                "opzioni": [
+                    "A) Da un indirizzo IP",
+                    "B) Dal percorso di instradamento dei pacchetti",
+                    "C) Dall'indirizzo del destinatario",
+                    "D) Dal contenuto del pacchetto"
+                ],
+                "risposta_corretta": "A",
+                "spiegazioni": {
+                    "A": "Corretta. Ogni nodo o calcolatore connesso alla rete Internet viene identificato in modo univoco a livello di rete da un Indirizzo IP (IPv4 o IPv6).",
+                    "B": "Errata. Il percorso (routing) descrive la rotta compiuta dai pacchetti per raggiungere un host, non l'identificativo della macchina.",
+                    "C": "Errata. L'indirizzo del destinatario è l'IP del nodo finale, ma il mezzo generale d'identificazione è l'Indirizzo IP stesso.",
+                    "D": "Errata. Il contenuto (payload) trasporta le informazioni dell'applicazione."
+                }
+            },
+            {
+                "id": 72,
+                "lezione": "Lezione 009",
+                "tipo": "Multipla",
+                "quesito": "Cos'è il WWW?",
+                "opzioni": [
+                    "A) Un servizio per la sincornizzazione di calcolatori in rete",
+                    "B) Un servizio per far funzionare un browser web",
+                    "C) Un servizio per mandare e ricevere messaggi di posta elettronica",
+                    "D) Un servizio per la condivisione di pagine multimediali"
+                ],
+                "risposta_corretta": "D",
+                "spiegazioni": {
+                    "A": "Errata. Per la sincronizzazione temporale si impiegano protocolli come NTP.",
+                    "B": "Errata. Il browser è il client di fruizione, non la definizione del servizio WWW.",
+                    "C": "Errata. La gestione dei messaggi di posta è affidata ai protocolli e-mail (SMTP, IMAP, POP3).",
+                    "D": "Corretta. Il World Wide Web (WWW) è un servizio dello strato applicativo operante su Internet che permette la consultazione e condivisione di documenti ipertestuali e pagine multimediali collegate tra loro tramite link (URL)."
+                }
+            },
+            {
+                "id": 73,
+                "lezione": "Lezione 009",
+                "tipo": "Multipla",
+                "quesito": "Cosa si fa per ovviare ai limiti della Legge di Moore?",
+                "opzioni": [
+                    "A) Si costruiscono computer con integrazione subatomica",
+                    "B) Si raffreddano i processori per migliorare le prestazioni",
+                    "C) Si costruiscono computer probabilistici",
+                    "D) Si utilizzano architetture massicciamente parallele"
+                ],
+                "risposta_corretta": "D",
+                "spiegazioni": {
+                    "A": "Errata. La riduzione delle dimensioni dei transistor a livello atomico risente di effetti di tunneling quantistico che creano problemi di dispersione.",
+                    "B": "Errata. Il raffreddamento consente l'overclock ma non risolve i limiti fisici della densità di integrazione.",
+                    "C": "Errata. Non rappresenta la risposta standard ingegneristica per l'elaborazione generica.",
+                    "D": "Corretta. Raggiunti i limiti fisici sulla frequenza e sulla miniaturizzazione del singolo core, l'industria ha virato verso architetture multicore e sistemi massicciamente paralleli per incrementare le prestazioni complessive."
+                }
+            },
+            {
+                "id": 74,
+                "lezione": "Lezione 009",
+                "tipo": "Aperta",
+                "quesito": "Descrivere le principali differenze fra un computer classico e un computer quantistico.",
+                "opzioni": [],
+                "risposta_corretta": "",
+                "spiegazioni": {
+                    "risposta_modello": "Le differenze fondamentali tra un computer classico e un computer quantistico risiedono nei seguenti aspetti:\n1. Unità fondamentale d'informazione: il computer classico utilizza il Bit (0 oppure 1); il computer quantistico utilizza il Qubit, che può trovarsi contemporaneamente nello stato 0, 1 o in una loro sovrapposizione lineare.\n2. Principi fisici di funzionamento: i computer quantistici sfruttano fenomeni della meccanica quantistica come la Sovrapposizione degli stati e l'Entanglement (correlazione quantistica), assenti nella fisica classica.\n3. Capacità di elaborazione e parallelismo: mentre un computer classico valuta le opzioni in maniera sequenziale o parallela basata sul numero di core, un registro a $N$ qubit processa $2^N$ stati simultaneamente, offrendo un parallelismo intrinseco elevatissimo.\n4. Ambito di applicazione: i computer classici sono ideali per l'elaborazione generica, mentre quelli quantistici sono progettati per problemi specifici ad altissima complessità computazionale (es. crittografia, simulazione molecolare, ottimizzazione combinatoria)."
+                }
+            },
+            {
+                "id": 75,
+                "lezione": "Lezione 009",
+                "tipo": "Aperta",
+                "quesito": "Dopo aver descritto brevemente la Legge di Moore, illustrare quali sono le sue limitazioni principali e come si possono superare.",
+                "opzioni": [],
+                "risposta_corretta": "",
+                "spiegazioni": {
+                    "risposta_modello": "La Legge di Moore è un'osservazione empirica che stabilisce che il numero di transistor integrabili in un singolo microprocessore raddoppia a intervalli regolari (circa ogni 18-24 mesi), garantendo una crescita esponenziale della potenza di calcolo.\n\nLimitazioni principali:\n1. Limiti fisici e quantistici: spingendo la miniaturizzazione dei transistor a dimensioni nanometriche (prossime alla scala atomica), si manifesta il fenomeno del tunneling quantistico, che causa perdite di corrente indesiderate.\n2. Limite termico (Power Density Barrier): l'aumento spinto della densità di componenti e della frequenza genera un calore eccessivo non dissipabile con i sistemi standard.\n3. Limiti economici: la costruzione di fonderie di semiconduttori e sistemi di litografia (EUV) richiede investimenti economico-finanziari insostenibili.\n\nCome superare tali limiti:\n- Architetture Multicore e Parallelismo Massivo: aumentare il numero di core nello stesso chip operando a frequenze contenute.\n- Calcolo Etorogeneo (GPU, TPU, NPU): affiancare alla CPU acceleratori hardware specializzati per specifici workload.\n- Nuovi materiali e tecnologie: sostituire il silicio con grafene o nanotubi di carbonio, sviluppare tecnologie di integrazione 3D (chiplet) e passare al Computing Quantistico."
+                }
+            },
+            {
+                "id": 76,
+                "lezione": "Lezione 010",
+                "tipo": "Multipla",
+                "quesito": "Quali, fra le seguenti, NON è una caratteristica di Posix?",
+                "opzioni": [
+                    "A) Modalità di connessione",
+                    "B) Specifica di Sistema Operativo",
+                    "C) Portabilità del codice",
+                    "D) Interfaccia fra sistemi"
+                ],
+                "risposta_corretta": "A",
+                "spiegazioni": {
+                    "A": "Corretta (non è una caratteristica di POSIX). POSIX definisce interfacce di programmazione (API) e standard di sistema, non protocolli o modalità di connessione di rete.",
+                    "B": "Errata (caratteristica reale). POSIX nasce proprio come specifica formale IEEE per definire i requisiti di un sistema operativo UNIX-like.",
+                    "C": "Errata (caratteristica reale). Lo scopo primario di POSIX è garantire la portabilità del codice sorgente tra diverse architetture e sistemi.",
+                    "D": "Errata (caratteristica reale). Costituisce un'interfaccia di compatibilità per uniformare l'interazione dei programmi con il sistema operativo."
+                }
+            },
+            {
+                "id": 77,
+                "lezione": "Lezione 010",
+                "tipo": "Multipla",
+                "quesito": "Quale filosofia generale accomuna Posix, Unix e Linux?",
+                "opzioni": [
+                    "A) Il file system",
+                    "B) Tutte le periferiche sono a riga di comando",
+                    "C) La gestione della memoria",
+                    "D) Tutto è un file"
+                ],
+                "risposta_corretta": "D",
+                "spiegazioni": {
+                    "A": "Errata. La struttura dei file system può variarne l'implementazione fisica (ext4, UFS, ecc.).",
+                    "B": "Errata. Le periferiche sono astrazioni hardware rappresentate come nodi di dispositivo, non interfaccia utente.",
+                    "C": "Errata. Gli algoritmi e la gestione interna della memoria differiscono tra le varie distribuzioni e kernel.",
+                    "D": "Corretta. I pilastri dell'architettura UNIX/POSIX si fondano sull'adagio 'Everything is a file': dispositivi hardware, socket e processi vengono trattati e manipolati tramite l'interfaccia universale di I/O dei file (read, write, open, close)."
+                }
+            },
+            {
+                "id": 78,
+                "lezione": "Lezione 010",
+                "tipo": "Multipla",
+                "quesito": "Quale fra i seguenti NON è un gruppo di permessi POSIX valido?",
+                "opzioni": [
+                    "A) rwwww",
+                    "B) rwx",
+                    "C) r-x",
+                    "D) --x"
+                ],
+                "risposta_corretta": "A",
+                "spiegazioni": {
+                    "A": "Corretta (non valido). La notazione simbolica dei permessi POSIX per ogni triplette (Utente, Gruppo, Altri) consta esattamente di 3 caratteri associati ai permessi Read, Write ed Execute ('r', 'w', 'x' o '-'). La stringa 'rwwww' ne contiene 5 con ripetizioni non ammesse.",
+                    "B": "Errata (valido). Rappresenta permessi completi di lettura, scrittura ed esecuzione.",
+                    "C": "Errata (valido). Rappresenta lettura ed esecuzione (senza scrittura).",
+                    "D": "Errata (valido). Rappresenta il solo permesso di esecuzione."
+                }
+            },
+            {
+                "id": 79,
+                "lezione": "Lezione 010",
+                "tipo": "Multipla",
+                "quesito": "Che cos'è Posix?",
+                "opzioni": [
+                    "A) Posix, Unix e Linux sono lo stesso Sistema Operativo",
+                    "B) Posix è Unix",
+                    "C) è una specifica per un Sistema Operativo",
+                    "D) è l'implementazione di un Sistema Operativo"
+                ],
+                "risposta_corretta": "C",
+                "spiegazioni": {
+                    "A": "Errata. POSIX è un insieme di standard, UNIX è una famiglia di SO commerciali/registrati e Linux è un kernel Open Source.",
+                    "B": "Errata. POSIX definisce gli standard di interoperabilità, mentre UNIX è un sistema operativo.",
+                    "C": "Corretta. POSIX (Portable Operating System Interface) è una suite di standard IEEE che specifica le API, i comandi di shell e le interfacce necessarie a rendere un sistema operativo compatibile.",
+                    "D": "Errata. Non è un software o un sistema compilato (implementazione), bensì un documento di specifiche teoriche e requisiti da rispettare."
+                }
+            },
+            {
+                "id": 80,
+                "lezione": "Lezione 010",
+                "tipo": "Multipla",
+                "quesito": "Cosa hanno in comune Posix, Unix e Linux?",
+                "opzioni": [
+                    "A) Il file system",
+                    "B) L'albero delle directory",
+                    "C) La condivisione delle risorse",
+                    "D) La gestione delle periferiche di I/O"
+                ],
+                "risposta_corretta": "B",
+                "spiegazioni": {
+                    "A": "Errata. I File System fisici supportati variano considerevolmente tra i vari sistemi.",
+                    "B": "Corretta. Condividono la medesima struttura logica dell'albero delle directory gerarchico monolitico che parte dalla radice unica ('/').",
+                    "C": "Errata. Rappresenta una funzione generale svolta da qualunque sistema operativo, non uno standard identificativo della famiglia UNIX.",
+                    "D": "Errata. Le modalità interne dei driver differiscono in base all'architettura specifica dei kernel."
+                }
+            },
+            {
+                "id": 81,
+                "lezione": "Lezione 010",
+                "tipo": "Multipla",
+                "quesito": "Cosa è errato dire se riferito a Posix?",
+                "opzioni": [
+                    "A) è una specifica per creare nuovi Sistemi Operativi",
+                    "B) contiene dettami su come implementare un Sistema Operativo",
+                    "C) permette ai sistemi di essere compatibiliti fra loro",
+                    "D) Unix è basato su Posix"
+                ],
+                "risposta_corretta": "D",
+                "spiegazioni": {
+                    "A": "Errata (affermazione vera). Offre le linee guida standardizzate per gli sviluppatori di SO.",
+                    "B": "Errata (affermazione vera). Stabilisce le chiamate di sistema e i comportamenti attesi dalle API.",
+                    "C": "Errata (affermazione vera). Garantisce la portabilità e l'interoperabilità dei programmi tra piattaforme differenti.",
+                    "D": "Corretta (affermazione errata). Dal punto di vista storico, UNIX è nato prima (1969) rispetto allo standard POSIX (nato nel 1988 per formalizzare e unificare le diverse varianti di UNIX esistenti)."
+                }
+            },
+            {
+                "id": 82,
+                "lezione": "Lezione 010",
+                "tipo": "Multipla",
+                "quesito": "Cosa hanno in comune Unix e Posix?",
+                "opzioni": [
+                    "A) Sono entrambi Sistemi Operativi",
+                    "B) Da un certo momento in poi sono diventati obsoleti",
+                    "C) Sono identici in termini di gestione delle risorse",
+                    "D) Da un certo momento in poi sono diventati entrambi degli standard"
+                ],
+                "risposta_corretta": "D",
+                "spiegazioni": {
+                    "A": "Errata. POSIX è un insieme di standard (specifche API), non un sistema operativo concreto.",
+                    "B": "Errata. Costituiscono tuttora i pilastri architetturali dell'informatica e dei sistemi moderni.",
+                    "C": "Errata. POSIX definisce le interfacce esterne, non la gestione interna delle risorse che varia nei diversi kernel.",
+                    "D": "Corretta. Sia UNIX (marchio e specifica Single UNIX Specification) che POSIX (standard IEEE) si sono evoluti diventando standard formali di riferimento dell'industria informatica."
+                }
+            },
+            {
+                "id": 83,
+                "lezione": "Lezione 010",
+                "tipo": "Multipla",
+                "quesito": "Qual è il modo più corretto per leggere il gruppo di permessi \"rw-\"?",
+                "opzioni": [
+                    "A) Il file è leggibile e modificabile, ma non eseguibile",
+                    "B) Il file è leggibile e modificabile",
+                    "C) Il file è modificabile ma non eseguibile",
+                    "D) Il file è leggibile, modificabile ed eseguibile"
+                ],
+                "risposta_corretta": "A",
+                "spiegazioni": {
+                    "A": "Corretta. La prima posizione 'r' indica la lettura (Read), la seconda 'w' indica la modifica/scrittura (Write) e il trattino '-' esprime l'assenza del permesso di esecuzione ('x').",
+                    "B": "Errata. Sebbene sia incompleta, l'opzione A specifica in modo esaustivo anche lo stato di esecuzione disabilitato.",
+                    "C": "Errata. Omette la presenza esplicita del permesso di lettura 'r'.",
+                    "D": "Errata. Afferma erroneamente che sia eseguibile, ignorando la presenza del trattino '-' al posto di 'x'."
+                }
+            },
+            {
+                "id": 84,
+                "lezione": "Lezione 010",
+                "tipo": "Aperta",
+                "quesito": "Illustrare brevemente i motivi per i quali è stato creato lo standard Posix e le me sue caratteristiche principali.",
+                "opzioni": [],
+                "risposta_corretta": "",
+                "spiegazioni": {
+                    "risposta_modello": "Motivi di creazione:\nNei primi anni '80 l'ecosistema UNIX si frammentò in molteplici varianti incompatibili (es. System V e BSD). Questa situazione costringeva gli sviluppatori a riscrivere parti rilevanti del codice sorgente dei programmi per ciascun sistema.\nPOSIX (Portable Operating System Interface) è stato creato dall'IEEE per stabilire un insieme unificato e standard di interfacce di programmazione.\n\nCaratteristiche principali:\n1. Portabilità del codice: consente a un software scritto in C per un sistema POSIX di compilarsi ed eseguirsi su qualsiasi altro sistema conforme.\n2. Definizioni di API di sistema: specifica le syscall e librerie per la gestione di processi, threads (pthreads), segnali, I/O su file, memoria e socket.\n3. Standardizzazione dell'ambiente utente: definisce il comportamento dell'interfaccia di shell e delle utilità di sistema fondamentali."
+                }
+            },
+            {
+                "id": 85,
+                "lezione": "Lezione 010",
+                "tipo": "Aperta",
+                "quesito": "Descrivere i gruppi di permessi di un sistema Unix/Posix.",
+                "opzioni": [],
+                "risposta_corretta": "",
+                "spiegazioni": {
+                    "risposta_modello": "In un sistema UNIX/POSIX, la sicurezza del File System si basa sulla gestione degli accessi assegnati a tre principali categorie (classi) di utenti:\n1. User (u): il proprietario diretto del file.\n2. Group (g): gli utenti appartenenti al gruppo associato al file.\n3. Others (o): tutti gli altri utenti presenti nel sistema.\n\nPer ciascuna di queste tre categorie vengono definiti tre permessi base tramite la terna rwx:\n- Read (r): permette di leggere il contenuto del file o di elencare i file in una directory.\n- Write (w): permette di modificare/eliminare il file o creare/rimuovere file in una directory.\n- Execute (x): permette di eseguire il file come programma o di accedere (attraversare) una directory.\n\nLa notazione complessiva consta di 9 caratteri (es. `rwxr-xr--`) suddivisi nelle tre triplette ordinatamente per Proprietario, Gruppo e Altri."
+                }
+            },
+            {
+                "id": 86,
+                "lezione": "Lezione 011",
+                "tipo": "Multipla",
+                "quesito": "A cosa serve una shell di Unix?",
+                "opzioni": [
+                    "A) ad avviare il sistema operativo",
+                    "B) a gestire le finestre",
+                    "C) a lanciare comandi",
+                    "D) a coordinare i processori del sistema operativo"
+                ],
+                "risposta_corretta": "C",
+                "spiegazioni": {
+                    "A": "Errata. L'avvio del sistema è gestito dal firmware (BIOS/UEFI) e dal Bootloader (es. GRUB).",
+                    "B": "Errata. La gestione grafica delle finestre è a carico del server grafico (X11, Wayland) e del Window Manager.",
+                    "C": "Corretta. La shell di UNIX è l'interprete dei comandi che accetta le istruzioni digitate dall'utente (o da script), le analizza e le invia al kernel per l'esecuzione.",
+                    "D": "Errata. Il coordinamento delle risorse fisiche e della CPU appartiene al kernel del sistema operativo."
+                }
+            },
+            {
+                "id": 87,
+                "lezione": "Lezione 011",
+                "tipo": "Multipla",
+                "quesito": "Quale fra le seguenti NON è una shell di Unix?",
+                "opzioni": [
+                    "A) Korn shell",
+                    "B) C-Shell",
+                    "C) Batch shell",
+                    "D) Bourne shell"
+                ],
+                "risposta_corretta": "C",
+                "spiegazioni": {
+                    "A": "Errata (shell Unix valida). `ksh` sviluppata da David Korn.",
+                    "B": "Errata (shell Unix valida). `csh` sviluppata da Bill Joy con sintassi simile al linguaggio C.",
+                    "C": "Corretta (non è una shell Unix). La 'Batch shell' o i file `.bat` appartengono all'ambiente DOS e Microsoft Windows Command Prompt, non al mondo UNIX.",
+                    "D": "Errata (shell Unix valida). `sh` creata da Stephen Bourne, lo standard storico fondamentale."
+                }
+            },
+            {
+                "id": 88,
+                "lezione": "Lezione 011",
+                "tipo": "Multipla",
+                "quesito": "Qual è il formato corretto per l'esecuzione dei comandi Unix?",
+                "opzioni": [
+                    "A) comando -opzioni argomenti",
+                    "B) comando -opzioni",
+                    "C) -opzioni ? cmd1 : cmd2",
+                    "D) argomenti > comando (-opzioni)"
+                ],
+                "risposta_corretta": "A",
+                "spiegazioni": {
+                    "A": "Corretta. La struttura standard della linea di comando UNIX prevede in sequenza: nome del comando, eventuali flag o opzioni introdotte da un trattino (`-` o `--`) e infine gli argomenti (file o dati di destinazione). Es: `ls -la /home`.",
+                    "B": "Errata. Mancano gli argomenti che specificano l'oggetto su cui opera il comando.",
+                    "C": "Errata. Rappresenta una sintassi dell'operatore ternario nei linguaggi di programmazione.",
+                    "D": "Errata. Struttura del tutto invertita ed errata per la sintassi delle shell."
+                }
+            },
+            {
+                "id": 89,
+                "lezione": "Lezione 011",
+                "tipo": "Multipla",
+                "quesito": "Qual è il ruolo del comando man nel sistema operativo Unix?",
+                "opzioni": [
+                    "A) è un comando che descrive altri comandi",
+                    "B) è un software applicativo generico per l'esecuzione di comandi",
+                    "C) serve ad aiutare nella digitazione dei comandi",
+                    "D) è il Manual Assisted Name di sistema"
+                ],
+                "risposta_corretta": "A",
+                "spiegazioni": {
+                    "A": "Corretta. Il comando `man` (manual) visualizza le pagine di documentazione e aiuto relative a comandi di sistema, librerie e file di configurazione.",
+                    "B": "Errata. Non esegue altri comandi, ma ne mostra unicamente la documentazione testuale.",
+                    "C": "Errata. L'autocompletamento o la digitazione sono gestiti dalle funzionalità della shell (es. tasto Tab).",
+                    "D": "Errata. Sigla inventata; `man` sta semplicemente per 'manual'."
+                }
+            },
+            {
+                "id": 90,
+                "lezione": "Lezione 011",
+                "tipo": "Multipla",
+                "quesito": "Cosa viene riportato nella pagina del manuale di un comando invocata con man?",
+                "opzioni": [
+                    "A) il nome, la sinossi e una descrizione del comando",
+                    "B) lo spazio su disco occupato dal comando",
+                    "C) la lista di file contenuti della directory del comando",
+                    "D) il manuale del sistema operativo Unix"
+                ],
+                "risposta_corretta": "A",
+                "spiegazioni": {
+                    "A": "Corretta. Una pagina di manuale UNIX mostra tipicamente le sezioni: NAME (nome e sintesi), SYNOPSIS (sintassi d'uso ed opzioni) e DESCRIPTION (spiegazione dettagliata).",
+                    "B": "Errata. Lo spazio occupato si misura con comandi dedicati come `du` o `ls -s`.",
+                    "C": "Errata. La lista dei file di una cartella si ottiene tramite il comando `ls`.",
+                    "D": "Errata. Mostra il manuale specifico del singolo comando o argomento richiesto, non l'intero manuale di sistema in blocco."
+                }
+            },
+            {
+                "id": 91,
+                "lezione": "Lezione 011",
+                "tipo": "Multipla",
+                "quesito": "A cosa serve una pipe di Unix?",
+                "opzioni": [
+                    "A) ad ordinare alfabeticamente linee di testo in unput",
+                    "B) a fare ricerche nei file di testo",
+                    "C) a concatenare comandi",
+                    "D) a contare il numero di righe, di caratteri e di byte contenuti in un file"
+                ],
+                "risposta_corretta": "C",
+                "spiegazioni": {
+                    "A": "Errata. L'ordinamento del testo è compito del comando `sort`.",
+                    "B": "Errata. La ricerca nel testo è compito del comando `grep`.",
+                    "C": "Corretta. La Pipe (rappresentata dal simbolo `|`) indirizza lo standard output di un comando direttamente nello standard input del comando successivo, permettendo di concatenare più comandi in sequenza.",
+                    "D": "Errata. Il conteggio di righe e caratteri è svolto dal comando `wc`."
+                }
+            },
+            {
+                "id": 92,
+                "lezione": "Lezione 011",
+                "tipo": "Multipla",
+                "quesito": "Qual è la funzione più usata del comando awk di Unix?",
+                "opzioni": [
+                    "A) invertire l'ordine delle righe di un file",
+                    "B) selezionare le righe di un file",
+                    "C) contare il numero di righe, di caratteri e di byte di un file",
+                    "D) selezionare e manipolare le colonne di un file"
+                ],
+                "risposta_corretta": "D",
+                "spiegazioni": {
+                    "A": "Errata. Questa funzione può essere svolta dal comando `tac` o `rev`.",
+                    "B": "Errata. La selezione ordinaria di righe in base a un pattern è tipicamente gestita da `grep`.",
+                    "C": "Errata. Questa è la funzione svolta da `wc`.",
+                    "D": "Corretta. `awk` è un potente linguaggio di elaborazione e scansione di testo strutturato, comunemente impiegato per estrarre, formattare e manipolare colonne (campi identificati da `$1`, `$2`, ecc.) da report o file di dati."
+                }
+            },
+            {
+                "id": 93,
+                "lezione": "Lezione 011",
+                "tipo": "Multipla",
+                "quesito": "A che cosa NON serve la redirezione di input e output di Unix?",
+                "opzioni": [
+                    "A) a salvare ciò che viene scritto da un comando su un file",
+                    "B) ad usare il contenuto di un file come input di un comando",
+                    "C) a migliorare la velocità di esecuzione di un comando",
+                    "D) a salvare su un file il flusso dati proveniente da un dispositivo"
+                ],
+                "risposta_corretta": "C",
+                "spiegazioni": {
+                    "A": "Errata (uso reale). Si ottiene con l'operatore di ridirezione dell'output `>`.",
+                    "B": "Errata (uso reale). Si ottiene con l'operatore di ridirezione dell'input `<`.",
+                    "C": "Corretta (non serve a questo). La ridirezione modifica unicamente la provenienza o la destinazione dei flussi di dati (stdin, stdout, stderr), non altera la velocità computazionale del programma.",
+                    "D": "Errata (uso reale). Consente la cattura diretta dei dati inviati da un device file."
+                }
+            },
+            {
+                "id": 94,
+                "lezione": "Lezione 011",
+                "tipo": "Aperta",
+                "quesito": "Descrivere che cos'è e a cosa serve la shell di Unix.",
+                "opzioni": [],
+                "risposta_corretta": "",
+                "spiegazioni": {
+                    "risposta_modello": "La shell di Unix è un programma applicativo che agisce da interfaccia utente di tipo testuale (CLI - Command Line Interface) tra l'utente e il kernel del sistema operativo.\n\nA cosa serve:\n1. Interpretazione dei comandi: legge le istruzioni inserite da tastiera dall'utente, le analizza sintatticamente e invoca le corrispondenti system call al kernel per la loro esecuzione.\n2. Scripting di sistema: permette di automatizzare compiti complessi scrivendo file di script (Shell Script) contenenti sequenze di comandi, variabili e strutture di controllo del flusso (cicli e condizioni).\n3. Gestione dell'ambiente: consente la configurazione dell'ambiente di lavoro, la manipolazione delle variabili di ambiente (es. `$PATH`), la ridirezione dei flussi di I/O e la gestione dei processi in background."
+                }
+            },
+            {
+                "id": 95,
+                "lezione": "Lezione 011",
+                "tipo": "Aperta",
+                "quesito": "Dare una descrizione e qualche esempio del comando man di Unix.",
+                "opzioni": [],
+                "risposta_corretta": "",
+                "spiegazioni": {
+                    "risposta_modello": "Il comando `man` (abbreviazione di manual) è il sistema di documentazione integrato nei sistemi UNIX. Permette di consultare le pagine di manuale per comandi, utility, chiamate di sistema e file di configurazione.\n\nEsempi d'uso:\n1. `man ls`: visualizza la pagina di manuale del comando `ls`, mostrandone la descrizione e le opzioni disponibili (es. `-l`, `-a`).\n2. `man 2 read`: apre la pagina di manuale della chiamata di sistema `read` (la sezione 2 è riservata alle syscall del kernel).\n3. `man -k password` oppure `apropos password`: cerca all'interno delle brevi descrizioni dei manuali la parola chiave 'password'."
+                }
+            },
+            {
+                "id": 96,
+                "lezione": "Lezione 011",
+                "tipo": "Aperta",
+                "quesito": "Descrivere che cos'è e a cosa serve la pipe di Unix.",
+                "opzioni": [],
+                "risposta_corretta": "",
+                "spiegazioni": {
+                    "risposta_modello": "La pipe è un meccanismo di comunicazione interprocesso (IPC) messo a disposizione dai sistemi Unix e rappresentato sulla riga di comando dal simbolo barra verticale `|`.\n\nA cosa serve:\nConsente di collegare lo standard output (stdout) di un comando direttamente allo standard input (stdin) di un secondo comando, creando un flusso continuo di dati.\nIn questo modo è possibile combinare programmi semplici e focalizzati su singoli compiti per svolgere elaborazioni complesse secondo la filosofia Unix.\n\nEsempio: `cat elenco.txt | grep \"Rossi\" | sort`\n1. `cat` legge il file;\n2. La prima pipe passa il contenuto a `grep` che filtra unicamente le righe con \"Rossi\";\n3. La seconda pipe passa il risultato a `sort` che ordina le righe alfabeticamente."
+                }
+            },
+            {
+                "id": 97,
+                "lezione": "Lezione 012",
+                "tipo": "Multipla",
+                "quesito": "Per esprimere numeri in base 8, di quali cifre disponiamo?",
+                "opzioni": [
+                    "A) dalla cifra 1 alla cifra 8",
+                    "B) dalla cifra 0 alla cifra 9",
+                    "C) dalla cifra 0 alla cifra 8",
+                    "D) dalla cifra 0 alla cifra 7"
+                ],
+                "risposta_corretta": "D",
+                "spiegazioni": {
+                    "A": "Errata. La base ottale include lo zero e non possiede la cifra 8.",
+                    "B": "Errata. Rappresenta l'insieme delle cifre per la base decimale (base 10).",
+                    "C": "Errata. La cifra pari al valore della base (8) non si usa mai direttamente.",
+                    "D": "Corretta. Un sistema di numerazione posizionale in base $N$ impiega esattamente $N$ cifre comprese tra $0$ e $N-1$. Per la base 8 si utilizzano le 8 cifre: 0, 1, 2, 3, 4, 5, 6, 7."
+                }
+            },
+            {
+                "id": 98,
+                "lezione": "Lezione 012",
+                "tipo": "Multipla",
+                "quesito": "Se al numero 111 espresso in base 2, si aggiunge 1, quale sarà il risultato?",
+                "opzioni": [
+                    "A) un numero con quattro cifre in base 2",
+                    "B) il numero 111 e riporto di 1 in base 2",
+                    "C) il numero 112 in base 2",
+                    "D) il numero 112 in base 10"
+                ],
+                "risposta_corretta": "A",
+                "spiegazioni": {
+                    "A": "Corretta. Il numero $111_2$ equivale a $7_{10}$. Aggiungendo $1_2$ si ottiene $7 + 1 = 8_{10}$, la cui rappresentazione binaria è $1000_2$, ovvero un numero composto da 4 cifre.",
+                    "B": "Errata. Il risultato definitivo non è 111 con riporto non gestito.",
+                    "C": "Errata. La cifra '2' non appartiene all'alfabeto del sistema binario.",
+                    "D": "Errata. $111_2 + 1_2 = 8_{10}$, non 112."
+                }
+            },
+            {
+                "id": 99,
+                "lezione": "Lezione 012",
+                "tipo": "Multipla",
+                "quesito": "Perchè il calcolatore usa il sistema binario che ha solo due cifre?",
+                "opzioni": [
+                    "A) perchè è il sistema più veloce eseguire i calcoli",
+                    "B) perchè è molto efficiente a rilevare la presenza o l'assenza di tensione, cui le due cifre si riferiscono",
+                    "C) perchè con meno cifre la rappresentazione dei numeri è più efficiente",
+                    "D) perchè è necessario meno spazio per rappresentare numeri binari"
+                ],
+                "risposta_corretta": "B",
+                "spiegazioni": {
+                    "A": "Errata. È una conseguenza diretta dell'implementazione circuitale, non la causa primaria fisica.",
+                    "B": "Corretta. I circuiti elettronici dei calcolatori utilizzano componenti bistabili (transistor) nei quali è estremamente affidabile e semplice distinguere due soli stati di tensione fisica (es. livello alto/presenza di tensione = 1, livello basso/assenza di tensione = 0).",
+                    "C": "Errata. Le rappresentazioni binarie richiedono più cifre/posizioni rispetto a basi maggiori per esprimere lo stesso valore.",
+                    "D": "Errata. I numeri binari necessitano di più posizioni rispetto a quelli decimali o esadecimali."
+                }
+            },
+            {
+                "id": 100,
+                "lezione": "Lezione 012",
+                "tipo": "Multipla",
+                "quesito": "Quale fra le seguenti frasi è vera?",
+                "opzioni": [
+                    "A) il numero 100 non esiste in base 2",
+                    "B) il numero 100 ha lo stesso valore sia in base 10 che in base 2",
+                    "C) il numero 100 esiste in base 2 e in base 10, ma non in base 8",
+                    "D) il numero 100 espresso in base 2, vale 4 in base 10"
+                ],
+                "risposta_corretta": "D",
+                "spiegazioni": {
+                    "A": "Errata. $100$ è una sequenza binaria valida composta dalle cifre 1 e 0.",
+                    "B": "Errata. In base 10 equivale a cento, mentre in base 2 equivale a quattro.",
+                    "C": "Errata. Il numero 100 esiste anche in base 8 (dove equivale a $64_{10}$).",
+                    "D": "Corretta. Convertendo $100_2$ in base 10: $1 \\cdot 2^2 + 0 \\cdot 2^1 + 0 \\cdot 2^0 = 4 + 0 + 0 = 4_{10}$."
+                }
+            },
+            {
+                "id": 101,
+                "lezione": "Lezione 012",
+                "tipo": "Multipla",
+                "quesito": "In quali fra le seguenti basi di numerazione il numero 256, espresso in base 10, rimane valido?",
+                "opzioni": [
+                    "A) in base 2",
+                    "B) nelle basi 2, 8 e 10",
+                    "C) solo in base 10",
+                    "D) nelle basi 8, 10 e 16"
+                ],
+                "risposta_corretta": "D",
+                "spiegazioni": {
+                    "A": "Errata. La base 2 ammette solo cifre 0 e 1, quindi '256' non è sintatticamente valido in base 2.",
+                    "B": "Errata. Include la base 2 che non ammette le cifre 2, 5 e 6.",
+                    "C": "Errata. La notazione è valida anche in altre basi maggiori di 6.",
+                    "D": "Corretta. Affinché la stringa '256' costituisca una rappresentazione numerica valida, la base $B$ deve essere strettamente maggiore della cifra massima contenuta ($6$). Pertanto è valida per tutte le basi $B \\ge 7$, inclusi la base 8, la base 10 e la base 16."
+                }
+            },
+            {
+                "id": 102,
+                "lezione": "Lezione 012",
+                "tipo": "Multipla",
+                "quesito": "Il numero 111 in base 2 a quale numero in base 10 corrisponde?",
+                "opzioni": [
+                    "A) 8",
+                    "B) 7",
+                    "C) 13",
+                    "D) 111"
+                ],
+                "risposta_corretta": "B",
+                "spiegazioni": {
+                    "A": "Errata. 8 corrisponde a $1000_2$.",
+                    "B": "Corretta. Calcolo posizionale: $111_2 = 1 \\cdot 2^2 + 1 \\cdot 2^1 + 1 \\cdot 2^0 = 4 + 2 + 1 = 7_{10}$.",
+                    "C": "Errata. 13 corrisponde a $1101_2$.",
+                    "D": "Errata. 111 rappresenta solo la sequenza delle cifre binarie."
+                }
+            },
+            {
+                "id": 103,
+                "lezione": "Lezione 012",
+                "tipo": "Multipla",
+                "quesito": "Il numero 27143A in quali basi di numerazioni potrebbe essere espresso?",
+                "opzioni": [
+                    "A) in base 16 o in base 36",
+                    "B) solo in base 16",
+                    "C) in base 8 e in base 10",
+                    "D) in base 10 e in base 16"
+                ],
+                "risposta_corretta": "A",
+                "spiegazioni": {
+                    "A": "Corretta. La presenza del simbolo alfabetico 'A' (pari a 10) impone che la base sia almeno 11. Pertanto la stringa è ammissibile sia in base 16 (esadecimale) che in qualsiasi altra base superiore che utilizzi lettere, tra cui la base 36.",
+                    "B": "Errata. Non è ristretto unicamente alla base 16; ogni base con cifre sufficienti a coprire 'A' può rappresentarlo.",
+                    "C": "Errata. Le basi 8 e 10 non dispongono della cifra simbolica 'A'.",
+                    "D": "Errata. La base 10 non ammette simboli alfabetici."
+                }
+            },
+            {
+                "id": 104,
+                "lezione": "Lezione 012",
+                "tipo": "Multipla",
+                "quesito": "Quanti oggetti posso etichettare avendo a disposizione 4 bit?",
+                "opzioni": [
+                    "A) 32 oggetti",
+                    "B) 16 oggetti",
+                    "C) 4 oggetti",
+                    "D) 8 oggetti"
+                ],
+                "risposta_corretta": "B",
+                "spiegazioni": {
+                    "A": "Errata. 32 si ottiene con 5 bit ($2^5 = 32$).",
+                    "B": "Corretta. Con $n$ bit si possono rappresentare esattamente $2^n$ combinazioni distinte. Per $n = 4$, $2^4 = 16$ combinazioni/oggetti differenti.",
+                    "C": "Errata. 4 rappresenta unicamente il numero dei bit.",
+                    "D": "Errata. 8 oggetti si etichettano con 3 bit ($2^3 = 8$)."
+                }
+            },
+            {
+                "id": 105,
+                "lezione": "Lezione 012",
+                "tipo": "Multipla",
+                "quesito": "Di quanti bit ho bisogno per etichettare 3 oggetti?",
+                "opzioni": [
+                    "A) mi basta 1 bit",
+                    "B) mi servono almeno 3 bit",
+                    "C) mi servono più di 3 bit",
+                    "D) mi servono almeno 2 bit"
+                ],
+                "risposta_corretta": "D",
+                "spiegazioni": {
+                    "A": "Errata. 1 bit offre solo 2 combinazioni ($2^1 = 2$), insufficienti per 3 oggetti.",
+                    "B": "Errata. 3 bit permettono di codificare fino a 8 oggetti ($2^3 = 8$), sovrastimando il minimo indispensabile.",
+                    "C": "Errata. Sarebbe un'allocazione inutilmente sovrabbondante.",
+                    "D": "Corretta. La formula impone $2^n \\ge 3$. Con $n = 2$ bit si ottengono $2^2 = 4$ combinazioni possibili (00, 01, 10, 11), sufficienti per etichettare i 3 oggetti."
+                }
+            },
+            {
+                "id": 106,
+                "lezione": "Lezione 012",
+                "tipo": "Multipla",
+                "quesito": "A cosa serve il complemento a due?",
+                "opzioni": [
+                    "A) a trasformare i numeri positivi in numeri negativi",
+                    "B) a rendere leggibili i numeri binari con segno",
+                    "C) a rendere più efficienti i calcoli con i numeri negativi",
+                    "D) a rappresentare i numeri con segno in formato binario"
+                ],
+                "risposta_corretta": "D",
+                "spiegazioni": {
+                    "A": "Errata. È una conseguenza della tecnica di conversione, ma non la definizione dello scopo concettuale.",
+                    "B": "Errata. Non riguarda la leggibilità umana ma la codifica informatica.",
+                    "C": "Errata. È l'effetto architetturale nell'ALU, mentre lo scopo rappresentativo primario è la codifica dei segni.",
+                    "D": "Corretta. Il complemento a due è la tecnica di codifica standard adottata nei calcolatori per rappresentare l'insieme dei numeri interi relativi con segno (positivi e negativi) in forma binaria."
+                }
+            },
+            {
+                "id": 107,
+                "lezione": "Lezione 012",
+                "tipo": "Multipla",
+                "quesito": "Per quale motivo si usa il complemento a due?",
+                "opzioni": [
+                    "A) per velocizzare i calcoli",
+                    "B) per ottimizzare la circuiteria della CPU",
+                    "C) per evitare di usare i numeri negativi al calcolatore",
+                    "D) per poter rendere complementari i numeri positivi e negativi"
+                ],
+                "risposta_corretta": "B",
+                "spiegazioni": {
+                    "A": "Errata. È la semplificazione dei circuiti a guidare l'adozione dello standard.",
+                    "B": "Corretta. Il complemento a due consente di eseguire le sottrazioni sfruttando la medesima struttura circuitale dei sommatori (ALU), evitando la necessità di progettare e integrare circuiti sottrattori dedicati.",
+                    "C": "Errata. I numeri negativi vengono pienamente gestiti dal calcolatore.",
+                    "D": "Errata. Non è una mera questione terminologica sulla complementarietà."
+                }
+            },
+            {
+                "id": 108,
+                "lezione": "Lezione 012",
+                "tipo": "Aperta",
+                "quesito": "Descrivere la procedura per trasformare un numero positivo nel suo corrispondente numero negativo quando esso è rappresentato in formato binario in complemento a due. Proporre un esempio di tale trasformazione.",
+                "opzioni": [],
+                "risposta_corretta": "",
+                "spiegazioni": {
+                    "risposta_modello": "Procedura di trasformazione:\nPer ottenere il negativo di un numero espresso in complemento a due si seguono due passaggi:\n1. Inversione di tutti i bit (operazione di NOT logico o complemento a uno): si trasformano tutti gli 0 in 1 e tutti gli 1 in 0.\n2. Aggiunta di 1: si somma 1 al valore binario ottenuto al punto precedente.\n\nEsempio (trasformare il numero +5 nel corrispondente -5 su 8 bit):\n- Rappresentazione di +5 su 8 bit: `00000101`\n- Passo 1 (inversione bit): `11111010`\n- Passo 2 (somma 1): `11111010 + 1 = 11111011`\n\nIl numero binario `11111011` rappresenta il valore -5 in complemento a due."
+                }
+            },
+            {
+                "id": 109,
+                "lezione": "Lezione 012",
+                "tipo": "Aperta",
+                "quesito": "Si calcoli la somma fra numeri binari 1001+0011 discutendo i passaggi. Si converta poi il risultato in base 10.",
+                "opzioni": [],
+                "risposta_corretta": "",
+                "spiegazioni": {
+                    "risposta_modello": "Calcolo della somma binaria $1001_2 + 0011_2$ incolonnando i bit da destra a sinistra:\n- Bit 0 (posizione $2^0$): $1 + 1 = 0$ con riporto di $1$.\n- Bit 1 (posizione $2^1$): $0 + 1 + \\text{riporto } 1 = 0$ con riporto di $1$.\n- Bit 2 (posizione $2^2$): $0 + 0 + \\text{riporto } 1 = 1$ con riporto di $0$.\n- Bit 3 (posizione $2^3$): $1 + 0 + \\text{riporto } 0 = 1$ con riporto di $0$.\n\nRisultato in base 2: $1100_2$.\n\nConversione del risultato $1100_2$ in base 10:\n$1100_2 = (1 \\cdot 2^3) + (1 \\cdot 2^2) + (0 \\cdot 2^1) + (0 \\cdot 2^0) = 8 + 4 + 0 + 0 = 12_{10}$.\n\nVerifica: $1001_2 = 9_{10}$ e $0011_2 = 3_{10}$; $9 + 3 = 12_{10}$."
+                }
+            },
+            {
+                "id": 110,
+                "lezione": "Lezione 012",
+                "tipo": "Aperta",
+                "quesito": "Dato il numero 35, rappresentato in base 10, illustrare i passaggi per la conversione in base 2. Una volta convertito nella sua rappresentazione binaria, trasformarlo nella sua controparte negativa (ovvero -35) usando la rappresentazione in complemento a two.",
+                "opzioni": [],
+                "risposta_corretta": "",
+                "spiegazioni": {
+                    "risposta_modello": "1. Conversione di $35_{10}$ in base 2 (metodo delle divisioni successive per 2):\n- $35 / 2 = 17$ con resto 1\n- $17 / 2 = 8$ con resto 1\n- $8 / 2 = 4$ con resto 0\n- $4 / 2 = 2$ con resto 0\n- $2 / 2 = 1$ con resto 0\n- $1 / 2 = 0$ con resto 1\nRaccogliendo i resti dal basso verso l'alto si ottiene: $35_{10} = 100011_2$.\nRappresentato su un registro standard a 8 bit con bit di segno 0: `00100011`.\n\n2. Trasformazione nel corrispondente negativo (-35) in complemento a due:\n- Inversione di tutti i bit di `00100011`: `11011100`\n- Somma di 1 al risultato: `11011100 + 1 = 11011101`\n\nLa rappresentazione binaria in complemento a due di -35 su 8 bit è `11011101`."
+                }
+            },
+            {
+                "id": 111,
+                "lezione": "Lezione 012",
+                "tipo": "Aperta",
+                "quesito": "Calcolare, illustrando tutti i passaggi, quanto vale in base 10 il numero binario 10110011.",
+                "opzioni": [],
+                "risposta_corretta": "",
+                "spiegazioni": {
+                    "risposta_modello": "Per convertire il numero binario $10110011_2$ in base 10 (assumendo una codifica senza segno), si moltiplica ciascuna cifra binaria per la relativa potenza di 2 associata alla sua posizione (da destra verso sinistra partendo da $2^0$):\n\n$10110011_2 = (1 \\cdot 2^7) + (0 \\cdot 2^6) + (1 \\cdot 2^5) + (1 \\cdot 2^4) + (0 \\cdot 2^3) + (0 \\cdot 2^2) + (1 \\cdot 2^1) + (1 \\cdot 2^0)$\n\nCalcolando i valori delle potenze:\n- $1 \\cdot 2^7 = 128$\n- $0 \\cdot 2^6 = 0$\n- $1 \\cdot 2^5 = 32$\n- $1 \\cdot 2^4 = 16$\n- $0 \\cdot 2^3 = 0$\n- $0 \\cdot 2^2 = 0$\n- $1 \\cdot 2^1 = 2$\n- $1 \\cdot 2^0 = 1$\n\nSommando i contributi:\n$128 + 0 + 32 + 16 + 0 + 0 + 2 + 1 = 179_{10}$.\n\nIl valore del numero binario $10110011$ espresso in base 10 è 179."
+                }
+            },
+            {
+                "id": 112,
+                "lezione": "Lezione 013",
+                "tipo": "Multipla",
+                "quesito": "Qual è la caratteristica errata riferita alla programmazione dichiarativa?",
+                "opzioni": [
+                  "A) descrive un problema definendo in modo dettagliato i passi per risolverlo",
+                  "B) descrive un problema in termini di ciò che si vuole ottenere",
+                  "C) di solito non permette l'acceso diretto all'hardware",
+                  "D) permette di programmare tramite vincoli e funzioni"
+                ],
+                "risposta_corretta": "A",
+                "spiegazioni": {
+                  "A": "Corretta. Definire in modo dettagliato i passi (il 'come') è tipico della programmazione imperativa, non di quella dichiarativa (che si concentra sul 'cosa').",
+                  "B": "Errata. Questa è una caratteristica reale e corretta della programmazione dichiarativa.",
+                  "C": "Errata. I linguaggi dichiarativi sono ad alto livello e solitamente astraggono dall'hardware.",
+                  "D": "Errata. La programmazione funzionale e per vincoli rientra nel paradigma dichiarativo."
+                }
+              },
+              {
+                "id": 113,
+                "lezione": "Lezione 013",
+                "tipo": "Multipla",
+                "quesito": "Qual è la caratteristica errata riferita alla programmazione imperativa?",
+                "opzioni": [
+                  "A) permette di decidere cosa fare nel codice in dipendenza di certe condizioni",
+                  "B) permette di progettare la soluzione a un problema in termini di ciò che si vuole ottenere",
+                  "C) permette la definizione di algoritmi tramite passi ben definiti",
+                  "D) permette una gestione diretta delle risorse hardware della macchina"
+                ],
+                "risposta_corretta": "B",
+                "spiegazioni": {
+                  "A": "Errata. Il controllo di flusso condizionale è un pilastro della programmazione imperativa.",
+                  "B": "Corretta. Progettare in termini di 'ciò che si vuole ottenere' (il 'cosa') descrive la programmazione dichiarativa, non quella imperativa (che definisce il 'come').",
+                  "C": "Errata. Definire algoritmi passo-passo è la caratteristica fondamentale dell'imperativo.",
+                  "D": "Errata. Molti linguaggi imperativi consentono il controllo e la gestione diretta della memoria/hardware."
+                }
+              },
+              {
+                "id": 114,
+                "lezione": "Lezione 013",
+                "tipo": "Multipla",
+                "quesito": "Quali tra le seguenti frasi è corretta relativamente ai Linguaggi Compilati?",
+                "opzioni": [
+                  "A) Risulta necessario avere un compilatore per ogni hardware",
+                  "B) Basta avere un interprete per eseguire il programma",
+                  "C) Sono lontani dall'architettura",
+                  "D) Sono poco efficienti"
+                ],
+                "risposta_corretta": "A",
+                "spiegazioni": {
+                  "A": "Corretta. Poiché la compilazione traduce il codice in linguaggio macchina specifico, serve un compilatore dedicato per ogni architettura target.",
+                  "B": "Errata. Un codice compilato genera un eseguibile binario nativo, non necessita di un interprete.",
+                  "C": "Errata. I linguaggi compilati producono codice molto vicino all'architettura hardware.",
+                  "D": "Errata. Al contrario, i linguaggi compilati garantiscono prestazioni ed efficienza elevate."
+                }
+              },
+              {
+                "id": 115,
+                "lezione": "Lezione 013",
+                "tipo": "Multipla",
+                "quesito": "Quali tra le seguenti frasi è corretta relativamente ai Linguaggi Interpretati?",
+                "opzioni": [
+                  "A) Sono vicini all'architettura hardware e al suo linguaggio macchina",
+                  "B) Lo stesso codice funziona su più architetture hardware",
+                  "C) Sono molto efficienti",
+                  "D) Prima di poter essere eseguito il codice deve essere compilato"
+                ],
+                "risposta_corretta": "B",
+                "spiegazioni": {
+                  "A": "Errata. I linguaggi interpretati sono ad alto livello e astraggono dall'hardware.",
+                  "B": "Corretta. Il codice sorgente è portabile in quanto viene letto ed eseguito da un interprete specifico per l'architettura ospitante.",
+                  "C": "Errata. L'interpretazione riga per riga introduce un overhead che li rende generalmente meno efficienti dei compilati.",
+                  "D": "Errata. Non richiedono una fase preventiva di compilazione in codice macchina."
+                }
+              },
+              {
+                "id": 116,
+                "lezione": "Lezione 013",
+                "tipo": "Multipla",
+                "quesito": "Quali sono le fasi del processo di compilazione?",
+                "opzioni": [
+                  "A) login, interpretazione dei comandi, esecuzione dei comandi, pulizia, uscita",
+                  "B) analisi lessicale, sintattica, semantica, ottimizzazione, generazione file eseguibile",
+                  "C) scrittura del codice, debug, correzione, salvataggio",
+                  "D) importazione librerie, codice nativo, traduzione, esecuzione"
+                ],
+                "risposta_corretta": "B",
+                "spiegazioni": {
+                  "A": "Errata. Riguarda le fasi di una sessione utente in una shell/sistema operativo.",
+                  "B": "Corretta. Identifica la pipeline standard di un compilatore (Lexer -> Parser -> Semantic Analyzer -> Optimizer -> Code Generator).",
+                  "C": "Errata. Descrive la fase di sviluppo del software da parte del programmatore.",
+                  "D": "Errata. Non rappresenta le fasi formali di compilazione."
+                }
+              },
+              {
+                "id": 117,
+                "lezione": "Lezione 013",
+                "tipo": "Multipla",
+                "quesito": "Quali tipi di variabili esistono in Java?",
+                "opzioni": [
+                  "A) i tipi possono essere definiti dal programmatore",
+                  "B) esistono solo i tipi primitivi",
+                  "C) esistono solo i tipi definiti dal programmatore",
+                  "D) i tipi sono stati definiti dai progettisti del linguaggio"
+                ],
+                "risposta_corretta": "A",
+                "spiegazioni": {
+                  "A": "Corretta. Oltre ai tipi primitivi integrati, in Java il programmatore può definire nuovi tipi di riferimento mediante classi e interfacce.",
+                  "B": "Errata. Esistono anche i tipi riferimento (Classi, Array, Interfacce).",
+                  "C": "Errata. Esistono anche i tipi primitivi standard integrati.",
+                  "D": "Errata. Sebbene i primitivi siano predefiniti, il linguaggio permette l'estensione creando nuovi tipi utente."
+                }
+              },
+              {
+                "id": 118,
+                "lezione": "Lezione 013",
+                "tipo": "Multipla",
+                "quesito": "Cosa è corretto affermare in merito al tipo associato alle variabili in Java?",
+                "opzioni": [
+                  "A) il tipo viene scelto quando si dichiara la variabile e può essere cambiato",
+                  "B) il tipo è obbligatorio e immutabile",
+                  "C) il tipo della variabile cambia durante il programma a seconda del contenuto",
+                  "D) il tipo associato a una variabile è opzionale"
+                ],
+                "risposta_corretta": "B",
+                "spiegazioni": {
+                  "A": "Errata. In Java il tipo dichiarato non può essere modificato successivamente.",
+                  "B": "Corretta. Java è fortemente e staticamente tipizzato: la dichiarazione del tipo è obbligatoria e vincola la variabile per l'intero ciclo di vita.",
+                  "C": "Errata. Questo accade nei linguaggi a tipizzazione dinamica (es. Python/JavaScript), non in Java.",
+                  "D": "Errata. La specifica del tipo è fondamentale e obbligatoria in fase di compilazione."
+                }
+              },
+              {
+                "id": 119,
+                "lezione": "Lezione 013",
+                "tipo": "Multipla",
+                "quesito": "Quali fra le seguenti caratteristiche non fa parte di quelle di Java?",
+                "opzioni": [
+                  "A) linguaggio a oggetti",
+                  "B) compilatore just-in-time",
+                  "C) gestione diretta delle risorse hardware",
+                  "D) portabilità del codice"
+                ],
+                "risposta_corretta": "C",
+                "spiegazioni": {
+                  "A": "Errata. La programmazione orientata agli oggetti è una caratteristica chiave di Java.",
+                  "B": "Errata. La JVM utilizza il compilatore JIT per ottimizzare l'esecuzione del bytecode.",
+                  "C": "Corretta. Java non consente l'accesso o la gestione diretta della memoria e dell'hardware (es. assenza di puntatori espliciti), delegando il tutto alla JVM.",
+                  "D": "Errata. La portabilità ('Write Once, Run Anywhere') è il punto di forza di Java."
+                }
+              },
+              {
+                "id": 120,
+                "lezione": "Lezione 013",
+                "tipo": "Multipla",
+                "quesito": "Come devono essere scelti gli identificatori delle variabili in Java?",
+                "opzioni": [
+                  "A) devono iniziare con una cifra o con una lettera",
+                  "B) devono avere valore numerico",
+                  "C) devono essere numeri interi",
+                  "D) devono iniziare con \"$\", \"_\" o con una lettera"
+                ],
+                "risposta_corretta": "D",
+                "spiegazioni": {
+                  "A": "Errata. Un identificatore non può mai iniziare con un numero/cifra.",
+                  "B": "Errata. L'identificatore è il nome della variabile, non il suo valore.",
+                  "C": "Errata. Gli identificatori sono sequenze di caratteri alfanumerici.",
+                  "D": "Corretta. Secondo le specifiche di Java, un identificatore valido deve iniziare con una lettera, un simbolo di dollaro ($) o un carattere di sottolineatura (_)."
+                }
+              },
+              {
+                "id": 121,
+                "lezione": "Lezione 013",
+                "tipo": "Multipla",
+                "quesito": "Quali fra le seguenti caratteristiche è sicuramente riferita a Java?",
+                "opzioni": [
+                  "A) non è un linguaggio a oggetti",
+                  "B) è un linguaggio non portabile",
+                  "C) è un linguaggio case-sensitive",
+                  "D) è un linguaggio case-insensitive"
+                ],
+                "risposta_corretta": "C",
+                "spiegazioni": {
+                  "A": "Errata. Java è orientato agli oggetti.",
+                  "B": "Errata. Java fa della portabilità il suo pilastro principale.",
+                  "C": "Corretta. Java distingue rigorosamente tra maiuscole e minuscole (case-sensitive).",
+                  "D": "Errata. I nomi 'MiaVariabile' e 'miavariabile' in Java vengono considerati distinti."
+                }
+              },
+              {
+                "id": 122,
+                "lezione": "Lezione 013",
+                "tipo": "Aperta",
+                "quesito": "Descrivere il processo di compilazione di un programma Java.",
+                "opzioni": [],
+                "spiegazioni": {
+                  "risposta_modello": "Il processo di compilazione in Java si articola in due fasi principali:\n1. Il codice sorgente scritto dal programmatore (file con estensione .java) viene elaborato dal compilatore Java (javac). Il compilatore effettua le analisi lessicale, sintattica e semantica e traduce il sorgente non in codice macchina nativo, bensì in un codice intermedio indipendente dalla piattaforma chiamato Bytecode (salvato in un file .class).\n2. Il Bytecode ottenuto viene caricato ed eseguito dalla Java Virtual Machine (JVM) specifica per il sistema operativo in uso, la quale interpreta il bytecode o lo traduce in codice macchina nativo all'impronta tramite il compilatore JIT (Just-In-Time)."
+                }
+              },
+              {
+                "id": 123,
+                "lezione": "Lezione 013",
+                "tipo": "Aperta",
+                "quesito": "Date le regole di produzione:\nA->B|topolino\nB->CB|pippo\nC->pluto\nMostrare almeno tre esempi di frasi ben formate.",
+                "opzioni": [],
+                "spiegazioni": {
+                  "risposta_modello": "Esempi di frasi ben formate valide generate dalla grammatica:\n1. 'topolino' (derivato direttamente da A -> topolino)\n2. 'pippo' (derivato da A -> B -> pippo)\n3. 'plutopippo' (derivato da A -> B -> CB -> pluto pippo)\n4. 'plutoplutopippo' (derivato da A -> B -> CB -> C C B -> pluto pluto pippo)"
+                }
+              },
+              {
+                "id": 124,
+                "lezione": "Lezione 014",
+                "tipo": "Multipla",
+                "quesito": "Quale fra i seguenti non è un tipo base di Java?",
+                "opzioni": [
+                  "A) char",
+                  "B) int",
+                  "C) double",
+                  "D) string"
+                ],
+                "risposta_corretta": "D",
+                "spiegazioni": {
+                  "A": "Errata. char è un tipo primitivo integrato (16 bit Unicode).",
+                  "B": "Errata. int è il tipo primitivo per gli interi a 32 bit.",
+                  "C": "Errata. double è il tipo primitivo per i numeri in virgola mobile a 64 bit.",
+                  "D": "Corretta. 'string' (con la s minuscola) non è un tipo primitivo; in Java le stringhe sono gestite tramite la classe oggetto 'String' (con la S maiuscola)."
+                }
+              },
+              {
+                "id": 125,
+                "lezione": "Lezione 014",
+                "tipo": "Multipla",
+                "quesito": "Quale fra le seguenti affermazioni è falsa se riferita al linguaggio Java?",
+                "opzioni": [
+                  "A) Il tipo string non è un tipo base",
+                  "B) Il dominio del tipo int contiene il dominio del tipo byte",
+                  "C) Il tipo String è un tipo base",
+                  "D) Il tipo di una variabile non è immutabile"
+                ],
+                "risposta_corretta": "C",
+                "spiegazioni": {
+                  "A": "Errata (affermazione vera). Le stringhe non sono tipi base/primitivi.",
+                  "B": "Errata (affermazione vera). Il range di int (32 bit) comprende interamente quello di byte (8 bit).",
+                  "C": "Corretta. È un'affermazione FALSA: 'String' è una classe (tipo di riferimento) e NON un tipo base/primitivo.",
+                  "D": "Errata (affermazione vera). Il valore contenuto nella variabile può cambiare (il valore non è immutabile, a meno che non sia dichiarata 'final')."
+                }
+              },
+              {
+                "id": 126,
+                "lezione": "Lezione 014",
+                "tipo": "Multipla",
+                "quesito": "Quale fra le seguenti relazioni è errata se riferita ai domini dei tipi interi?",
+                "opzioni": [
+                  "A) dominio(long) > dominio(int) > dominio(short)",
+                  "B) dominio(long) > dominio(byte) > dominio(short)",
+                  "C) dominio(int) > dominio(short) > dominio(byte)",
+                  "D) dominio(byte) < dominio(short) < dominio(long)"
+                ],
+                "risposta_corretta": "B",
+                "spiegazioni": {
+                  "A": "Errata (relazione corretta). 64 bit > 32 bit > 16 bit.",
+                  "B": "Corretta. È una relazione ERRATA in quanto mette 'byte' (8 bit) prima di 'short' (16 bit) nell'ordinamento decrescente.",
+                  "C": "Errata (relazione corretta). 32 bit > 16 bit > 8 bit.",
+                  "D": "Errata (relazione corretta). 8 bit < 16 bit < 64 bit."
+                }
+              },
+              {
+                "id": 127,
+                "lezione": "Lezione 014",
+                "tipo": "Multipla",
+                "quesito": "Quale fra le seguenti affermazioni è falsa se riferita al linguaggio Java?",
+                "opzioni": [
+                  "A) Gli unici tipi ammessi per le variabili in Java sono soltanto i tipi base",
+                  "B) Dichiarare una variabile indica al compilatore di riservare un'area di memoria",
+                  "C) Il metodo main è obbligatorio in ogni programma Java eseguibile",
+                  "D) Le variabili in Java hanno associato un identificatore ed un tipo"
+                ],
+                "risposta_corretta": "A",
+                "spiegazioni": {
+                  "A": "Corretta. È un'affermazione FALSA: Java ammette anche tipi di riferimento (classi, interfacce, array).",
+                  "B": "Errata (affermazione vera). La dichiarazione definisce tipo e spazio di allocazione.",
+                  "C": "Errata (affermazione vera). Il metodo 'public static void main(String[] args)' è l'entry point per le applicazioni Java eseguibili.",
+                  "D": "Errata (affermazione vera). Ogni variabile richiede nome (identificatore) e tipo."
+                }
+              },
+              {
+                "id": 128,
+                "lezione": "Lezione 014",
+                "tipo": "Multipla",
+                "quesito": "Quale fra le seguenti affermazioni è falsa se riferita alla dichiarazione delle variabili?",
+                "opzioni": [
+                  "A) In Java non è possibile utilizzare variabili senza dichiararle",
+                  "B) Le variabili in Java hanno associato un solo identificatore e un solo tipo",
+                  "C) Dichiarare una variabile indica al compilatore di riservare un'area di memoria",
+                  "D) In Java è possibile utilizzare variabili senza dichiararle"
+                ],
+                "risposta_corretta": "D",
+                "spiegazioni": {
+                  "A": "Errata (affermazione vera). La dichiarazione preventiva è obbligatoria.",
+                  "B": "Errata (affermazione vera). Una variabile possiede un identificatore unico e un singolo tipo associato.",
+                  "C": "Errata (affermazione vera). Corrisponde al ruolo della dichiarazione.",
+                  "D": "Corretta. È un'affermazione FALSA: Java vieta categoricamente l'uso di variabili non dichiarate."
+                }
+              },
+              {
+                "id": 129,
+                "lezione": "Lezione 014",
+                "tipo": "Multipla",
+                "quesito": "Quale fra le seguenti affermazioni è corretta se alla dichiarazione delle variabili?",
+                "opzioni": [
+                  "A) In Java è possibile utilizzare variabili senza dichiararle",
+                  "B) Il tipo di una variabile Java va scelto esclusivamente fra i tipi base",
+                  "C) Il tipo di una variabile Java è immutabile",
+                  "D) In Java il tipo di una variabile è opzionale"
+                ],
+                "risposta_corretta": "C",
+                "spiegazioni": {
+                  "A": "Errata. La dichiarazione è vincolante e obbligatoria.",
+                  "B": "Errata. Si possono usare anche tipi reference (oggetti).",
+                  "C": "Corretta. Una volta definita con un tipo, la variabile non può cambiare tipo nel corso dell'esecuzione.",
+                  "D": "Errata. Il tipo è un elemento obbligatorio."
+                }
+              },
+              {
+                "id": 130,
+                "lezione": "Lezione 014",
+                "tipo": "Multipla",
+                "quesito": "Quale fra le seguenti affermazioni è falsa se riferita ai tipi base di Java?",
+                "opzioni": [
+                  "A) una variabile di tipo float memorizza numeri in virgola mobile",
+                  "B) una variabile di tipo byte non può memorizzare valori più grandi di 127",
+                  "C) una variabile di tipo boolean può memorizzase soltanto due valori",
+                  "D) una variabile di tipo float memorizza numeri in virgola fissa"
+                ],
+                "risposta_corretta": "D",
+                "spiegazioni": {
+                  "A": "Errata (affermazione vera). float indica la virgola mobile a singola precisione.",
+                  "B": "Errata (affermazione vera). Il range di 'byte' va da -128 a +127.",
+                  "C": "Errata (affermazione vera). Contiene solo 'true' o 'false'.",
+                  "D": "Corretta. È un'affermazione FALSA: float è un tipo a virgola mobile (floating-point) e non a virgola fissa."
+                }
+              },
+              {
+                "id": 131,
+                "lezione": "Lezione 014",
+                "tipo": "Multipla",
+                "quesito": "Quale fra le seguenti affermazioni è falsa se riferita alle variabili Java?",
+                "opzioni": [
+                  "A) Le variabili, dopo essere state dichiarate, devono essere inizializzate",
+                  "B) Le variabili dichiarate ma non inizializzate generano un errore in fase di compilazione",
+                  "C) E' obbligatorio inizializzare tutte le variabili prima di usarle",
+                  "D) Le variabili, dopo essere state dichiarate, possono essere inizializzate"
+                ],
+                "risposta_corretta": "B",
+                "spiegazioni": {
+                  "A": "Errata (affermazione vera). L'inizializzazione assegna il valore iniziale.",
+                  "B": "Corretta. È un'affermazione FALSA: la sola dichiarazione senza inizializzazione non genera errore di compilazione. L'errore si verifica solo se si tenta di **leggere o usare** una variabile locale non ancora inizializzata.",
+                  "C": "Errata (affermazione vera). Prima dell'uso effettivo l'inizializzazione è richiesta.",
+                  "D": "Errata (affermazione vera). È la corretta sequenza di utilizzo."
+                }
+              },
+              {
+                "id": 132,
+                "lezione": "Lezione 014",
+                "tipo": "Aperta",
+                "quesito": "Descrivere i motivi per i quali è necessario dichiarare le variabili.",
+                "opzioni": [],
+                "spiegazioni": {
+                  "risposta_modello": "La dichiarazione delle variabili è fondamentale in Java per tre motivi principali:\n1. **Allocazione della memoria:** Permette al compilatore di sapere quanta memoria riservare (ad es. 8 bit per un byte, 32 bit per un int, 64 bit per un double).\n2. **Controllo dei tipi (Type Checking):** Consente al compilatore di verificare la correttezza delle operazioni aritmetiche o logiche effettuate, prevenendo errori a tempo di esecuzione.\n3. **Identificazione e Scope:** Associa un nome univoco (identificatore) all'area di memoria e ne definisce la visibilità e il ciclo di vita all'interno del programma."
+                }
+              },
+              {
+                "id": 133,
+                "lezione": "Lezione 014",
+                "tipo": "Aperta",
+                "quesito": "Elencare i tipi primitivi di Java e il loro dominio.",
+                "opzioni": [],
+                "spiegazioni": {
+                  "risposta_modello": "I 8 tipi primitivi di Java e i rispettivi domini sono:\n- **byte:** intero a 8 bit, da -128 a 127.\n- **short:** intero a 16 bit, da -32.768 a 32.767.\n- **int:** intero a 32 bit, da -2.147.483.648 a 2.147.483.647.\n- **long:** intero a 64 bit, da -2^63 a 2^63 - 1.\n- **float:** virgola mobile a 32 bit (IEEE 754 standard).\n- **double:** virgola mobile a 64 bit (IEEE 754 standard).\n- **char:** carattere singolo Unicode a 16 bit (da '\\u0000' a '\\uffff').\n- **boolean:** valore logico con soli due valori ammessi (true o false)."
+                }
+              },
+              {
+                "id": 134,
+                "lezione": "Lezione 014",
+                "tipo": "Aperta",
+                "quesito": "Mettere in relazione fra di loro i domini dei tipi base interi di Java.",
+                "opzioni": [],
+                "spiegazioni": {
+                  "risposta_modello": "I tipi base interi di Java in ordine crescente rispetto alla dimensione del loro dominio e alla memoria occupata sono presi nella seguente relazione:\n\ndominio(byte) < dominio(short) < dominio(int) < dominio(long)\n\nIn dettaglio:\n- byte: 8 bit (2^8 = 256 valori)\n- short: 16 bit (2^16 = 65.536 valori)\n- int: 32 bit (2^32 = ~4.29 miliardi di valori)\n- long: 64 bit (2^64 = ~1.84 × 10^19 valori)"
+                }
+              },
+              {
+                "id": 135,
+                "lezione": "Lezione 019",
+                "tipo": "Multipla",
+                "quesito": "Il campo MAGIC di un file bytecode quale valore contiene?",
+                "opzioni": [
+                  "A) 0xCAFEBABE",
+                  "B) 0xCOKEBABE",
+                  "C) 0xJAVABABE",
+                  "D) 0xMILKBABE"
+                ],
+                "risposta_corretta": "A",
+                "spiegazioni": {
+                  "A": "Corretta. I primi 4 byte di ogni file .class contengono il Magic Number esadecimale 0xCAFEBABE per identificare il formato bytecode Java.",
+                  "B": "Errata. Valore inventato.",
+                  "C": "Errata. Valore non corretto.",
+                  "D": "Errata. Valore non corretto."
+                }
+              },
+              {
+                "id": 136,
+                "lezione": "Lezione 019",
+                "tipo": "Multipla",
+                "quesito": "Un file .class:",
+                "opzioni": [
+                  "A) esclude le classi di un programma in codice Java",
+                  "B) include le classi di un programma in codice Java",
+                  "C) è un file binario il risultato della compilazione",
+                  "D) è il risultato della scrittura del codice di una classe in Java"
+                ],
+                "risposta_corretta": "C",
+                "spiegazioni": {
+                  "A": "Errata. Non ha attinenza.",
+                  "B": "Errata. Non contiene il codice sorgente Java.",
+                  "C": "Corretta. Il file .class è il file binario contenente il bytecode prodotto dalla compilazione del codice sorgente .java.",
+                  "D": "Errata. Quello è il file sorgente .java."
+                }
+              },
+              {
+                "id": 137,
+                "lezione": "Lezione 019",
+                "tipo": "Multipla",
+                "quesito": "Il formato binario adottato da Java per la rappresentazione dei valori in memoria è:",
+                "opzioni": [
+                  "A) Big-endian",
+                  "B) Medium-endian",
+                  "C) Little-endian",
+                  "D) Short-endian"
+                ],
+                "risposta_corretta": "A",
+                "spiegazioni": {
+                  "A": "Corretta. La specifica della JVM definisce che il bytecode e i file .class utilizzano l'ordine dei byte Big-endian (il byte più significativo memorizzato all'indirizzo più basso).",
+                  "B": "Errata. Formato inesistente.",
+                  "C": "Errata. Little-endian è tipico delle architetture x86/x64 native, ma la JVM adotta Big-endian per portabilità.",
+                  "D": "Errata. Formato inesistente."
+                }
+              },
+              {
+                "id": 138,
+                "lezione": "Lezione 019",
+                "tipo": "Multipla",
+                "quesito": "A cosa serve il Just-in-Time compiler?",
+                "opzioni": [
+                  "A) A compilare variabili molto grandi",
+                  "B) A liberare la memoria",
+                  "C) A compilare \"al volo\" i cicli in codice binario nativo",
+                  "D) Ad eseguire classi di grandi dimensioni"
+                ],
+                "risposta_corretta": "C",
+                "spiegazioni": {
+                  "A": "Errata. Non riguarda la dimensione delle variabili.",
+                  "B": "Errata. La memoria viene liberata dal Garbage Collector.",
+                  "C": "Corretta. Il JIT identifica le sezioni di bytecode eseguite più frequentemente (hotspots) e le compila 'al volo' in codice macchina nativo per velocizzarne l'esecuzione.",
+                  "D": "Errata. Non è legato alla dimensione fisica delle classi."
+                }
+              },
+              {
+                "id": 139,
+                "lezione": "Lezione 019",
+                "tipo": "Multipla",
+                "quesito": "In quale struttura dati della Java Virtual Machine vengono salvati i valori stringa?",
+                "opzioni": [
+                  "A) Nella tabella stack_pool",
+                  "B) Nella tabella heap_poll",
+                  "C) Nella tabella constant_pool",
+                  "D) Nella memoria RAM"
+                ],
+                "risposta_corretta": "C",
+                "spiegazioni": {
+                  "A": "Errata. La struttura stack_pool non gestisce le stringhe costanti.",
+                  "B": "Errata. Nome errato.",
+                  "C": "Corretta. Nel file .class e nella JVM i valori letterali (inclusi i nomi di classi, metodi e stringhe) sono conservati nella tabella 'constant_pool'.",
+                  "D": "Errata. Troppo generico; indica l'hardware e non la struttura dati interna della JVM."
+                }
+              },
+              {
+                "id": 140,
+                "lezione": "Lezione 019",
+                "tipo": "Multipla",
+                "quesito": "Il tipo B nel file .class a quale tipo base corrisponde?",
+                "opzioni": [
+                  "A) int",
+                  "B) byte",
+                  "C) double",
+                  "D) char"
+                ],
+                "risposta_corretta": "B",
+                "spiegazioni": {
+                  "A": "Errata. 'int' è rappresentato dalla lettera 'I'.",
+                  "B": "Corretta. Nelle firme del bytecode della JVM, il carattere 'B' denota il tipo primitivo 'byte'.",
+                  "C": "Errata. 'double' è rappresentato dalla lettera 'D'.",
+                  "D": "Errata. 'char' è rappresentato dalla lettera 'C'."
+                }
+              },
+              {
+                "id": 141,
+                "lezione": "Lezione 019",
+                "tipo": "Multipla",
+                "quesito": "Cosa significa il termine JVM?",
+                "opzioni": [
+                  "A) Java Very Machine",
+                  "B) Java Virtual Mobile",
+                  "C) Java View Machine",
+                  "D) Java Virtual Machine"
+                ],
+                "risposta_corretta": "D",
+                "spiegazioni": {
+                  "A": "Errata. Definizione errata.",
+                  "B": "Errata. Definizione errata.",
+                  "C": "Errata. Definizione errata.",
+                  "D": "Corretta. JVM sta per Java Virtual Machine, l'ambiente astratto che esegue il bytecode."
+                }
+              },
+              {
+                "id": 142,
+                "lezione": "Lezione 019",
+                "tipo": "Multipla",
+                "quesito": "In quale fase interviene il Just-in-Time compiler?",
+                "opzioni": [
+                  "A) A tempo di esecuzione",
+                  "B) Durante la scrittura del programma",
+                  "C) A tempo di compilazione",
+                  "D) Prima della compilazione del codice"
+                ],
+                "risposta_corretta": "A",
+                "spiegazioni": {
+                  "A": "Corretta. Il JIT lavora durante la fase di runtime (esecuzione) traducendo parti di bytecode in codice macchina nativo.",
+                  "B": "Errata. Durante la scrittura opera l'IDE.",
+                  "C": "Errata. A tempo di compilazione interviene il compilatore javac.",
+                  "D": "Errata. Prima della compilazione il codice non è ancora valido."
+                }
+              },
+              {
+                "id": 143,
+                "lezione": "Lezione 020",
+                "tipo": "Multipla",
+                "quesito": "Cosa fa System.out.println()?",
+                "opzioni": [
+                  "A) trasforma una variabile in stringa",
+                  "B) scrive del testo e resta sulla stessa linea",
+                  "C) legge una variabile dalla tastiera",
+                  "D) scrive del testo e va a capo"
+                ],
+                "risposta_corretta": "D",
+                "spiegazioni": {
+                  "A": "Errata. Non serve alla conversione.",
+                  "B": "Errata. Rimanere sulla stessa linea è la funzione di 'print()'.",
+                  "C": "Errata. Non effettua l'input da tastiera.",
+                  "D": "Corretta. Stampa l'argomento sullo standard output seguito da un carattere di a capo (newline)."
+                }
+              },
+              {
+                "id": 144,
+                "lezione": "Lezione 020",
+                "tipo": "Multipla",
+                "quesito": "Cosa fa System.out.print()?",
+                "opzioni": [
+                  "A) scrive del testo e va a capo",
+                  "B) trasforma una variabile in stringa",
+                  "C) scrive del testo e resta sulla stessa linea",
+                  "D) legge una variabile dalla tastiera"
+                ],
+                "risposta_corretta": "C",
+                "spiegazioni": {
+                  "A": "Errata. Questa è la funzione di 'println()'.",
+                  "B": "Errata. Non effettua conversioni esplicite.",
+                  "C": "Corretta. Stampa il testo sullo standard output lasciando il cursore al termine della riga stampata.",
+                  "D": "Errata. È un'operazione di output, non di input."
+                }
+              },
+              {
+                "id": 145,
+                "lezione": "Lezione 020",
+                "tipo": "Multipla",
+                "quesito": "A cosa serve System.in?",
+                "opzioni": [
+                  "A) A leggere dalla memoria",
+                  "B) A scrivere sulla memoria",
+                  "C) A leggere da un nastro",
+                  "D) A leggere un flusso di byte dallo standard input"
+                ],
+                "risposta_corretta": "D",
+                "spiegazioni": {
+                  "A": "Errata. Non gestisce la memoria di sistema.",
+                  "B": "Errata. È uno stream di input, non di scrittura.",
+                  "C": "Errata. Non specifica supporti di memorizzazione.",
+                  "D": "Corretta. Rappresenta lo stream di input standard (di default legato alla tastiera) sotto forma di InputStream."
+                }
+              },
+              {
+                "id": 146,
+                "lezione": "Lezione 020",
+                "tipo": "Multipla",
+                "quesito": "Come si fa a leggere in modo semplice dalla tastiera in Java?",
+                "opzioni": [
+                  "A) Usando il metodo System.in.println()",
+                  "B) Usando direttamente System.in",
+                  "C) Usando la classe java.util.Scanner",
+                  "D) Usando il metodo System.in.readln()"
+                ],
+                "risposta_corretta": "C",
+                "spiegazioni": {
+                  "A": "Errata. Metodo inesistente su System.in.",
+                  "B": "Errata. System.in legge byte grezzi ed è complesso da usare direttamente.",
+                  "C": "Corretta. La classe Scanner (java.util.Scanner) offre un'interfaccia semplice e comoda per analizzare ed estrarre tipi di dati dall'input.",
+                  "D": "Errata. Metodo inesistente."
+                }
+              },
+              {
+                "id": 147,
+                "lezione": "Lezione 020",
+                "tipo": "Multipla",
+                "quesito": "A cosa servono le classi BufferedReader e InputStreamReader?",
+                "opzioni": [
+                  "A) A leggere stringhe dal video",
+                  "B) A scrivere stringhe sulla tastiera",
+                  "C) A scrivere stringhe sul video",
+                  "D) A leggere stringhe dalla tastiera"
+                ],
+                "risposta_corretta": "D",
+                "spiegazioni": {
+                  "A": "Errata. Il video è un dispositivo di output.",
+                  "B": "Errata. La tastiera è un dispositivo di input.",
+                  "C": "Errata. Per scrivere si utilizzano gli OutputStream/Writer.",
+                  "D": "Corretta. Combinando InputStreamReader (che converte i byte in caratteri) con BufferedReader (che memorizza il flusso) è possibile leggere l'input da tastiera linea per linea in modo efficiente."
+                }
+              },
+              {
+                "id": 148,
+                "lezione": "Lezione 020",
+                "tipo": "Multipla",
+                "quesito": "Quale stringa di formato possiamo usare per troncare un numero double alla seconda cifra dopo la virgola?",
+                "opzioni": [
+                  "A) \"%2f\"",
+                  "B) \"%.2\"",
+                  "C) \"%2.f\"",
+                  "D) \"%.2f\""
+                ],
+                "risposta_corretta": "D",
+                "spiegazioni": {
+                  "A": "Errata. Specifica una larghezza minima del campo, non le cifre decimali.",
+                  "B": "Errata. Manca l'identificatore di tipo (f).",
+                  "C": "Errata. Sintassi errata per la precisione.",
+                  "D": "Corretta. Lo specificatore '%.2f' indica che il numero floating-point deve essere formattato con 2 cifre decimali di precisione."
+                }
+              },
+              {
+                "id": 149,
+                "lezione": "Lezione 020",
+                "tipo": "Multipla",
+                "quesito": "Cosa fa l'istruzione Java String.format(“%.3f”, 3.1416)?",
+                "opzioni": [
+                  "A) Restituisce la stringa \"3.141\"",
+                  "B) Restituisce la stringa \"%\"",
+                  "C) Restituisce 3.1416 % 3",
+                  "D) Restituisce la stringa \"%.3f\""
+                ],
+                "risposta_corretta": "A",
+                "spiegazioni": {
+                  "A": "Corretta. Formatta il valore numerico 3.1416 arrotondandolo/troncandolo a 3 cifre decimali (restituisce '3.142' o '3.141' a seconda della modalità locale/arrotondamento).",
+                  "B": "Errata. Non restituisce solo il carattere percento.",
+                  "C": "Errata. Non esegue l'operatore modulo.",
+                  "D": "Errata. Sostituisce il segnaposto con il valore formattato."
+                }
+              },
+              {
+                "id": 150,
+                "lezione": "Lezione 020",
+                "tipo": "Multipla",
+                "quesito": "Come si legge una stringa dalla tastiera utilizzando java.util.Scanner?",
+                "opzioni": [
+                  "A) Con il metodo printLine()",
+                  "B) Con il metodo println()",
+                  "C) Con il metodo readln()",
+                  "D) Con il metodo nextLine()"
+                ],
+                "risposta_corretta": "D",
+                "spiegazioni": {
+                  "A": "Errata. Metodo inesistente.",
+                  "B": "Errata. Fa parte di PrintStream (System.out) per l'output.",
+                  "C": "Errata. Metodo non presente in Java Scanner.",
+                  "D": "Corretta. 'nextLine()' legge l'intera linea di testo immessa fino all'invio."
+                }
+              }
+        ]
+    }

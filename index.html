@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>eCampus Quiz App</title>
+  <style>
+    :root { --bg-color: #0f172a; --card-bg: #1e293b; --primary: #10b981; --text: #f8fafc; --danger: #ef4444; --border: #334155; }
+    body { font-family: system-ui, sans-serif; background: var(--bg-color); color: var(--text); display: flex; justify-content: center; align-items: center; min-height: 100vh; margin: 0; padding: 20px; }
+    .app-card { background: var(--card-bg); border: 1px solid var(--border); border-radius: 16px; width: 100%; max-width: 480px; padding: 24px; box-shadow: 0 10px 25px rgba(0,0,0,0.3); }
+    .badge { display: inline-block; background: rgba(16, 185, 129, 0.15); color: var(--primary); padding: 4px 12px; border-radius: 20px; font-size: 0.8rem; font-weight: 600; text-transform: uppercase; margin-bottom: 12px; }
+    .file-upload-box { border: 2px dashed var(--border); padding: 20px; text-align: center; border-radius: 10px; margin-top: 15px; background: rgba(15, 23, 42, 0.5); }
+    .file-upload-box input { display: none; }
+    .btn-upload { background: var(--card-bg); border: 1px solid var(--primary); color: var(--primary); padding: 10px 16px; border-radius: 8px; cursor: pointer; font-weight: 600; display: inline-block; margin-top: 10px; }
+    .options-grid { display: flex; flex-direction: column; gap: 10px; margin-top: 20px; }
+    .btn-option { background: #0f172a; border: 1px solid var(--border); color: var(--text); padding: 14px 16px; border-radius: 10px; text-align: left; cursor: pointer; transition: all 0.2s; }
+    .btn-option.correct { background: rgba(16, 185, 129, 0.2); border-color: var(--primary); color: #34d399; }
+    .btn-option.wrong { background: rgba(239, 68, 68, 0.2); border-color: var(--danger); color: #f87171; }
+    .explanation-box { margin-top: 20px; padding: 14px; background: #0f172a; border-left: 4px solid var(--primary); border-radius: 6px; }
+    .btn-next, .btn-restart { width: 100%; background: var(--primary); color: #000; font-weight: bold; padding: 14px; border: none; border-radius: 10px; margin-top: 20px; cursor: pointer; }
+    .score-box { text-align: center; padding: 20px 0; }
+    .score-number { font-size: 3rem; font-weight: bold; color: var(--primary); margin: 10px 0; }
+    .hidden { display: none; }
+  </style>
+</head>
+<body>
+  <div class="app-card">
+    
+    <!-- Schermata 1: Caricamento -->
+    <div id="screen-setup">
+      <span class="badge">Configurazione</span>
+      <h2>Carica il tuo Paniere</h2>
+      <p>Seleziona un file <code>.json</code> con le domande.</p>
+      <div class="file-upload-box">
+        <label for="json-input" class="btn-upload">📁 Sfoglia File</label>
+        <input type="file" id="json-input" accept=".json, application/json, text/plain">
+      </div>
+    </div>
+
+    <!-- Schermata 2: Quiz -->
+    <div id="screen-quiz" class="hidden">
+      <span class="badge" id="quiz-badge">Domanda 1</span>
+      <h2 id="quiz-question">Testo della domanda?</h2>
+      <div id="options-container" class="options-grid"></div>
+      <div id="explanation-box" class="explanation-box hidden">
+        <strong style="color: var(--primary)">💡 Spiegazione Concettuale:</strong>
+        <p id="explanation-text" style="margin-top: 6px; font-size: 0.9rem;"></p>
+        <button class="btn-next" onclick="prossimaStep()">Prossima Domanda ➔</button>
+      </div>
+    </div>
+
+    <!-- Schermata 3: Risultato Finale -->
+    <div id="screen-results" class="hidden">
+      <div class="score-box">
+        <span class="badge">Completato! 🎉</span>
+        <h2>Risultato Finale</h2>
+        <div class="score-number" id="final-score">0 / 0</div>
+        <p id="final-percentage" style="color: #94a3b8; font-size: 1.1rem;"></p>
+        <button class="btn-restart" onclick="ricominciaQuiz()">🔄 Riavvia Quiz</button>
+      </div>
+    </div>
+
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
