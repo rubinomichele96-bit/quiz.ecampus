@@ -2621,6 +2621,2609 @@
                   "C": "Errata. Metodo non presente in Java Scanner.",
                   "D": "Corretta. 'nextLine()' legge l'intera linea di testo immessa fino all'invio."
                 }
+              },
+              
+                {
+                  "id": 151,
+                  "lezione": "Lezione 021",
+                  "tipo": "Multipla",
+                  "quesito": "Quale frase è vera se riferita all'istruzione switch-case?",
+                  "opzioni": [
+                    "A) l'espressione dello switch può essere un numero o una stringa",
+                    "B) lo switch contiene sempre un blocco di codice",
+                    "C) tutti i rami case terminano con una istruzione break",
+                    "D) i tipi ammessi per l'espressione dello switch sono solo int e byte"
+                  ],
+                  "risposta_corretta": "A",
+                  "spiegazioni": {
+                    "A": "Corretta. In Java lo switch supporta tipi numerici interi, char, enum e, da Java 7, anche le stringhe (String).",
+                    "B": "Errata. Lo switch richiede le graffe per delimitare il blocco di codice dei case, ma la formulazione assoluta non identifica la caratteristica distintiva rispetto alle opzioni.",
+                    "C": "Errata. L'istruzione break è opzionale (se omessa si ha il fall-through).",
+                    "D": "Errata. Sono ammessi anche short, char, String ed Enum, non solo int e byte."
+                  }
+                },
+                {
+                  "id": 152,
+                  "lezione": "Lezione 021",
+                  "tipo": "Multipla",
+                  "quesito": "Quale fra le seguenti frasi è falsa se riferita alle istruzioni if-else e switch-case?",
+                  "opzioni": [
+                    "A) switch-case ed if-else sono costrutti sintattici alternativi",
+                    "B) si preferisce usare switch-case al posto di if-else quando i casi da controllare sono tanti",
+                    "C) l'uso di switch-case permette di rendere più evidenti le scelte del programmatore",
+                    "D) if-else è più efficiente di switch-case ma quest'ultima è più compatta"
+                  ],
+                  "risposta_corretta": "D",
+                  "spiegazioni": {
+                    "A": "Vera. Possono essere usati in alternativa per gestire il flusso di controllo.",
+                    "B": "Vera. Lo switch rende il codice più leggibile quando ci sono molti valori da confrontare.",
+                    "C": "Vera. Migliora la leggibilità e la chiarezza dell'intento del codice.",
+                    "D": "Falsa (quindi la risposta corretta). Di norma lo switch-case è più efficiente dell'if-else quando ci sono molti casi, poiché il compilatore può ottimizzarlo tramite tabelle di salto (tableswitch/lookupswitch)."
+                  }
+                },
+                {
+                  "id": 153,
+                  "lezione": "Lezione 021",
+                  "tipo": "Multipla",
+                  "quesito": "Quale frase è vera se riferita all'istruzione switch-case?",
+                  "opzioni": [
+                    "A) al termine di un ramo case si esce sempre dallo switch",
+                    "B) in assenza di break, al termine di un ramo case viene eseguito il successivo case",
+                    "C) se un ramo case non termina con break, il compilatore genera un errore",
+                    "D) se il ramo default non è presente, il compilatore genera un errore"
+                  ],
+                  "risposta_corretta": "B",
+                  "spiegazioni": {
+                    "A": "Errata. Senza l'istruzione break l'esecuzione prosegue nel case successivo.",
+                    "B": "Corretta. Questo comportamento è noto come 'fall-through'.",
+                    "C": "Errata. La mancanza del break è sintatticamente valida e non causa errori di compilazione.",
+                    "D": "Errata. Il ramo default è del tutto opzionale."
+                  }
+                },
+                {
+                  "id": 154,
+                  "lezione": "Lezione 021",
+                  "tipo": "Multipla",
+                  "quesito": "Quale frase è vera se riferita all'istruzione switch-case?",
+                  "opzioni": [
+                    "A) l'espressione dello switch può essere un numero o una stringa",
+                    "B) i tipi ammessi per l'espressione dello switch sono solo int e byte",
+                    "C) il ramo default è opzionale",
+                    "D) tutti i rami case terminano con una istruzione break"
+                  ],
+                  "risposta_corretta": "C",
+                  "spiegazioni": {
+                    "A": "Parzialmente vera ma l'opzione C definisce una regola sintattica universale per la struttura dello switch.",
+                    "B": "Errata. Sono ammessi anche short, char, String ed Enum.",
+                    "C": "Corretta. La clausola default non è obbligatoria all'interno dello switch.",
+                    "D": "Errata. L'uso di break non è obbligatorio."
+                  }
+                },
+                {
+                  "id": 155,
+                  "lezione": "Lezione 021",
+                  "tipo": "Multipla",
+                  "quesito": "Quale frase è falsa se riferita all'istruzione switch-case?",
+                  "opzioni": [
+                    "A) il ramo default è opzionale",
+                    "B) se il ramo default non è presente, il compilatore genera un errore",
+                    "C) in assenza di break, al termine di un ramo case viene eseguito il successivo case",
+                    "D) lo switch contiene sempre un blocco di codice"
+                  ],
+                  "risposta_corretta": "B",
+                  "spiegazioni": {
+                    "A": "Vera. Il ramo default può essere omesso.",
+                    "B": "Falsa (quindi la risposta corretta). L'assenza del ramo default non genera alcun errore di compilazione.",
+                    "C": "Vera. Comportamento di fall-through standard.",
+                    "D": "Vera. I rami dello switch risiedono all'interno di un blocco racchiuso da graffe."
+                  }
+                },
+                {
+                  "id": 156,
+                  "lezione": "Lezione 021",
+                  "tipo": "Multipla",
+                  "quesito": "Quale frase è vera se riferita all'istruzione if-else?",
+                  "opzioni": [
+                    "A) una istruzione if è sempre seguita da un ramo else",
+                    "B) se il ramo else è semplice (ovvero senza condizione) viene sempre eseguito",
+                    "C) il ramo else viene eseguito se la condizione dell'if è vera",
+                    "D) un blocco di codice è sempre necessario per eseguire più di una istruzione"
+                  ],
+                  "risposta_corretta": "D",
+                  "spiegazioni": {
+                    "A": "Errata. Il ramo else è facoltativo.",
+                    "B": "Errata. Viene eseguito solo se la condizione dell'if risulta falsa.",
+                    "C": "Errata. Il ramo else viene eseguito quando la condizione dell'if è falsa.",
+                    "D": "Corretta. Se si vogliono eseguire più istruzioni all'interno di un ramo if o else, è obbligatorio racchiuderle in un blocco delimitato da parentesi graffe {}."
+                  }
+                },
+                {
+                  "id": 157,
+                  "lezione": "Lezione 021",
+                  "tipo": "Multipla",
+                  "quesito": "Quale frase è vera se riferita all'istruzione if-else?",
+                  "opzioni": [
+                    "A) un else si riferisce sempre all'if più vicino che lo segue",
+                    "B) un else si riferisce sempre all'if più vicino che lo precede",
+                    "C) il ramo else viene eseguito se e solo se la condizione dell'if è vera",
+                    "D) un else si riferisce sempre all'if più vicino, tranne in presenza di blocchi di codice"
+                  ],
+                  "risposta_corretta": "B",
+                  "spiegazioni": {
+                    "A": "Errata. L'else si associa a un if precedente, non successivo.",
+                    "B": "Corretta. Regola del 'dangling else': un else senza graffe si associa sempre all'if spaiato più vicino che lo precede.",
+                    "C": "Errata. Viene eseguito quando la condizione è falsa.",
+                    "D": "Errata. Le parentesi graffe permettono di cambiare l'associazione predefinita, ma l'affermazione generale corretta è la regola di associazione predefinita con l'if precedente."
+                  }
+                },
+                {
+                  "id": 158,
+                  "lezione": "Lezione 021",
+                  "tipo": "Multipla",
+                  "quesito": "Dopo aver eseguito \"if (5<5) i=0; else i=5;\", quanto vale i?",
+                  "opzioni": [
+                    "A) i ha un valore indeterminato",
+                    "B) i vale 5",
+                    "C) i vale 0",
+                    "D) viene generato un errore dal compilatore"
+                  ],
+                  "risposta_corretta": "B",
+                  "spiegazioni": {
+                    "A": "Errata. Il valore viene assegnato chiaramente nel ramo else.",
+                    "B": "Corretta. La condizione (5 < 5) risulta falsa, pertanto viene eseguito il ramo else che assegna a 'i' il valore 5.",
+                    "C": "Errata. Il valore 0 verrebbe assegnato solo se la condizione fosse vera.",
+                    "D": "Errata. La sintassi è perfettamente corretta."
+                  }
+                },
+                {
+                  "id": 159,
+                  "lezione": "Lezione 021",
+                  "tipo": "Aperta",
+                  "quesito": "Descrivere le principali differenze tra le istruzioni if-else e switch-case ed illustrarle con degli esempi.",
+                  "opzioni": [],
+                  "risposta_corretta": "",
+                  "spiegazioni": {
+                    "risposta_modello": "L'istruzione if-else valuta espressioni booleane generiche (confronti di uguaglianza, disuguaglianza, intervalli o combinazioni logiche con AND/OR). È adatta per decisioni complesse o basate su intervalli.\n\nL'istruzione switch-case valuta invece un'unica espressione e la confronta per uguaglianza esatta con valori costanti discreti (es. int, char, String, enum).\n\nDifferenze principali:\n1. Condizioni: if-else accetta qualsiasi espressione booleana; switch accetta solo valori discreti per test di uguaglianza.\n2. Tipi di dati: switch supporta un insieme limitato di tipi (byte, short, int, char, String, Enum).\n3. Controllo del flusso: switch usa 'break' per evitare il 'fall-through' (esecuzioni a cascata dei case successivi).\n4. Efficienza: switch è spesso più efficiente di una lunga serie di else-if perché può essere ottimizzato dal compilatore."
+                  }
+                },
+                    {
+                      "id": 160,
+                      "lezione": "Lezione 022",
+                      "tipo": "Multipla",
+                      "quesito": "Che tipo di operatore è un operatore unario?",
+                      "opzioni": [
+                        "A) Opera su una singola variabile",
+                        "B) Somma valori unitari",
+                        "C) Somma valori uno alla volta",
+                        "D) Restituisce uno"
+                      ],
+                      "risposta_corretta": "A",
+                      "spiegazioni": {
+                        "A": "Corretta. Un operatore unario prende un solo operando (variabile o espressione).",
+                        "B": "Errata. Non riguarda la somma di unità.",
+                        "C": "Errata. La somministrazione incrementale non definisce l'operatore unario.",
+                        "D": "Errata. Il valore restituito dipende dall'operazione e dall'operando, non è sempre 1."
+                      }
+                    },
+                    {
+                      "id": 161,
+                      "lezione": "Lezione 022",
+                      "tipo": "Multipla",
+                      "quesito": "Che tipo di operatore è l'operatore autoincremento?",
+                      "opzioni": [
+                        "A) Operatore unario",
+                        "B) Operatore bit a bit",
+                        "C) Operatore booleanto",
+                        "D) Operatore di differenza"
+                      ],
+                      "risposta_corretta": "A",
+                      "spiegazioni": {
+                        "A": "Corretta. L'operatore ++ agisce su un singolo operando incrementandone il valore di 1.",
+                        "B": "Errata. Non manipola i singoli bit.",
+                        "C": "Errata. Opera su valori numerici, non booleani.",
+                        "D": "Errata. Incrementa il valore, non ne calcola la differenza."
+                      }
+                    },
+                    {
+                      "id": 162,
+                      "lezione": "Lezione 022",
+                      "tipo": "Multipla",
+                      "quesito": "Cosa è falso se riferito un operatore binario?",
+                      "opzioni": [
+                        "A) La somma è un operatore binario",
+                        "B) Restituisce due",
+                        "C) E' sempre commutativo",
+                        "D) Opera su coppie di operandi"
+                      ],
+                      "risposta_corretta": "B",
+                      "spiegazioni": {
+                        "A": "Vera. L'operatore + richiede due operandi.",
+                        "B": "Falsa (risposta corretta). Il risultato dell'operazione dipende dai valori degli operandi, non restituisce 2 fisso.",
+                        "C": "Nota: In informatica non tutti gli operatori binari sono commutativi (es. sottrazione, divisione, assegnamento), ma la risposta B è concettualmente un'assurdità assoluta.",
+                        "D": "Vera. Un operatore binario richiede due operandi."
+                      }
+                    },
+                    {
+                      "id": 163,
+                      "lezione": "Lezione 022",
+                      "tipo": "Multipla",
+                      "quesito": "Cosa è falso se riferito un operatore unario?",
+                      "opzioni": [
+                        "A) L'operatore not è un operatore unario",
+                        "B) L'operatore di autoincremento è un operatore unario",
+                        "C) Non opera su coppie di operandi",
+                        "D) Restituisce uno"
+                      ],
+                      "risposta_corretta": "D",
+                      "spiegazioni": {
+                        "A": "Vera. L'operatore logico ! agisce su una singola espressione booleana.",
+                        "B": "Vera. L'operatore ++ agisce su una sola variabile.",
+                        "C": "Vera. L'operatore unario accetta un solo operando, non coppie.",
+                        "D": "Falsa (risposta corretta). Un operatore unario restituisce il valore valutato, non necessariamente il numero uno."
+                      }
+                    },
+                    {
+                      "id": 164,
+                      "lezione": "Lezione 022",
+                      "tipo": "Multipla",
+                      "quesito": "Qual'è la definizione corretta di AND logico?",
+                      "opzioni": [
+                        "A) Verifica se due operandi hanno lo stesso valore intero",
+                        "B) Vero se entrambi gli operandi sono veri",
+                        "C) Congiunzione tra caratteri",
+                        "D) Vero solo se due numeri hanno la virgola"
+                      ],
+                      "risposta_corretta": "B",
+                      "spiegazioni": {
+                        "A": "Errata. L'uguaglianza si verifica con ==.",
+                        "B": "Corretta. L'operatore logico AND (&&) restituisce true se e solo se entrambe le condizioni sono true.",
+                        "C": "Errata. È un operatore booleano, non una congiunzione stringa/carattere.",
+                        "D": "Errata. Agisce su valori/espressioni booleane."
+                      }
+                    },
+                    {
+                      "id": 165,
+                      "lezione": "Lezione 022",
+                      "tipo": "Multipla",
+                      "quesito": "Qual'è la definizione corretta di OR logico?",
+                      "opzioni": [
+                        "A) Verifica solo se gli operandi hanno lo stesso segno",
+                        "B) Vero se almeno uno degli operandi è vero",
+                        "C) Disgiunzione solo tra caratteri",
+                        "D) Vero solo se uno dei due operandi sono vuoti"
+                      ],
+                      "risposta_corretta": "B",
+                      "spiegazioni": {
+                        "A": "Errata. Non ha relazione con il segno dei numeri.",
+                        "B": "Corretta. L'operatore logico OR (||) restituisce true se almeno una delle due condizioni è true.",
+                        "C": "Errata. Lavora su condizioni booleane.",
+                        "D": "Errata. Non riguarda la presenza di dati vuoti/null."
+                      }
+                    },
+                    {
+                      "id": 166,
+                      "lezione": "Lezione 022",
+                      "tipo": "Multipla",
+                      "quesito": "Cosa è vero se riferito all'operatore modulo?",
+                      "opzioni": [
+                        "A) Verifica che il denominatore della divisione non sia zero",
+                        "B) Calcola il quoziente e il resto della divisione intera fra due numeri",
+                        "C) Viene utilizzato per testare se un numero è dispari",
+                        "D) Calcola il quoziente della divisione intera fra due numeri"
+                      ],
+                      "risposta_corretta": "C",
+                      "spiegazioni": {
+                        "A": "Errata. Se il divisore è zero, l'operatore modulo genera un'ArithmeticException.",
+                        "B": "Errata. Calcola soltanto il resto, non anche il quoziente.",
+                        "C": "Corretta. L'operazione `n % 2 != 0` (o `% 2 == 1`) si usa tipicamente per verificare se un intero è dispari.",
+                        "D": "Errata. Per il quoziente si utilizza l'operatore di divisione `/`."
+                      }
+                    },
+                    {
+                      "id": 167,
+                      "lezione": "Lezione 022",
+                      "tipo": "Multipla",
+                      "quesito": "Quale fra questi operatori logici calcola la disgiunzione?",
+                      "opzioni": [
+                        "A) OR",
+                        "B) XOR",
+                        "C) AND short circuit",
+                        "D) NOT"
+                      ],
+                      "risposta_corretta": "A",
+                      "spiegazioni": {
+                        "A": "Corretta. L'operatore OR corrisponde alla disgiunzione logica.",
+                        "B": "Errata. XOR è la disgiunzione esclusiva.",
+                        "C": "Errata. AND è la congiunzione logica.",
+                        "D": "Errata. NOT è la negazione logica."
+                      }
+                    },
+                    {
+                      "id": 168,
+                      "lezione": "Lezione 022",
+                      "tipo": "Aperta",
+                      "quesito": "Descrivere gli operatori relazionali.",
+                      "opzioni": [],
+                      "risposta_corretta": "",
+                      "spiegazioni": {
+                        "risposta_modello": "Gli operatori relazionali in Java vengono utilizzati per confrontare due operandi numerici o compatibili e restituiscono un valore booleano (true o false).\n\nGli operatori relazionali principali sono:\n- Uguaglianza (==): true se i due operandi sono uguali.\n- Diversità (!=): true se i due operandi sono diversi.\n- Maggiore (>): true se l'operando sinistro è strettamente maggiore del destro.\n- Minore (<): true se l'operando sinistro è strettamente minore del destro.\n- Maggiore o uguale (>=): true se l'operando sinistro è maggiore o uguale al destro.\n- Minore o uguale (<=): true se l'operando sinistro è minore o uguale al destro."
+                      }
+                    },
+                    {
+                      "id": 169,
+                      "lezione": "Lezione 022",
+                      "tipo": "Aperta",
+                      "quesito": "Descrivere gli operatori booleani e le loro precedenze.",
+                      "opzioni": [],
+                      "risposta_corretta": "",
+                      "spiegazioni": {
+                        "risposta_modello": "Gli operatori booleani (o logici) operano su valori booleani e restituiscono un risultato boolean.\nI principali operatori sono:\n1. Negazione (!, NOT unario): inverte il valore di verità dell'operando.\n2. AND logico (& e short-circuit &&): restituisce true solo se entrambi gli operandi sono true.\n3. OR logico (| e short-circuit ||): restituisce true se almeno uno degli operandi è true.\n4. XOR logico (^): disgiunzione esclusiva, restituisce true se uno e un solo operando è true.\n\nOrdine di precedenza (dalla massima alla minima):\n1. Not unario (!)\n2. AND (& / &&)\n3. XOR (^)\n4. OR (| / ||)"
+                      }
+                    },
+                    {
+                      "id": 170,
+                      "lezione": "Lezione 023",
+                      "tipo": "Multipla",
+                      "quesito": "Che fa l'operazione \"a=b\"?",
+                      "opzioni": [
+                        "A) Ritorna vero se e solo se a e b hanno lo stesso valore",
+                        "B) Scrive il valore di b in a",
+                        "C) Nulla, a meno che a e b abbiano lo stesso valore",
+                        "D) Scrive il valore di a in b"
+                      ],
+                      "risposta_corretta": "B",
+                      "spiegazioni": {
+                        "A": "Errata. Il confronto di uguaglianza si effettua con ==.",
+                        "B": "Corretta. È l'operatore di assegnamento: valuta l'espressione a destra (b) e ne copia il valore nella variabile a sinistra (a).",
+                        "C": "Errata. Modifica sempre la variabile a sinistra.",
+                        "D": "Errata. L'assegnamento va da destra verso sinistra."
+                      }
+                    },
+                    {
+                      "id": 171,
+                      "lezione": "Lezione 023",
+                      "tipo": "Multipla",
+                      "quesito": "Cosa fa l'istruzione \"int a = 0;\"?",
+                      "opzioni": [
+                        "A) Verifica se a è un intero, nel qual caso lo inizializza a zero",
+                        "B) Definisce una variabile di zero bit",
+                        "C) Definisce un vettore di zero elementi",
+                        "D) Dice al compilatore di allocare una variabile intera contenente il valore zero"
+                      ],
+                      "risposta_corretta": "D",
+                      "spiegazioni": {
+                        "A": "Errata. È una dichiarazione con inizializzazione, non un controllo condizionale.",
+                        "B": "Errata. Un tipo int occupa 32 bit.",
+                        "C": "Errata. Non è una sintassi di creazione di un array/vettore.",
+                        "D": "Corretta. Dichiara una variabile primitiva 'a' di tipo intero a 32 bit e le assegna il valore iniziale 0."
+                      }
+                    },
+                    {
+                      "id": 172,
+                      "lezione": "Lezione 023",
+                      "tipo": "Multipla",
+                      "quesito": "A cosa serve l'istruzione \"a==b\"?",
+                      "opzioni": [
+                        "A) Assegna b ad a",
+                        "B) Assegna a b il doppio di a",
+                        "C) Verifica se a è uguale a b",
+                        "D) Assegna ad a il doppio di b"
+                      ],
+                      "risposta_corretta": "C",
+                      "spiegazioni": {
+                        "A": "Errata. L'assegnamento usa il singolo simbolo =.",
+                        "B": "Errata. Nessuna operazione di moltiplicazione o assegnamento.",
+                        "C": "Corretta. È l'operatore relazionale di uguaglianza che confronta i valori di 'a' e 'b' restituendo true o false.",
+                        "D": "Errata. Non effettua calcoli o assegnamenti."
+                      }
+                    },
+                    {
+                      "id": 173,
+                      "lezione": "Lezione 023",
+                      "tipo": "Multipla",
+                      "quesito": "Cosa è falso se riferito alle variabili Java?",
+                      "opzioni": [
+                        "A) Il nome e il dominio della variabile sono immutabili",
+                        "B) Il tipo di una variabile, una volta definito, non si può più cambiare",
+                        "C) Durante la vita di una variabile è possibile assegnarle un nuovo valore e un nuovo tipo",
+                        "D) Due variabili dello stesso tipo occupano lo stesso spazio di memoria"
+                      ],
+                      "risposta_corretta": "C",
+                      "spiegazioni": {
+                        "A": "Vera. Il nome ed il tipo associato alla dichiarazione non cambiano durante l'esecuzione.",
+                        "B": "Vera. Java è un linguaggio fortemente e staticamente tipizzato.",
+                        "C": "Falsa (risposta corretta). In Java si può modificare il valore contenuto, ma non si può mai cambiare il tipo della variabile.",
+                        "D": "Vera. Il tipo di dato determina in modo fisso lo spazio allocato in memoria."
+                      }
+                    },
+                    {
+                      "id": 174,
+                      "lezione": "Lezione 023",
+                      "tipo": "Multipla",
+                      "quesito": "Quale fra le seguenti frasi è vera se riferita alle variabili in Java?",
+                      "opzioni": [
+                        "A) La dichiarazione delle variabili è facoltativa perchè il compilatore è capace di verificare automaticamente il codice",
+                        "B) La dichiarazione delle variabili avviene sempre all'inizio di un blocco di codice",
+                        "C) La dichiarazione delle variabili è obbligatoria e ciò permette al compilatore di effettuare la validità del codice",
+                        "D) La dichiarazione delle variabili è quasi sempre obbligatoria tranne per le conversioni automatiche di tipo"
+                      ],
+                      "risposta_corretta": "C",
+                      "spiegazioni": {
+                        "A": "Errata. Java è staticamente tipizzato e richiede la dichiarazione esplicita.",
+                        "B": "Errata. Può avvenire in qualsiasi punto del codice prima dell'uso.",
+                        "C": "Corretta. La dichiarazione del tipo è obbligatoria per consentire al compilatore i controlli di tipo (type checking).",
+                        "D": "Errata. È sempre obbligatoria in Java."
+                      }
+                    },
+                    {
+                      "id": 175,
+                      "lezione": "Lezione 023",
+                      "tipo": "Multipla",
+                      "quesito": "Quale fra le seguenti frasi è vera se riferita alle variabili in Java?",
+                      "opzioni": [
+                        "A) Il nome della variabile deve essere unico nel blocco di codice considerato",
+                        "B) Il tipo di una variabile deve essere scelto fra i tipi base",
+                        "C) Il valore iniziale della variabile deve essere unico nel blocco di codice considerato",
+                        "D) Il valore della variabile deve essere unico nel blocco di codice considerato"
+                      ],
+                      "risposta_corretta": "A",
+                      "spiegazioni": {
+                        "A": "Corretta. All'interno dello stesso scope/blocco non possono esistere due variabili con lo stesso identificatore.",
+                        "B": "Errata. Possono essere dichiarate anche variabili di tipo riferimento (oggetti, classi, array).",
+                        "C": "Errata. Più variabili possono avere lo stesso valore iniziale.",
+                        "D": "Errata. Il valore contenuto può essere identico a quello di altre variabili."
+                      }
+                    },
+                    {
+                      "id": 176,
+                      "lezione": "Lezione 023",
+                      "tipo": "Multipla",
+                      "quesito": "Quale fra le seguenti frasi è vera se riferita alle variabili in Java?",
+                      "opzioni": [
+                        "A) Dichiarare una variabile garantisce l'assegnazione di un valore di default",
+                        "B) Dichiarare una variabile è obbligatorio quando si usano i tipi base",
+                        "C) Dichiarare una variabile non è obbligatorio in Java",
+                        "D) Dichiarare una variabile permette al compilatore di allocare un'area di memroia sufficiente"
+                      ],
+                      "risposta_corretta": "D",
+                      "spiegazioni": {
+                        "A": "Errata. Le variabili locali non hanno un valore di default automatico e devono essere inizializzate esplicitamente.",
+                        "B": "Errata. È obbligatorio per qualunque tipo di variabile, non solo per i tipi base.",
+                        "C": "Errata. La dichiarazione è sempre obbligatoria.",
+                        "D": "Corretta. Specifica al sistema la quantità di memoria necessaria in base al tipo di dato espresso."
+                      }
+                    },
+                    {
+                      "id": 177,
+                      "lezione": "Lezione 023",
+                      "tipo": "Multipla",
+                      "quesito": "Quale fra le seguenti frasi è falsa se riferita all'operatore assegnamento?",
+                      "opzioni": [
+                        "A) E' un operatore binario",
+                        "B) A sinistra dell'assegnamento può esserci soltanto una variabile",
+                        "C) \"boolean b = 4 <3\" da errore di \"incompatible types\" in fase di compilazione",
+                        "D) La parte destra dell'assegnamento deve essere dello stesso tipo della parte sinistra"
+                      ],
+                      "risposta_corretta": "C",
+                      "spiegazioni": {
+                        "A": "Vera. Ha due operandi: il target a sinistra e l'espressione a destra.",
+                        "B": "Vera. Il valore può essere salvato solo in un elemento memorizzabile (lvalue/variabile).",
+                        "C": "Falsa (risposta corretta). L'espressione `4 < 3` produce un risultato booleano (`false`), perfettamente assegnabile a una variabile di tipo `boolean` senza alcun errore.",
+                        "D": "Vera. I tipi devono essere compatibili o identici."
+                      }
+                    },
+                    {
+                      "id": 178,
+                      "lezione": "Lezione 023",
+                      "tipo": "Aperta",
+                      "quesito": "Descrivere l'operazione di assegnamento di una variabile.",
+                      "opzioni": [],
+                      "risposta_corretta": "",
+                      "spiegazioni": {
+                        "risposta_modello": "L'operazione di assegnamento in Java memorizza un valore all'interno di una variabile. Si effettua con l'operatore '='.\nLa sintassi generale è:\n`nomeVariabile = espressione;` \nL'operatore di assegnamento valuta prima l'espressione sul lato destro e poi copia il risultato ottenuto nella variabile situata a sinistra, che deve essere dello stesso tipo o di un tipo compatibile."
+                      }
+                    },
+                    {
+                      "id": 179,
+                      "lezione": "Lezione 023",
+                      "tipo": "Aperta",
+                      "quesito": "Descrivere l'operazione di inizializzazione di una variabile.",
+                      "opzioni": [],
+                      "risposta_corretta": "",
+                      "spiegazioni": {
+                        "risposta_modello": "L'inizializzazione è il primo assegnamento di un valore a una variabile, effettuato contestualmente alla sua dichiarazione oppure prima del suo primo utilizzo.\nIn Java, le variabili locali devono essere esplicitamente inizializzate prima di poter essere lette, altrimenti il compilatore segnala un errore. I campi di classe (attributi d'istanza o statici) vengono invece automaticamente inizializzati con valori predefiniti (0 per tipi numerici, false per boolean, null per i riferimenti a oggetti)."
+                      }
+                    },
+                    {
+                      "id": 180,
+                      "lezione": "Lezione 024",
+                      "tipo": "Multipla",
+                      "quesito": "Quali tra le seguenti non è una classe di operatori?",
+                      "opzioni": [
+                        "A) boolean",
+                        "B) logici",
+                        "C) aritmetici",
+                        "D) relazionali"
+                      ],
+                      "risposta_corretta": "A",
+                      "spiegazioni": {
+                        "A": "Corretta. `boolean` è un tipo di dato primitivo in Java, non una categoria di operatori.",
+                        "B": "Errata. I logici sono una categoria di operatori (&&, ||, !).",
+                        "C": "Errata. Gli aritmetici sono una categoria (+, -, *, /, %).",
+                        "D": "Errata. I relazionali sono una categoria (==, !=, <, >)."
+                      }
+                    },
+                    {
+                      "id": 181,
+                      "lezione": "Lezione 024",
+                      "tipo": "Multipla",
+                      "quesito": "La negazione è un operatore:",
+                      "opzioni": [
+                        "A) quaternario",
+                        "B) unario",
+                        "C) binario",
+                        "D) ternario"
+                      ],
+                      "risposta_corretta": "B",
+                      "spiegazioni": {
+                        "A": "Errata. Non esistono operatori quaternari in Java.",
+                        "B": "Corretta. L'operatore di negazione logica (!) agisce su un singolo operando booleano.",
+                        "C": "Errata. Richiederebbe due operandi.",
+                        "D": "Errata. L'unico operatore ternario è l'operatore condizionale (?:)."
+                      }
+                    },
+                    {
+                      "id": 182,
+                      "lezione": "Lezione 024",
+                      "tipo": "Multipla",
+                      "quesito": "L'assegnazione in Java si rappresenta con:",
+                      "opzioni": [
+                        "A) =:",
+                        "B) :=",
+                        "C) =",
+                        "D) =="
+                      ],
+                      "risposta_corretta": "C",
+                      "spiegazioni": {
+                        "A": "Errata. Sintassi invalida in Java.",
+                        "B": "Errata. `: =` è l'assegnamento in altri linguaggi (es. Pascal).",
+                        "C": "Corretta. Il simbolo singolo `=` indica l'assegnamento.",
+                        "D": "Errata. `==` è l'operatore di confronto dell'uguaglianza."
+                      }
+                    },
+                    {
+                      "id": 183,
+                      "lezione": "Lezione 024",
+                      "tipo": "Multipla",
+                      "quesito": "L'operatore autoincremento è:",
+                      "opzioni": [
+                        "A) +=",
+                        "B) ++",
+                        "C) +",
+                        "D) +1"
+                      ],
+                      "risposta_corretta": "B",
+                      "spiegazioni": {
+                        "A": "Errata. `+=` è l'operatore di assegnamento composto con addizione.",
+                        "B": "Corretta. `++` incrementa di 1 il valore del suo operando.",
+                        "C": "Errata. `+` è l'operatore binario di addizione.",
+                        "D": "Errata. Non è una sintassi valida per un operatore."
+                      }
+                    },
+                    {
+                      "id": 184,
+                      "lezione": "Lezione 024",
+                      "tipo": "Multipla",
+                      "quesito": "Se x vale 14, l'espressione \"3 * -(x - 12)\" quanto vale?",
+                      "opzioni": [
+                        "A) -6",
+                        "B) -14",
+                        "C) 14",
+                        "D) 6"
+                      ],
+                      "risposta_corretta": "A",
+                      "spiegazioni": {
+                        "A": "Corretta. Sostituendo x = 14: (14 - 12) = 2; -(2) = -2; 3 * (-2) = -6.",
+                        "B": "Errata. Risultato di calcolo errato.",
+                        "C": "Errata. Risultato di calcolo errato.",
+                        "D": "Errata. Errore nella gestione del segno meno."
+                      }
+                    },
+                    {
+                      "id": 185,
+                      "lezione": "Lezione 024",
+                      "tipo": "Multipla",
+                      "quesito": "L'espressione \"a ^ b\", che usa l'operatore XOR, restituisce true se:",
+                      "opzioni": [
+                        "A) se a e b sono false",
+                        "B) se entrambi sono false",
+                        "C) se a oppure b vale true",
+                        "D) se a e b sono true"
+                      ],
+                      "risposta_corretta": "C",
+                      "spiegazioni": {
+                        "A": "Errata. Se entrambi sono false, XOR restituisce false.",
+                        "B": "Errata. Identica alla scelta A.",
+                        "C": "Corretta. L'operatore XOR (disgiunzione esclusiva) restituisce true se e solo se uno dei due operandi è true e l'altro è false (ovvero quando hanno valori opposti).",
+                        "D": "Errata. Se entrambi sono true, XOR restituisce false."
+                      }
+                    },
+                    {
+                      "id": 186,
+                      "lezione": "Lezione 024",
+                      "tipo": "Multipla",
+                      "quesito": "L'espressione \"10 <100 == 5 > 3\" quanto vale?",
+                      "opzioni": [
+                        "A) 0",
+                        "B) -1",
+                        "C) false",
+                        "D) true"
+                      ],
+                      "risposta_corretta": "D",
+                      "spiegazioni": {
+                        "A": "Errata. Il risultato di confronti relazionali è un booleano in Java, non un intero.",
+                        "B": "Errata. In Java non si usano interi per esprimere i booleani.",
+                        "C": "Errata. L'espressione valuta `true == true`, ovvero `true`.",
+                        "D": "Corretta. `10 < 100` vale `true`. `5 > 3` vale `true`. Di conseguenza `true == true` restituisce `true`."
+                      }
+                    },
+                    {
+                      "id": 187,
+                      "lezione": "Lezione 024",
+                      "tipo": "Multipla",
+                      "quesito": "L'espressione \"10 % 5\" quanto vale?",
+                      "opzioni": [
+                        "A) 5",
+                        "B) 0",
+                        "C) 1",
+                        "D) 2"
+                      ],
+                      "risposta_corretta": "B",
+                      "spiegazioni": {
+                        "A": "Errata. Il resto della divisione non è 5.",
+                        "B": "Corretta. 10 diviso 5 fa 2 con resto 0. L'operatore modulo `%` restituisce il resto, quindi 0.",
+                        "C": "Errata. Non c'è resto.",
+                        "D": "Errata. 2 è il quoziente della divisione, non il resto."
+                      }
+                    },
+                    {
+                      "id": 188,
+                      "lezione": "Lezione 024",
+                      "tipo": "Aperta",
+                      "quesito": "Descrivere che cosa sono e come funzionano gli operatori con associatività a sinistra e fare almeno 3 esempi di espressoni che li utilizzano.",
+                      "opzioni": [],
+                      "risposta_corretta": "",
+                      "spiegazioni": {
+                        "risposta_modello": "Gli operatori con associatività a sinistra vengono valutati da sinistra verso destra quando all'interno di un'espressione compaiono più operatori con lo stesso livello di precedenza.\n\nIn Java la maggior parte degli operatori binari (aritmetici, relazionali, logici) ha associatività a sinistra.\n\nEsempi:\n1. `int res = 10 - 4 - 2;` -> viene valutata come `(10 - 4) - 2` ottenendo `4` (e non `10 - (4 - 2) = 8`).\n2. `int div = 20 / 4 / 2;` -> viene valutata come `(20 / 4) / 2` ottenendo `2`.\n3. `boolean b = true || false || false;` -> viene valutata da sinistra a destra come `(true || false) || false`."
+                      }
+                    },
+                    {
+                      "id": 189,
+                      "lezione": "Lezione 024",
+                      "tipo": "Aperta",
+                      "quesito": "Scrivere almeno 3 esempi di espressioni logiche e descrivere come possono essere utilizzate nei programmi Java.",
+                      "opzioni": [],
+                      "risposta_corretta": "",
+                      "spiegazioni": {
+                        "risposta_modello": "Le espressioni logiche valutano condizioni e restituiscono un valore boolean (`true` o `false`). Vengono impiegate principalmente nelle strutture di controllo del flusso (`if`, `while`, `for`) per prendere decisioni nel programma.\n\nEsempi:\n1. `(eta >= 18) && (haPatente == true)`\n   - Utilizzata per verificare se un utente può guidare (entrambe le condizioni devono essere vere).\n2. `(voto < 18) || (assenze > 5)`\n   - Utilizzata per determinare se uno studente è bocciato (basta che una sola condizione sia vera).\n3. `!(temperatura > 30)`\n   - Utilizzata per verificare che la temperatura non abbia superato la soglia critica."
+                      }
+                    },
+                    {
+                      "id": 190,
+                      "lezione": "Lezione 024",
+                      "tipo": "Aperta",
+                      "quesito": "Utilizzando il codice Java scrivere un esempio di uso dell'operatore modulo per testare se una variabile intera è pari o dispari.",
+                      "opzioni": [],
+                      "risposta_corretta": "",
+                      "spiegazioni": {
+                        "risposta_modello": "Esempio di codice Java:\n```java\nint numero = 7;\nif (numero % 2 == 0) {\n    System.out.println(\"Il numero è pari\");\n} else {\n    System.out.println(\"Il numero è dispari\");\n}\n```\nSpiegazione: L'operatore modulo `%` restituisce il resto della divisione intera per 2. Se il resto è 0 il numero è pari, altrimenti è dispari."
+                      }
+                    },
+                    {
+                      "id": 191,
+                      "lezione": "Lezione 025",
+                      "tipo": "Multipla",
+                      "quesito": "\"int[] a=new int[5]\" cosa vuol dire?",
+                      "opzioni": [
+                        "A) crea un array di 5 elementi di tipo intero",
+                        "B) rinnova un array di 5 elementi e li azzera",
+                        "C) salva il valore 0 in una variabile di 5 elementi",
+                        "D) crea un array di 5 elementi interi o a virgola mobile"
+                      ],
+                      "risposta_corretta": "A",
+                      "spiegazioni": {
+                        "A": "Corretta. La sintassi dichiara e istanzia un nuovo array di interi di dimensione 5 (indici da 0 a 4), con elementi inizializzati a 0.",
+                        "B": "Errata. Non 'rinnova' un array esistente, ne crea uno nuovo.",
+                        "C": "Errata. Descrizione imprecisa dell'istanziazione di un array.",
+                        "D": "Errata. Il tipo specificato è `int`, quindi accetta unicamente valori interi."
+                      }
+                    },
+                    {
+                      "id": 192,
+                      "lezione": "Lezione 025",
+                      "tipo": "Multipla",
+                      "quesito": "Il primo elemento \"dell'array int[] a\" si indica come:",
+                      "opzioni": [
+                        "A) a",
+                        "B) a[1]",
+                        "C) a[0]",
+                        "D) a[a.length]"
+                      ],
+                      "risposta_corretta": "C",
+                      "spiegazioni": {
+                        "A": "Errata. `a` è il riferimento all'intero oggetto array.",
+                        "B": "Errata. `a[1]` indica il secondo elemento dell'array.",
+                        "C": "Corretta. Gli array in Java sono indicizzati a partire da zero, quindi il primo elemento è `a[0]`.",
+                        "D": "Errata. `a[a.length]` provoca un'eccezione `ArrayIndexOutOfBoundsException`."
+                      }
+                    },
+                    {
+                      "id": 193,
+                      "lezione": "Lezione 025",
+                      "tipo": "Multipla",
+                      "quesito": "Quale di queste affermazioni è vera per gli array?",
+                      "opzioni": [
+                        "A) Tutti gli elementi dell'array sono dello stesso tipo",
+                        "B) Un array contiene uno e un solo valore",
+                        "C) La lunghezza dell'array è variabile",
+                        "D) Gli elementi dell'array possono essere di tipo diverso"
+                      ],
+                      "risposta_corretta": "A",
+                      "spiegazioni": {
+                        "A": "Corretta. Gli array in Java sono strutture dati omogenee: tutti gli elementi appartengono al medesimo tipo dichiarato.",
+                        "B": "Errata. Un array può contenere più elementi.",
+                        "C": "Errata. In Java la dimensione di un array è fissa una volta istanziato.",
+                        "D": "Errata. Gli elementi devono essere tutti dello stesso tipo."
+                      }
+                    },
+                    {
+                      "id": 194,
+                      "lezione": "Lezione 025",
+                      "tipo": "Multipla",
+                      "quesito": "Un indice di un array:",
+                      "opzioni": [
+                        "A) Serve ad indicare un array",
+                        "B) Serve a scorrere gli elementi dell'array",
+                        "C) Serve a trovare la lunghezza dell'array",
+                        "D) Identifica un array"
+                      ],
+                      "risposta_corretta": "B",
+                      "spiegazioni": {
+                        "A": "Errata. L'indice individua la posizione dell'elemento all'interno dell'array.",
+                        "B": "Corretta. L'indice è una posizione numerica usata per selezionare, accedere o scorrere i singoli elementi dell'array.",
+                        "C": "Errata. Per la lunghezza si usa l'attributo `.length`.",
+                        "D": "Errata. Identifica un singolo elemento dell'array, non l'array intero."
+                      }
+                    },
+                    {
+                      "id": 195,
+                      "lezione": "Lezione 025",
+                      "tipo": "Multipla",
+                      "quesito": "Come variano gli indici di un array?",
+                      "opzioni": [
+                        "A) Da 1 a length-1",
+                        "B) Da 0 a length-1",
+                        "C) Da 1 a length",
+                        "D) Da 0 a length"
+                      ],
+                      "risposta_corretta": "B",
+                      "spiegazioni": {
+                        "A": "Errata. L'indice parte da 0.",
+                        "B": "Corretta. In Java il primo elemento è all'indice 0 e l'ultimo è all'indice `length - 1`.",
+                        "C": "Errata. La numerazione non parte da 1 e l'indice `length` è fuori dai limiti.",
+                        "D": "Errata. L'indice `length` va fuori dai limiti dell'array."
+                      }
+                    },
+                    {
+                      "id": 196,
+                      "lezione": "Lezione 025",
+                      "tipo": "Multipla",
+                      "quesito": "Cosa fa a[10]=100?",
+                      "opzioni": [
+                        "A) assegna il valore 10 al centesimo elemento dell'array",
+                        "B) assegna il valore 100 all'undicesimo elemento dell'array",
+                        "C) assegna il valore 100 al decimo elemento dell'array",
+                        "D) verifica se a[10] è uguale a 100"
+                      ],
+                      "risposta_corretta": "B",
+                      "spiegazioni": {
+                        "A": "Errata. Inverte valore ed elemento.",
+                        "B": "Corretta. Poiché gli indici partono da 0, l'indice 10 corrisponde all'11° elemento dell'array a cui viene assegnato il valore 100.",
+                        "C": "Errata. Il decimo elemento avrebbe indice 9.",
+                        "D": "Errata. Si tratta di un assegnamento (`=`), non di un confronto (`==`)."
+                      }
+                    },
+                    {
+                      "id": 197,
+                      "lezione": "Lezione 025",
+                      "tipo": "Multipla",
+                      "quesito": "\"double[] d;\" cosa indica?",
+                      "opzioni": [
+                        "A) un vettore che possa contenere caratteri",
+                        "B) un vettore che possa contenere valori doppi",
+                        "C) un vettore che possa contenere valori in virgola mobile",
+                        "D) un vettore che possa contenere stringhe"
+                      ],
+                      "risposta_corretta": "C",
+                      "spiegazioni": {
+                        "A": "Errata. I caratteri usano `char[]`.",
+                        "B": "Errata. 'Doppi' in senso colloquiale è fuorviante; indica numeri in virgola mobile a doppia precisione.",
+                        "C": "Corretta. Dichiara una variabile di riferimento a un array di numeri in virgola mobile a doppia precisione (double).",
+                        "D": "Errata. Le stringhe usano `String[]`."
+                      }
+                    },
+                    {
+                      "id": 198,
+                      "lezione": "Lezione 025",
+                      "tipo": "Multipla",
+                      "quesito": "L'istruzione \"byte[] i = {2, 3, 6, 100, 230, 340};\" cosa provoca se compilata?",
+                      "opzioni": [
+                        "A) Crea un array di byte di 6 elementi con i valori specificati tra graffe",
+                        "B) Crea un array di byte di lunghezza fissa",
+                        "C) Genera un errore in fase di compilazione",
+                        "D) Crea un array vuoto di byte di 6 elementi"
+                      ],
+                      "risposta_corretta": "C",
+                      "spiegazioni": {
+                        "A": "Errata. I valori 230 e 340 superano il range del tipo byte.",
+                        "B": "Errata. La riga non compila.",
+                        "C": "Corretta. In Java il tipo primitivo `byte` comprende valori da -128 a 127. I valori 230 e 340 provocano un errore di compilazione per conversione con perdita di precisione (possible lossy conversion).",
+                        "D": "Errata. La riga fallisce la compilazione."
+                      }
+                    },
+                    {
+                      "id": 199,
+                      "lezione": "Lezione 026",
+                      "tipo": "Multipla",
+                      "quesito": "Un ciclo for esegue un numero di cicli pari a:",
+                      "opzioni": [
+                        "A) un numero finito noto prima della prima istruzione",
+                        "B) un numero massimo pari a 100",
+                        "C) un numero non prevedibile",
+                        "D) un numero infinito"
+                      ],
+                      "risposta_corretta": "A",
+                      "spiegazioni": {
+                        "A": "Corretta. Il ciclo `for` standard è una struttura di iterazione usata tipicamente quando il numero di iterazioni è determinato/noto.",
+                        "B": "Errata. Non vi è alcun limite fisso a 100.",
+                        "C": "Errata. L'iterazione indeterminata è tipica del ciclo `while`.",
+                        "D": "Errata. Un ciclo for ben progettato termina dopo un numero prefissato di iterazioni."
+                      }
+                    },
+                    {
+                      "id": 200,
+                      "lezione": "Lezione 026",
+                      "tipo": "Multipla",
+                      "quesito": "Quale fra i seguenti cicli for provoca un errore di compilazione?",
+                      "opzioni": [
+                        "A) for (;)",
+                        "B) for (;;)",
+                        "C) for (;i<5;i++)",
+                        "D) for (;i<5;)"
+                      ],
+                      "risposta_corretta": "A",
+                      "spiegazioni": {
+                        "A": "Corretta. La sintassi richiede esattamente due punti e virgola `(;;)` per separare le tre parti del ciclo. Usarne uno solo causa errore di sintassi.",
+                        "B": "Errata. `for(;;)` è un ciclo infinito valido.",
+                        "C": "Errata. Se `i` è già dichiarata, la sintassi è valida.",
+                        "D": "Errata. Se `i` è già dichiarata, la sintassi è valida."
+                      }
+                    },
+                    {
+                      "id": 201,
+                      "lezione": "Lezione 026",
+                      "tipo": "Multipla",
+                      "quesito": "Dato l'array \"char[] a={'1','2','3'}\" come possiamo stamparlo invertito con un ciclo for?",
+                      "opzioni": [
+                        "A) for (int i=a.length-1;i>=0;i--) System.out.print(a[i]);",
+                        "B) for (int i=0;i<a.length;i++) System.out.print(a[i]);",
+                        "C) for (int i=0;i<=a.length;i++) System.out.print(a[i]);",
+                        "D) for (int i=a.length;i>=0;i--) System.out.print(a[i]);"
+                      ],
+                      "risposta_corretta": "A",
+                      "spiegazioni": {
+                        "A": "Corretta. Parte dall'ultimo indice valido (`a.length - 1`) e decrementa fino all'indice 0 compreso.",
+                        "B": "Errata. Stampa l'array nell'ordine originale, non invertito.",
+                        "C": "Errata. Stampa l'array nell'ordine originale e genera `ArrayIndexOutOfBoundsException`.",
+                        "D": "Errata. Parte dall'indice `a.length` che genera immediatamente `ArrayIndexOutOfBoundsException`."
+                      }
+                    },
+                    {
+                      "id": 202,
+                      "lezione": "Lezione 026",
+                      "tipo": "Multipla",
+                      "quesito": "Nell'istruzione \"for (int a=0; a<100; a++)\" che valori assume la a?",
+                      "opzioni": [
+                        "A) Da 1 a 99",
+                        "B) Da 1 a 100",
+                        "C) Da 0 a 99",
+                        "D) Da 0 a 100"
+                      ],
+                      "risposta_corretta": "C",
+                      "spiegazioni": {
+                        "A": "Errata. Parte da 0.",
+                        "B": "Errata. Parte da 0 e si ferma prima di 100.",
+                        "C": "Corretta. Parte da 0 e l'ultima iterazione in cui la condizione `a < 100` è vera si ha quando `a = 99` (quando `a` diventa 100 il ciclo termina).",
+                        "D": "Errata. Il valore 100 fa fallire la condizione di permanenza `a < 100`."
+                      }
+                    },
+                    {
+                      "id": 203,
+                      "lezione": "Lezione 026",
+                      "tipo": "Multipla",
+                      "quesito": "Nell'istruzione \"for (int a=0; a<100; a++)\" la variabile a a quale dominio di definizione appartiene?",
+                      "opzioni": [
+                        "A) virgola mobile",
+                        "B) booleano",
+                        "C) infinito",
+                        "D) intero"
+                      ],
+                      "risposta_corretta": "D",
+                      "spiegazioni": {
+                        "A": "Errata. Non è dichiarata come float/double.",
+                        "B": "Errata. Non è un boolean.",
+                        "C": "Errata. Non è un tipo di dato Java.",
+                        "D": "Corretta. La variabile `a` è dichiarata con il tipo primitivo `int` (intero)."
+                      }
+                    },
+                    {
+                      "id": 204,
+                      "lezione": "Lezione 026",
+                      "tipo": "Multipla",
+                      "quesito": "A cosa serve il ciclo for?",
+                      "opzioni": [
+                        "A) Ad eseguire una o più istruzioni almeno una volta",
+                        "B) Ad eseguire una o più istruzioni in un certo arco di tempo",
+                        "C) Ad eseguire una o più istruzioni più di una volta",
+                        "D) Ad eseguire una sola istruzione più volte"
+                      ],
+                      "risposta_corretta": "C",
+                      "spiegazioni": {
+                        "A": "Errata. È la caratteristica del ciclo `do-while`.",
+                        "B": "Errata. La durata temporale dipende dalla CPU, non dal ciclo.",
+                        "C": "Corretta. Permette di ripetere un blocco di codice per un determinato numero di volte.",
+                        "D": "Errata. Può eseguire anche interi blocchi formati da più istruzioni."
+                      }
+                    },
+                    {
+                      "id": 205,
+                      "lezione": "Lezione 026",
+                      "tipo": "Multipla",
+                      "quesito": "Quale fra le seguenti sintassi del for è la più corretta?",
+                      "opzioni": [
+                        "A) for (inizializzazione; valore-booleano) istruzioni;",
+                        "B) for (inizializzazione; valore-booleano; incremento) istruzioni;",
+                        "C) for (inizializzazione; valore-booleano);",
+                        "D) for (inizializzazione; valore-booleano; incremento);"
+                      ],
+                      "risposta_corretta": "B",
+                      "spiegazioni": {
+                        "A": "Errata. Manca la parte di aggiornamento/incremento.",
+                        "B": "Corretta. Rappresenta la struttura completa standard dell'istruzione `for` con l'esecuzione del blocco di istruzioni allegato.",
+                        "C": "Errata. Il punto e virgola finale termina l'istruzione rendendo il ciclo vuoto.",
+                        "D": "Errata. Il punto e virgola alla fine rende il corpo del ciclo nullo."
+                      }
+                    },
+                    {
+                      "id": 206,
+                      "lezione": "Lezione 026",
+                      "tipo": "Multipla",
+                      "quesito": "Quale fra i seguenti cicli for è equivalente al ciclo \"while (true)\"?",
+                      "opzioni": [
+                        "A) for (i=0;i<1;i++)",
+                        "B) for (i=10;i<1;i++)",
+                        "C) for (;i<1;i++)",
+                        "D) for (;;)"
+                      ],
+                      "risposta_corretta": "D",
+                      "spiegazioni": {
+                        "A": "Errata. Esegue una sola iterazione.",
+                        "B": "Errata. Non esegue alcuna iterazione poiché 10 non è < 1.",
+                        "C": "Errata. Dipende dal valore iniziale di `i` e termina appena `i >= 1`.",
+                        "D": "Corretta. Omettendo tutte e tre le parti nell'intestazione del `for`, la condizione viene considerata sempre vera, creando un ciclo infinito esattamente come `while(true)`."
+                      }
+                    },
+                    {
+                      "id": 207,
+                      "lezione": "Lezione 026",
+                      "tipo": "Aperta",
+                      "quesito": "Scrivere un programma Java che inverta con un ciclo for l'array di caratteri \"char[] a = {'p', 'i', 'p', 'p', 'o', '.'}\" e che lo stampi a video.",
+                      "opzioni": [],
+                      "risposta_corretta": "",
+                      "spiegazioni": {
+                        "risposta_modello": "Ecco il programma Java:\n```java\npublic class InvertiArray {\n    public static void main(String[] args) {\n        char[] a = {'p', 'i', 'p', 'p', 'o', '.'};\n        \n        // Inversione in-place con ciclo for\n        for (int i = 0; i < a.length / 2; i++) {\n            char temp = a[i];\n            a[i] = a[a.length - 1 - i];\n            a[a.length - 1 - i] = temp;\n        }\n        \n        // Stampa dell'array invertito\n        for (int i = 0; i < a.length; i++) {\n            System.out.print(a[i]);\n        }\n    }\n}\n```"
+                      }
+                    },
+                    {
+                      "id": 208,
+                      "lezione": "Lezione 026",
+                      "tipo": "Aperta",
+                      "quesito": "Utilizzando il ciclo for scrivere un programma Java che stampi il doppio di ogni numero naturale compreso fra 1 e 100. Ad esempio \"2 4 6 8 10 12 ... ecc\".",
+                      "opzioni": [],
+                      "risposta_corretta": "",
+                      "spiegazioni": {
+                        "risposta_modello": "Ecco il programma Java:\n```java\npublic class StampaDoppio {\n    public static void main(String[] args) {\n        for (int i = 1; i <= 100; i++) {\n            System.out.print((i * 2) + \" \");\n        }\n    }\n}\n```"
+                      }
+                    },
+                        {
+                          "id": 209,
+                          "lezione": "Lezione 027",
+                          "tipo": "Multipla",
+                          "quesito": "Se una istruzione di un ciclo può essere eseguita 0 volte:",
+                          "opzioni": [
+                            "A) E' possibile usare il do-while solo con condizioni booleane",
+                            "B) E' possibile usare il do-while",
+                            "C) Si può usare il while o il for",
+                            "D) Non è mai possibile usare il do-while"
+                          ],
+                          "risposta_corretta": "C",
+                          "spiegazioni": {
+                            "A": "Inesatto. La capacità di eseguire 0 volte dipende dalla valutazione in testa della condizione (while/for), non dalla natura booleana.",
+                            "B": "Inesatto. Il ciclo do-while valuta la condizione in coda, quindi esegue il blocco almeno 1 volta.",
+                            "C": "Corretto. I cicli while e for verificano la condizione prima di entrare nel blocco, consentendo di eseguire 0 iterazioni.",
+                            "D": "Inesatto. La risposta C è più precisa rispetto ai cicli idonei per 0 iterazioni."
+                          }
+                        },
+                        {
+                          "id": 210,
+                          "lezione": "Lezione 027",
+                          "tipo": "Multipla",
+                          "quesito": "E' sempre possibile che do-while sia equivalente ad un ciclo for?",
+                          "opzioni": [
+                            "A) No, perchè il for non è mai equivalente ad un do-while",
+                            "B) No, perchè il do-while non è un ciclo",
+                            "C) No, perchè il do-while viene eseguito almeno una volta",
+                            "D) Si, perchè il do-while viene eseguito almeno una volta"
+                          ],
+                          "risposta_corretta": "C",
+                          "spiegazioni": {
+                            "A": "Inesatto. Un ciclo for può essere equivalente a un do-while se si garantisce che entri almeno una volta.",
+                            "B": "Inesatto. Il do-while è a tutti gli effetti una struttura di controllo iterativa (ciclo).",
+                            "C": "Corretto. Il do-while garantisce sempre almeno un'esecuzione del corpo, mentre il for può eseguirne 0 se la condizione iniziale è falsa.",
+                            "D": "Inesatto. Il fatto di essere eseguito almeno una volta dimostra la non sempre equivalenza."
+                          }
+                        },
+                        {
+                          "id": 211,
+                          "lezione": "Lezione 027",
+                          "tipo": "Multipla",
+                          "quesito": "Quando si utilizza l'istruzione do-while?",
+                          "opzioni": [
+                            "A) Quando ci serve eseguire le istruzioni del ciclo almeno una volta",
+                            "B) Quando ci serve eseguire le istruzioni del ciclo una e una sola volta",
+                            "C) Quando ci serve eseguire le istruzioni del ciclo una sola volta",
+                            "D) Quando ci serve eseguire le istruzioni del ciclo in ordine inverso"
+                          ],
+                          "risposta_corretta": "A",
+                          "spiegazioni": {
+                            "A": "Corretto. La condizione viene controllata dopo l'esecuzione del blocco di codice, garantendo almeno una iterazione.",
+                            "B": "Inesatto. Se la condizione finale risulta vera, il ciclo proseguirà per più di una volta.",
+                            "C": "Inesatto. Una singola esecuzione si ottiene con una semplice sequenza senza costrutti iterativi.",
+                            "D": "Inesatto. L'ordine di esecuzione delle istruzioni interne non viene invertito dal do-while."
+                          }
+                        },
+                        {
+                          "id": 212,
+                          "lezione": "Lezione 027",
+                          "tipo": "Multipla",
+                          "quesito": "La sintassi corretta dell'istruzione do-while è:",
+                          "opzioni": [
+                            "A) do while (condizione) istruzione/blocco-di-istruzioni;",
+                            "B) do istruzione/blocco-di-istruzioni while (condizione);",
+                            "C) do (condizione) while istruzione/blocco-di-istruzioni;",
+                            "D) while (condizione) do istruzione/blocco-di-istruzioni;"
+                          ],
+                          "risposta_corretta": "B",
+                          "spiegazioni": {
+                            "A": "Inesatto. Le parole chiave do e while non sono posizionate consecutivamente all'inizio.",
+                            "B": "Corretto. La sintassi richiede la parola chiave 'do', il blocco da eseguire e la clausola 'while (condizione);' finale.",
+                            "C": "Inesatto. La condizione non va messa subito dopo il 'do'.",
+                            "D": "Inesatto. Questa forma non appartiene alla sintassi di Java (somiglia al Pascal/Visual Basic)."
+                          }
+                        },
+                        {
+                          "id": 213,
+                          "lezione": "Lezione 027",
+                          "tipo": "Multipla",
+                          "quesito": "Se i=1, l'istruzione \"do {fat = fat * i; i = i + 1;} while (i <= n)\" esegue:",
+                          "opzioni": [
+                            "A) La moltiplicazione di fat*i esattamente n volte",
+                            "B) La moltiplicazione di fat*i almeno n-1 volte",
+                            "C) La moltiplicazione di fat*i esattamente n-i volte",
+                            "D) La moltiplicazione di fat*i 0 volte"
+                          ],
+                          "risposta_corretta": "A",
+                          "spiegazioni": {
+                            "A": "Corretto. Partendo da i=1 e incrementando di 1 ad ogni ciclo, la moltiplicazione viene ripetuta per i = 1, 2, ..., n, ovvero esattamente n volte (assumendo n >= 1).",
+                            "B": "Inesatto. Verranno eseguite n iterazioni, non n-1.",
+                            "C": "Inesatto. Il numero di esecuzioni totali non varia dinamicamente in base ad i durante la valutazione complessiva.",
+                            "D": "Inesatto. Un ciclo do-while effettua almeno 1 esecuzione anche per n < 1."
+                          }
+                        },
+                        {
+                          "id": 214,
+                          "lezione": "Lezione 027",
+                          "tipo": "Multipla",
+                          "quesito": "Se i=1, l'istruzione \"do {fat = fat * i; i = i + 1;} while (i <n)\" esegue:",
+                          "opzioni": [
+                            "A) La moltiplicazione di fat*i almeno n volte",
+                            "B) La moltiplicazione di fat*i 0 volte",
+                            "C) La moltiplicazione di fat*i esattamente n-i volte",
+                            "D) La moltiplicazione di fat*i esattamente n-1 volte"
+                          ],
+                          "risposta_corretta": "D",
+                          "spiegazioni": {
+                            "A": "Inesatto. Poiché il controllo usa la relazione di stretta minoranza (< n), l'ultimo valore valido per i all'inizio del blocco è n-1.",
+                            "B": "Inesatto. Essendo un do-while verrà eseguito almeno una volta.",
+                            "C": "Inesatto. Esprime la quantità di iterazioni rimanenti, non il totale di quelle eseguite a partire da i=1.",
+                            "D": "Corretto. Partendo da 1 e terminando appena i ragginge n, il ciclo viene eseguito esattamente per i = 1, 2, ..., n-1 (cioè n-1 volte)."
+                          }
+                        },
+                        {
+                          "id": 215,
+                          "lezione": "Lezione 027",
+                          "tipo": "Multipla",
+                          "quesito": "Se i=n, l'istruzione \"do {fat = fat * i; i = i + 1;} while (i <= n)\" esegue:",
+                          "opzioni": [
+                            "A) La moltiplicazione di fat*i almeno n-1 volte",
+                            "B) La moltiplicazione di fat*i esattamente 1 volta",
+                            "C) La moltiplicazione di fat*i esattamente n-i volte",
+                            "D) La moltiplicazione di fat*i 0 volte"
+                          ],
+                          "risposta_corretta": "B",
+                          "spiegazioni": {
+                            "A": "Inesatto. Il valore iniziale di i corrisponde già al limite massimo n.",
+                            "B": "Corretto. Il ciclo esegue prima la moltiplicazione per i=n, poi incrementa i a n+1. La condizione (n+1 <= n) risulta falsa ed il ciclo termina dopo 1 sola volta.",
+                            "C": "Inesatto. La formula generica con n-i valutata prima dell'incremento restituirebbe 0.",
+                            "D": "Inesatto. Il blocco 'do' viene sempre eseguito una prima volta prima del controllo."
+                          }
+                        },
+                        {
+                          "id": 216,
+                          "lezione": "Lezione 027",
+                          "tipo": "Multipla",
+                          "quesito": "Se una istruzione di un ciclo può essere eseguita 0 volte:",
+                          "opzioni": [
+                            "A) Si può sempre usare il do-while",
+                            "B) E' possibile usare il do-while",
+                            "C) Non è mai possibile usare il do-while",
+                            "D) E' possibile usare il do-while solo con condizioni booleane;"
+                          ],
+                          "risposta_corretta": "C",
+                          "spiegazioni": {
+                            "A": "Inesatto. Il do-while non permette per sua natura 0 iterazioni.",
+                            "B": "Inesatto. Senza controlli esterni (es. if), il do-while non consente l'azzeramento delle iterazioni.",
+                            "C": "Corretto. Poiché il do-while garantisce al 100% almeno un passaggio nel blocco, non è idoneo per costrutti che necessitano di 0 esecuzioni.",
+                            "D": "Inesatto. In Java la condizione del do-while deve sempre essere booleana a prescindere dal numero di esecuzioni."
+                          }
+                        },
+                        {
+                          "id": 217,
+                          "lezione": "Lezione 028",
+                          "tipo": "Multipla",
+                          "quesito": "Cosa fa una istruzione break?",
+                          "opzioni": [
+                            "A) Salta una iterazione del ciclo senza uscire",
+                            "B) Riavvia il sistema operativo",
+                            "C) Blocca ed esce dal programma",
+                            "D) Interrompe il ciclo e riporta alla prima istruzione dopo il blocco"
+                          ],
+                          "risposta_corretta": "D",
+                          "spiegazioni": {
+                            "A": "Inesatto. Questa è la descrizione dell'istruzione 'continue'.",
+                            "B": "Inesatto. L'istruzione break incide solo sul flusso di controllo locale del codice Java.",
+                            "C": "Inesatto. Per terminare l'intero programma si usa System.exit().",
+                            "D": "Corretto. L'istruzione break forza l'uscita immediata dal ciclo o dallo switch corrente, riprendendo dall'istruzione successiva."
+                          }
+                        },
+                        {
+                          "id": 218,
+                          "lezione": "Lezione 028",
+                          "tipo": "Multipla",
+                          "quesito": "Cosa fa una istruzione continue?",
+                          "opzioni": [
+                            "A) Interrompe il ciclo e riporta alla prima istruzione dopo il blocco",
+                            "B) Riavvia il sistema operativo",
+                            "C) Blocca ed esce dal programma",
+                            "D) Salta una iterazione del ciclo senza uscire"
+                          ],
+                          "risposta_corretta": "D",
+                          "spiegazioni": {
+                            "A": "Inesatto. Questo è il comportamento del 'break'.",
+                            "B": "Inesatto. Non ha alcun impatto sul sistema operativo.",
+                            "C": "Inesatto. Non termina l'applicazione.",
+                            "D": "Corretto. Termina anticipatamente solo l'iterazione corrente e passa all'incremento/valutazione dell'iterazione successiva."
+                          }
+                        },
+                        {
+                          "id": 219,
+                          "lezione": "Lezione 028",
+                          "tipo": "Multipla",
+                          "quesito": "Dove si usa il comando break?",
+                          "opzioni": [
+                            "A) Solo nell'if",
+                            "B) In un ciclo o in uno switch/case",
+                            "C) Solo nei cicli",
+                            "D) Solo nello switch/case"
+                          ],
+                          "risposta_corretta": "B",
+                          "spiegazioni": {
+                            "A": "Inesatto. Non è consentito usare un break direttamente dentro un if, a meno che l'if non sia dentro un ciclo/switch.",
+                            "B": "Corretto. Il comando break è valido all'interno dei cicli (for, while, do-while) e dei blocchi switch.",
+                            "C": "Inesatto. Viene largamente impiegato anche nei blocchi switch/case per evitare il fall-through.",
+                            "D": "Inesatto. È un costrutto utilissimo e comune anche per interrompere i cicli."
+                          }
+                        },
+                        {
+                          "id": 220,
+                          "lezione": "Lezione 028",
+                          "tipo": "Multipla",
+                          "quesito": "Dove si usa il comando default?",
+                          "opzioni": [
+                            "A) Solo nello switch/case",
+                            "B) Solo nei cicli",
+                            "C) In un ciclo o in uno switch/case",
+                            "D) Solo nell'if"
+                          ],
+                          "risposta_corretta": "A",
+                          "spiegazioni": {
+                            "A": "Corretto. Il ramo 'default' serve a catturare i casi non esplicitamente gestiti dai vari 'case' all'interno di uno switch.",
+                            "B": "Inesatto. I cicli non utilizzano la parola chiave default.",
+                            "C": "Inesatto. Non è un comando destinato alla sintassi dei cicli.",
+                            "D": "Inesatto. Nel costrutto condizionale if si utilizza 'else', non default."
+                          }
+                        },
+                        {
+                          "id": 221,
+                          "lezione": "Lezione 028",
+                          "tipo": "Multipla",
+                          "quesito": "Quando è possibile usare un comando di break?",
+                          "opzioni": [
+                            "A) Solo in caso di assegnazione di variabile",
+                            "B) Anche all'interno di un do-while",
+                            "C) Solo nel blocco else",
+                            "D) Solo all'interno di un do-while"
+                          ],
+                          "risposta_corretta": "B",
+                          "spiegazioni": {
+                            "A": "Inesatto. Non è legato al processo di assegnazione.",
+                            "B": "Corretto. Può essere inserito all'interno di qualunque ciclo Java, incluso il ciclo do-while.",
+                            "C": "Inesatto. Non è ammesso in un else senza che vi sia un ciclo racchiuso.",
+                            "D": "Inesatto. È ammesso anche nei cicli for, while e nello switch."
+                          }
+                        },
+                        {
+                          "id": 222,
+                          "lezione": "Lezione 028",
+                          "tipo": "Multipla",
+                          "quesito": "Quando è possibile usare un comando di continue?",
+                          "opzioni": [
+                            "A) Anche all'interno di un for",
+                            "B) Solo in caso di assegnazione di variabile",
+                            "C) Solo all'interno di un for",
+                            "D) Solo nel blocco else"
+                          ],
+                          "risposta_corretta": "A",
+                          "spiegazioni": {
+                            "A": "Corretto. L'istruzione continue si applica all'interno dei cicli, compreso il ciclo for.",
+                            "B": "Inesatto. Non è un operatore di assegnazione.",
+                            "C": "Inesatto. Si può utilizzare anche all'interno dei cicli while e do-while.",
+                            "D": "Inesatto. Non è utilizzabile isolatamente in un blocco else."
+                          }
+                        },
+                        {
+                          "id": 223,
+                          "lezione": "Lezione 028",
+                          "tipo": "Multipla",
+                          "quesito": "Quante volte viene eseguito il seguente ciclo : \"for (i=0; i<100; i++) { break; }\"?",
+                          "opzioni": [
+                            "A) Viene eseguito 1 volta",
+                            "B) Viene eseguito 99 volte",
+                            "C) Viene eseguito 100 volte",
+                            "D) Viene eseguito 0 volte"
+                          ],
+                          "risposta_corretta": "A",
+                          "spiegazioni": {
+                            "A": "Corretto. Il ciclo inizia con i=0 ed entra nell'iterazione, ma incontra immediatamente l'istruzione 'break' che interrompe il for ed esce.",
+                            "B": "Inesatto. Il break interrompe il ciclo al primo passaggio senza permettere le iterazioni successive.",
+                            "C": "Inesatto. Sarebbe 100 solo se non vi fosse il break.",
+                            "D": "Inesatto. La condizione i<100 è inizialmente vera (0 < 100), perciò entra 1 volta."
+                          }
+                        },
+                        {
+                          "id": 224,
+                          "lezione": "Lezione 028",
+                          "tipo": "Multipla",
+                          "quesito": "Quante volte viene eseguito il seguente ciclo : \"for (i=0; i<100; i++) { continue; }\"?",
+                          "opzioni": [
+                            "A) Viene eseguito 0 volte",
+                            "B) Viene eseguito 100 volte",
+                            "C) Viene eseguito 1 volta",
+                            "D) Viene eseguito 99 volte"
+                          ],
+                          "risposta_corretta": "B",
+                          "spiegazioni": {
+                            "A": "Inesatto. L'inizializzazione i=0 soddisfa la condizione i<100.",
+                            "B": "Corretto. L'istruzione 'continue' ignora solo le eventuali istruzioni successive nel blocco ma non interrompe il ciclo, completando tutte e 100 le iterazioni (da i=0 fino a i=99).",
+                            "C": "Inesatto. Il continue non interrompe il contatore del ciclo.",
+                            "D": "Inesatto. Gli indici vanno da 0 a 99 compresi, per un totale di 100 passaggi."
+                          }
+                        },
+                        {
+                          "id": 225,
+                          "lezione": "Lezione 029",
+                          "tipo": "Multipla",
+                          "quesito": "Usando quale proprietà degli array si ottiene il conteggio dei suoi elementi?",
+                          "opzioni": [
+                            "A) non si può ottenere",
+                            "B) size",
+                            "C) length",
+                            "D) dimensions"
+                          ],
+                          "risposta_corretta": "C",
+                          "spiegazioni": {
+                            "A": "Inesatto. In Java la dimensione dell'array è sempre accessibile.",
+                            "B": "Inesatto. 'size()' è un metodo dell'interfaccia Collection/List, non degli array nativi.",
+                            "C": "Corretto. 'length' è un attributo/proprietà pubblica immutabile degli array Java che ne memorizza la dimensione.",
+                            "D": "Inesatto. Non esiste tale proprietà per gli array in Java."
+                          }
+                        },
+                        {
+                          "id": 226,
+                          "lezione": "Lezione 029",
+                          "tipo": "Multipla",
+                          "quesito": "Quale fra le seguenti frasi è falsa se riferita alla proprietà length degli array?",
+                          "opzioni": [
+                            "A) serve a sapere il numero totale dei suoi elementi",
+                            "B) serve a sapere quanti elementi sono stati allocati in memoria",
+                            "C) serve a sapere quanti elementi sono occupati",
+                            "D) serve a sapere quanti elementi compongono il vettore"
+                          ],
+                          "risposta_corretta": "C",
+                          "spiegazioni": {
+                            "A": "Inesatto (è vera). Esprime proprio la dimensione totale allocata per il vettore.",
+                            "B": "Inesatto (è vera). Rispecchia la quantità di celle memoria riservate durante il 'new'.",
+                            "C": "Corretto (è la frase FALSA). La proprietà length restituisce la capacita totale fisicamente allocata e non quanti elementi sono stati logicamente riempiti dall'utente.",
+                            "D": "Inesatto (è vera). Indica la dimensione complessiva del vettore."
+                          }
+                        },
+                        {
+                          "id": 227,
+                          "lezione": "Lezione 029",
+                          "tipo": "Multipla",
+                          "quesito": "Per copiare nel modo più efficiente possibile un array in un altro usiamo:",
+                          "opzioni": [
+                            "A) la funzione arraycopy della classe System",
+                            "B) un doppio ciclo for",
+                            "C) la funzione copyarray della classe System",
+                            "D) un ciclo for"
+                          ],
+                          "risposta_corretta": "A",
+                          "spiegazioni": {
+                            "A": "Corretto. System.arraycopy è un metodo nativo ottimizzato a livello di sistema operativo per il trasferimento di blocchi di memoria.",
+                            "B": "Inesatto. Un doppio ciclo for è ridondante per array monodimensionali e molto lento.",
+                            "C": "Inesatto. Il nome corretto del metodo è arraycopy, con la 'a' minuscola iniziale.",
+                            "D": "Inesatto. Un ciclo for manuale in Java è meno prestante dell'operazione nativa fornita dal sistema."
+                          }
+                        },
+                        {
+                          "id": 228,
+                          "lezione": "Lezione 029",
+                          "tipo": "Multipla",
+                          "quesito": "Quale fra le seguenti frasi è falsa se riferita allo scambio di due elementi di un array?",
+                          "opzioni": [
+                            "A) per effettuare lo scambio abbiamo bisogno di un vettore di appoggio",
+                            "B) per effettuare lo scambio abbiamo bisogno di una variabile temporanea",
+                            "C) per effettuare lo scambio basta assegnare un elemento dell'array all'altro e viceversa",
+                            "D) per effettuaro lo scambio basta usare una funzione predefinita di Java"
+                          ],
+                          "risposta_corretta": "C",
+                          "spiegazioni": {
+                            "A": "Inesatto (è una tecnica valida, sebbene sovradimensionata).",
+                            "B": "Inesatto (è la tecnica standard corretta per lo swap).",
+                            "C": "Corretto (è la frase FALSA). L'assegnazione diretta sovrascriverebbe il primo valore perdendolo prima di poterne fare la copia.",
+                            "D": "Inesatto (è considerata vera nel contesto generale dell'algoritmo dove l'assegnazione diretta semplice senza appoggio 'a=b; b=a;' è concettualmente errata)."
+                          }
+                        },
+                        {
+                          "id": 229,
+                          "lezione": "Lezione 029",
+                          "tipo": "Multipla",
+                          "quesito": "Quale fra le seguenti frasi è falsa se riferita all'inversione degli elementi di un array?",
+                          "opzioni": [
+                            "A) non abbiamo bisogno di memoria aggiuntiva, oltre quella già allocata per l'array",
+                            "B) possiamo utilizzare una variabile temporanea",
+                            "C) possiamo utilizzare un array di appoggio",
+                            "D) possiamo utilizzare due indici"
+                          ],
+                          "risposta_corretta": "A",
+                          "spiegazioni": {
+                            "A": "Corretto (è la frase FALSA). Anche invertendo in-place (senza un nuovo array) serve comunque almeno una variabile temporanea di supporto in memoria.",
+                            "B": "Inesatto (è vera). Con una variabile temporanea si invertono le coppie agli estremi.",
+                            "C": "Inesatto (è vera). Si può fare creando un nuovo array in cui ricopiare al contrario.",
+                            "D": "Inesatto (è vera). Si usano tipicamente un indice di testa (start) e uno di coda (end)."
+                          }
+                        },
+                        {
+                          "id": 230,
+                          "lezione": "Lezione 029",
+                          "tipo": "Multipla",
+                          "quesito": "Quale fra le seguenti frasi è falsa se riferita al metodo System.arraycopy()?",
+                          "opzioni": [
+                            "A) Il metodo ha cinque parametri",
+                            "B) Il metodo permette la copia di elementi fra array di lunghezze diverse",
+                            "C) Il metodo implementa una copia efficiente fra array",
+                            "D) Il metodo ha tre parametri"
+                          ],
+                          "risposta_corretta": "D",
+                          "spiegazioni": {
+                            "A": "Inesatto (è vera). I parametri sono: src, srcPos, dest, destPos, length.",
+                            "B": "Inesatto (è vera). Si possono copiare porzioni di elementi tra array con dimensioni totali differenti.",
+                            "C": "Inesatto (è vera). Sfrutta chiamate native in C/C++ in memoria.",
+                            "D": "Corretto (è la frase FALSA). I parametri richiesti dalla firma ufficiale del metodo sono esattamente 5."
+                          }
+                        },
+                        {
+                          "id": 231,
+                          "lezione": "Lezione 029",
+                          "tipo": "Multipla",
+                          "quesito": "Quale fra le seguenti frasi è corretta se riferita al metodo System.arraycopy()?",
+                          "opzioni": [
+                            "A) Il metodo trova gli elementi in comune fra due array",
+                            "B) Il metodo copia gli elementi di un array in un altro",
+                            "C) Il metodo accetta tre parametri",
+                            "D) Il metodo copia due array con la stessa efficienza di un ciclo for"
+                          ],
+                          "risposta_corretta": "B",
+                          "spiegazioni": {
+                            "A": "Inesatto. Non esegue alcun confronto o intersezione di dati.",
+                            "B": "Corretto. È il metodo standard fornito da Java per duplicare elementi da un array sorgente a uno di destinazione.",
+                            "C": "Inesatto. Prende 5 parametri.",
+                            "D": "Inesatto. È decisamente più efficiente di un normale ciclo for iterativo."
+                          }
+                        },
+                        {
+                          "id": 232,
+                          "lezione": "Lezione 029",
+                          "tipo": "Multipla",
+                          "quesito": "Supponendo di aver dichiarato un array \"int[] a = new int[5]\", quale fra le seguenti frasi è falsa?",
+                          "opzioni": [
+                            "A) nell'array a possiamo inserire elementi con valore fino a 5",
+                            "B) nell'array a possiamo inserire elementi fino a un massimo di 5",
+                            "C) gli elementi di a hanno indici che vanno da 0 a 4",
+                            "D) l'ultimo elemento dell'array ha indice pari a 4"
+                          ],
+                          "risposta_corretta": "A",
+                          "spiegazioni": {
+                            "A": "Corretto (è la frase FALSA). Un array di tipo 'int' contiene numeri interi a 32 bit, quindi i valori salvati nelle celle possono essere arbitrariamente grandi (es. 100, 5000), non limitati a 5.",
+                            "B": "Inesatto (è vera). Può contenere al massimo 5 elementi in totale.",
+                            "C": "Inesatto (è vera). La numerazione basata su 0 copre le posizioni 0, 1, 2, 3, 4.",
+                            "D": "Inesatto (è vera). Con lunghezza 5, l'indice finale è 5 - 1 = 4."
+                          }
+                        },
+                        {
+                          "id": 233,
+                          "lezione": "Lezione 032",
+                          "tipo": "Multipla",
+                          "quesito": "Cosa indica \"nomi[0][1]\"?",
+                          "opzioni": [
+                            "A) l'elemento dell'array nomi uguale a 01",
+                            "B) l'elemento dell'array nomi in prima riga",
+                            "C) l'elemento dell'array non è valido perchè la riga 0 non esiste",
+                            "D) l'elemento dell'array nomi in prima riga e seconda colonna"
+                          ],
+                          "risposta_corretta": "D",
+                          "spiegazioni": {
+                            "A": "Inesatto. Non fa riferimento alla stringa '01'.",
+                            "B": "Inesatto. Manca l'indicazione precisa della colonna.",
+                            "C": "Inesatto. Gli indici in Java iniziano sempre da 0, quindi la riga 0 esiste ed è la prima.",
+                            "D": "Corretto. L'indice [0] corrisponde alla prima riga e l'indice [1] alla seconda colonna."
+                          }
+                        },
+                        {
+                          "id": 234,
+                          "lezione": "Lezione 032",
+                          "tipo": "Multipla",
+                          "quesito": "La seguente struttura \"String[][] nomi\" cosa rappresenta?",
+                          "opzioni": [
+                            "A) una struttura dati per contenere un numero pari di nomi",
+                            "B) una struttura dati per contenere un nome",
+                            "C) un insieme di nomi",
+                            "D) un array di 10 stringhe"
+                          ],
+                          "risposta_corretta": "C",
+                          "spiegazioni": {
+                            "A": "Inesatto. Non vi sono vincoli sulla parità delle dimensioni.",
+                            "B": "Inesatto. Per un singolo nome basterebbe la variabile 'String'.",
+                            "C": "Corretto. Rappresenta una matrice (array bidimensionale) atta a contenere una collezione/insieme di stringhe.",
+                            "D": "Inesatto. La dimensione non è fissata a 10 nella semplice dichiarazione del tipo."
+                          }
+                        },
+                        {
+                          "id": 235,
+                          "lezione": "Lezione 032",
+                          "tipo": "Multipla",
+                          "quesito": "Quale fra le seguenti frasi è falsa se riferita agli array in Java?",
+                          "opzioni": [
+                            "A) In Java gli indici degli array partono sempre da 0",
+                            "B) In Java si possono creare solo array monodimensionali",
+                            "C) In Java gli array multidimensionali aggregano solo elementi dello stesso tipo base",
+                            "D) In Java si possono creare array di qualsiasi dimensione"
+                          ],
+                          "risposta_corretta": "B",
+                          "spiegazioni": {
+                            "A": "Inesatto (è vera). La base degli indici è costantemente 0.",
+                            "B": "Corretto (è la frase FALSA). Java supporta pienamente gli array multidimensionali (array di array).",
+                            "C": "Inesatto (è vera). Gli array sono strutture omogenee.",
+                            "D": "Inesatto (è vera). È possibile allocare n dimensioni aggiungendo coppie di parentesi quadre [][]."
+                          }
+                        },
+                        {
+                          "id": 236,
+                          "lezione": "Lezione 032",
+                          "tipo": "Multipla",
+                          "quesito": "Quale fra le seguenti frasi è falsa se riferita alla matrice \"int[][] matrix = {{1,2},{3,4}}\"?",
+                          "opzioni": [
+                            "A) la matrice è 3x3",
+                            "B) il valore 2 è in posizione matrix[0][1]",
+                            "C) il valore 3 è in posizione matrix[1][0]",
+                            "D) la matrice è bidimensionale"
+                          ],
+                          "risposta_corretta": "A",
+                          "spiegazioni": {
+                            "A": "Corretto (è la frase FALSA). La matrice contiene 2 righe e 2 colonne, dunque la dimensione è 2x2 e non 3x3.",
+                            "B": "Inesatto (è vera). 2 è il secondo elemento della prima riga.",
+                            "C": "Inesatto (è vera). 3 è il primo elemento della seconda riga.",
+                            "D": "Inesatto (è vera). Ha due livelli di parentesi graffe/indici."
+                          }
+                        },
+                        {
+                          "id": 237,
+                          "lezione": "Lezione 032",
+                          "tipo": "Multipla",
+                          "quesito": "Data l'istruzione \"float[][][] m = new float[5][5][5]\" quante variabili vengono allocate in memoria?",
+                          "opzioni": [
+                            "A) 125",
+                            "B) 5",
+                            "C) 25",
+                            "D) 15"
+                          ],
+                          "risposta_corretta": "A",
+                          "spiegazioni": {
+                            "A": "Corretto. Trattandosi di un array tridimensionale 5x5x5, il numero totale di celle è dato dal prodotto delle dimensioni: 5 * 5 * 5 = 125.",
+                            "B": "Inesatto. Rappresenta la dimensione di una singola coordinata.",
+                            "C": "Inesatto. Corrisponde a una matrice bidimensionale 5x5.",
+                            "D": "Inesatto. È la somma delle dimensioni (5+5+5), non il prodotto."
+                          }
+                        },
+                        {
+                          "id": 238,
+                          "lezione": "Lezione 032",
+                          "tipo": "Multipla",
+                          "quesito": "L'elemento di un array indicato con \"a[1][2]\" cosa indica?",
+                          "opzioni": [
+                            "A) indica l'elemento di valore 12",
+                            "B) indica l'elemento in riga 2, colonna 1",
+                            "C) indica l'elemento in prima riga, seconda colonna",
+                            "D) indica l'elemento in seconda riga, terza colonna"
+                          ],
+                          "risposta_corretta": "D",
+                          "spiegazioni": {
+                            "A": "Inesatto. I numeri tra quadre rappresentano gli indici di posizione, non il valore salvato.",
+                            "B": "Inesatto. L'inversione degli indici confonde le righe con le colonne.",
+                            "C": "Inesatto. Ricorda che la prima riga ha indice 0 e la seconda riga ha indice 1.",
+                            "D": "Corretto. Poiché il conteggio parte da 0: l'indice di riga 1 indica la 2ª riga e l'indice di colonna 2 indica la 3ª colonna."
+                          }
+                        },
+                        {
+                          "id": 239,
+                          "lezione": "Lezione 032",
+                          "tipo": "Multipla",
+                          "quesito": "Quale fra le seguenti frasi è falsa se riferita agli array in Java?",
+                          "opzioni": [
+                            "A) un array contiene sempre righe della stessa lunghezza",
+                            "B) un array può contenere righe di lunghezze diverse",
+                            "C) i componenti di un array multidimensionale sono a loro volta array",
+                            "D) la lunghezza di un array si ottiene con la proprietà length"
+                          ],
+                          "risposta_corretta": "A",
+                          "spiegazioni": {
+                            "A": "Corretto (è la frase FALSA). Java supporta gli array 'jagged' o 'seghettati', in cui ogni sotto-array riga può avere lunghezze differenti.",
+                            "B": "Inesatto (è vera). Le matrici irregolari ne costituiscono un esempio.",
+                            "C": "Inesatto (è vera). Le matrici bidimensionali sono strutturate come array i cui elementi sono vettori.",
+                            "D": "Inesatto (è vera). Si usa l'attributo .length."
+                          }
+                        },
+                        {
+                          "id": 240,
+                          "lezione": "Lezione 032",
+                          "tipo": "Multipla",
+                          "quesito": "Una matrice 5x2 in Java si definisce come:",
+                          "opzioni": [
+                            "A) int[][] = new int[5][2]",
+                            "B) int[][] = new int[5,2]",
+                            "C) int[][][] = new int[2][5]",
+                            "D) int[][] = new int[2][5]"
+                          ],
+                          "risposta_corretta": "A",
+                          "spiegazioni": {
+                            "A": "Corretto. La sintassi per allocare 5 righe e 2 colonne utilizza due coppie di quadre separate: new int[5][2].",
+                            "B": "Inesatto. La virgola dentro le parentesi quadre non fa parte della sintassi di Java.",
+                            "C": "Inesatto. Ha 3 dimensioni e inverte i parametri.",
+                            "D": "Inesatto. Questa dicitura definisce una matrice 2x5 (2 righe e 5 colonne)."
+                          }
+                        },
+                        {
+                          "id": 241,
+                          "lezione": "Lezione 033",
+                          "tipo": "Multipla",
+                          "quesito": "Data una matrice r[][] di interi, l'operazione \"System.out.print(r[i][j])\":",
+                          "opzioni": [
+                            "A) Stampa il valore contenuto nella cella in colonna i e riga j di r",
+                            "B) Stampa la dimensione delle matrice (ovvero il valore di \"i\" e il valore di \"j\")",
+                            "C) Stampa tutti i valori della matrice per ogni posizione i,j di r",
+                            "D) Stampa il valore contenuto nella cella in riga i e colonna j di r"
+                          ],
+                          "risposta_corretta": "D",
+                          "spiegazioni": {
+                            "A": "Inesatto. Il primo indice specifica la riga e il secondo la colonna.",
+                            "B": "Inesatto. Stampa l'elemento allocato, non gli indici o la dimensione.",
+                            "C": "Inesatto. Stampa solo il singolo elemento posizionato nelle coordinate (i, j).",
+                            "D": "Corretto. In Java, la notazione r[i][j] accede all'elemento situato alla riga i e colonna j."
+                          }
+                        },
+                        {
+                          "id": 242,
+                          "lezione": "Lezione 033",
+                          "tipo": "Multipla",
+                          "quesito": "La seguente istruzione: \"float[][] g = new float[4][7]\" esegue il seguente comando:",
+                          "opzioni": [
+                            "A) Crea e istanzia una matrice 4x7 per numeri a virgola mobile",
+                            "B) Crea e istanzia una matrice di 7 righe e 4 colonne",
+                            "C) Crea e istanzia un array di 28 elementi",
+                            "D) Crea e istanzia una matrice 4x7 di valori verità"
+                          ],
+                          "risposta_corretta": "A",
+                          "spiegazioni": {
+                            "A": "Corretto. Allocazione di una matrice di numeri in virgola mobile (float) con 4 righe e 7 colonne.",
+                            "B": "Inesatto. Inverte la dimensione delle righe con quella delle colonne.",
+                            "C": "Inesatto. Sebbene le celle totali siano 28, si tratta di una struttura bidimensionale e non monodimensionale.",
+                            "D": "Inesatto. 'float' gestisce valori decimali, mentre per i valori verità si usa 'boolean'."
+                          }
+                        },
+                        {
+                          "id": 243,
+                          "lezione": "Lezione 033",
+                          "tipo": "Multipla",
+                          "quesito": "La seguente istruzione: \"v[0] *= 121\" ha il seguente significato:",
+                          "opzioni": [
+                            "A) Prende il valore contenuto nella cella 0 dell'array v, lo moltiplica per 121 e il risultato lo rimette in v",
+                            "B) Prende il valore contenuto nella cella 0 e ci copia 121",
+                            "C) Prende il valore della cella 0 dell'array v e ci mette un asterisco",
+                            "D) Prende 121 lo moltiplica per 0 e lo inserisce nella posizione v[0]"
+                          ],
+                          "risposta_corretta": "A",
+                          "spiegazioni": {
+                            "A": "Corretto. L'operatore composto '*=' equivale alla forma estesa: v[0] = v[0] * 121.",
+                            "B": "Inesatto. Questo sarebbe l'effetto di un'assegnazione semplice '='.",
+                            "C": "Inesatto. L'asterisco rappresenta l'operatore matematico di moltiplicazione.",
+                            "D": "Inesatto. Moltiplica il valore precedentemente presente nella posizione v[0], non l'indice 0."
+                          }
+                        },
+                        {
+                          "id": 244,
+                          "lezione": "Lezione 033",
+                          "tipo": "Multipla",
+                          "quesito": "Quale di queste affermazioni per un array \"double[] a\" è falsa?",
+                          "opzioni": [
+                            "A) La variabile \"a\" indica un array e può contenere anche valori interi",
+                            "B) La variabile \"a\" indica un array di valori numerici in virgola mobile",
+                            "C) La variabile \"a\" è una matrice",
+                            "D) La variabile \"a\" indica un array"
+                          ],
+                          "risposta_corretta": "C",
+                          "spiegazioni": {
+                            "A": "Inesatto (è vera). Gli interi vengono promossi implicitamente a double.",
+                            "B": "Inesatto (è vera). 'double' rappresenta numeri con la virgola a doppia precisione.",
+                            "C": "Corretto (è la frase FALSA). Ha una sola coppia di quadre, perciò è un array monodimensionale (vettore) e non una matrice bidimensionale.",
+                            "D": "Inesatto (è vera). È la corretta definizione."
+                          }
+                        },
+                        {
+                          "id": 245,
+                          "lezione": "Lezione 033",
+                          "tipo": "Multipla",
+                          "quesito": "Quale di queste affermazioni per un array \"double[] a\" è vera?",
+                          "opzioni": [
+                            "A) La variabile \"a\" indica un array doppio",
+                            "B) La variabile \"a\" indica un array e può contenere valori di verità",
+                            "C) La variabile \"a\" indica un array non ancora allocato in memoria",
+                            "D) La variabile \"a\" indica un array di lunghezza arbitraria"
+                          ],
+                          "risposta_corretta": "C",
+                          "spiegazioni": {
+                            "A": "Inesatto. 'double' si riferisce al tipo di dato numerico contenuto, non al raddoppio della variabile.",
+                            "B": "Inesatto. I valori boolean non sono ammessi in un array di double.",
+                            "C": "Corretto. Poiché c'è soltanto la dichiarazione del riferimento e manca l'operatore 'new', l'array non è stato ancora istanziato/allocato in memoria (contiene null).",
+                            "D": "Inesatto. Una volta allocato avrà una lunghezza ben definita e fissa."
+                          }
+                        },
+                        {
+                          "id": 246,
+                          "lezione": "Lezione 033",
+                          "tipo": "Multipla",
+                          "quesito": "Per moltiplicare una matrice m per un array v:",
+                          "opzioni": [
+                            "A) La dimensione della matrice in posizione 0 (m[0].length) deve esser maggiore di v.length",
+                            "B) La dimensione dell'array deve essere uguale alla dimensione dell'array in posizione 0 ovvero m[0].length deve esser uguale a v.lenght",
+                            "C) La dimensione della matrice in posizione 1 (m[1].length) deve esser uguale a v.length",
+                            "D) La dimensione dell'array deve essere maggiore di 1 della dimensione dell'array in posizione 0 ovvero m[0].length deve esser uguale a v.length"
+                          ],
+                          "risposta_corretta": "B",
+                          "spiegazioni": {
+                            "A": "Inesatto. Devono coincidere esattamente.",
+                            "B": "Corretto. Per effettuare il prodotto matrice-vettore M x v, il numero di colonne della matrice (m[0].length) deve essere strettamente uguale al numero di elementi del vettore (v.length).",
+                            "C": "Inesatto. m[1] indica l'accesso alla seconda riga, non al numero complessivo delle colonne del costrutto generale.",
+                            "D": "Inesatto. Non deve esserci alcuna differenza numerica tra i due termini."
+                          }
+                        },
+                        {
+                          "id": 247,
+                          "lezione": "Lezione 033",
+                          "tipo": "Multipla",
+                          "quesito": "Date due matrici \"double[][] a = {{1,2}, {4,3}, {7,4}}\" e \"double[][] b = {{1,2,3}, {4,3,6}}\":",
+                          "opzioni": [
+                            "A) Non è possibile fare il prodotto a*b",
+                            "B) Si può fare solo il prodotto b*a",
+                            "C) Si può fare la somma a+b",
+                            "D) E' possibile fare il prodotto a*b"
+                          ],
+                          "risposta_corretta": "D",
+                          "spiegazioni": {
+                            "A": "Inesatto. È possibile in quanto le dimensioni sono compatibili.",
+                            "B": "Inesatto. Anche a*b è valido.",
+                            "C": "Inesatto. La somma richiede che le due matrici abbiano le medesime dimensioni (a è 3x2, b è 2x3).",
+                            "D": "Corretto. La matrice 'a' ha dimensione 3x2 (2 colonne) e la matrice 'b' ha dimensione 2x3 (2 righe). Poiché le colonne di 'a' sono pari alle righe di 'b', il prodotto a*b è calcolabile e restituisce una matrice 3x3."
+                          }
+                        },
+                        {
+                          "id": 248,
+                          "lezione": "Lezione 033",
+                          "tipo": "Multipla",
+                          "quesito": "Dati due array \"double[] a = {1,2,3}\" e \"double[] b = {4,5,6,7}\", quale fra le seguenti affermazioni e' falsa:",
+                          "opzioni": [
+                            "A) Non si può fare il prodotto scalare a*b",
+                            "B) E' possibile fare il prodotto a*b",
+                            "C) Si può stampare sia a che b",
+                            "D) Non è possibile fare il prodotto a*b"
+                          ],
+                          "risposta_corretta": "B",
+                          "spiegazioni": {
+                            "A": "Inesatto (è vera). I due vettori hanno lunghezze diverse (3 e 4), per cui il prodotto scalare non è definito.",
+                            "B": "Corretto (è la frase FALSA). Non è possibile effettuare il prodotto componente per componente poiché i vettori non posseggono la stessa dimensione.",
+                            "C": "Inesatto (è vera). Entrambi gli array sono validi e stampabili con un ciclo.",
+                            "D": "Inesatto (è vera). Ripete che non si può fare la moltiplicazione."
+                         }
+                 },
+                   {
+                    "id": 249,
+                    "lezione": "Lezione 033",
+                    "tipo": "Aperta",
+                    "quesito": "Scrivere il codice Java del prodotto di una matrice per uno scalare.",
+                    "opzioni": [],
+                    "risposta_corretta": "",
+                    "spiegazioni": {
+                      "risposta_modello": "public static double[][] moltiplicaPerScalare(double[][] matrice, double scalare) {\n    int righe = matrice.length;\n    int colonne = matrice[0].length;\n    double[][] risultato = new double[righe][colonne];\n\n    for (int i = 0; i < righe; i++) {\n        for (int j = 0; j < colonne; j++) {\n            risultato[i][j] = matrice[i][j] * scalare;\n        }\n    }\n    return risultato;\n}"
+                    }
+                  },
+                    {
+                      "id": 250,
+                      "lezione": "Lezione 035",
+                      "tipo": "Multipla",
+                      "quesito": "La tecnica di programmazione ricorsiva:",
+                      "opzioni": {
+                        "A": "Si basa sulla tecnica di induzione",
+                        "B": "Si basa sulla tecnica di programmazione dinamica",
+                        "C": "Si basa sulla programmazione iterativa",
+                        "D": "Si basa su metodi euristici"
+                      },
+                      "risposta_corretta": "A",
+                      "spiegazioni": {
+                        "A": "Corretto. La ricorsione è strettamente legata al principio di induzione matematica: si definisce un caso base (passo base) e una regola per ridurre il problema a sotto-problemi più piccoli (passo induttivo).",
+                        "B": "Errato. La programmazione dinamica è una tecnica di ottimizzazione che sfrutta la ricorsione insieme alla memorizzazione, ma la ricorsione di per sé non si basa su di essa.",
+                        "C": "Errato. La programmazione iterativa si basa sui cicli (for, while), mentre la ricorsione si basa sull'auto-invocazione della funzione.",
+                        "D": "Errato. I metodi euristici servono a trovare soluzioni approssimate per problemi complessi, mentre la ricorsione è una tecnica computazionale esatta."
+                      }
+                    },
+                    {
+                      "id": 251,
+                      "lezione": "Lezione 035",
+                      "tipo": "Multipla",
+                      "quesito": "Dato un algoritmo matematicamente ricorsivo si dice che:",
+                      "opzioni": {
+                        "A": "Non è possibile stabilire se la sua implementazione iterativa sia sempre migliore di quella ricorsiva",
+                        "B": "Non si può mai definire una implementazione iterativa",
+                        "C": "E' sempre possibile indicare una implementazione iterativa ma mai ricorsiva",
+                        "D": "Si può definire sempre e solo una implementazione ricorsiva"
+                      },
+                      "risposta_corretta": "A",
+                      "spiegazioni": {
+                        "A": "Corretto. La scelta tra ricorsione e iterazione dipende da vari fattori (leggibilità del codice, overhead dello stack di chiamate, occupazione di memoria, ecc.), quindi non si può stabilire a priori quale sia 'sempre migliore'.",
+                        "B": "Errato. Qualsiasi algoritmo ricorsivo può essere convertito in forma iterativa (eventualmente simulando uno stack).",
+                        "C": "Errato. Se un algoritmo è matematicamente ricorsivo, per definizione ammette un'implementazione ricorsiva.",
+                        "D": "Errato. Ogni algoritmo ricorsivo può essere tradotto in versione iterativa."
+                      }
+                    },
+                    {
+                      "id": 252,
+                      "lezione": "Lezione 035",
+                      "tipo": "Multipla",
+                      "quesito": "Dovendo implementare in Java l'algoritmo di calcolo del fattoriale di un numero contenuto in una variabile 'n', quale fra queste linee di codice posso utilizzare?",
+                      "opzioni": {
+                        "A": "La linea di codice \"return n * fact(n-1)\"",
+                        "B": "La linea di codice \"return (n+1)*fact(n+1)\"",
+                        "C": "La linea di codice \"return fact(n)*fact(n)\"",
+                        "D": "La linea di codice \"return fact(n+1)\""
+                      },
+                      "risposta_corretta": "A",
+                      "spiegazioni": {
+                        "A": "Corretto. La definizione matematica del fattoriale è n! = n * (n-1)!. In codice ricorsivo, questo si traduce in 'return n * fact(n-1)' per il passo ricorsivo.",
+                        "B": "Errato. Questa formula divergerebbe all'infinito aumentando n anziché ridurlo verso il caso base.",
+                        "C": "Errato. Non riduce la dimensione del problema e causa un ciclo infinito di chiamate a fact(n).",
+                        "D": "Errato. Aumenta il parametro ad ogni chiamata, portando a una ricorsione infinita e a uno StackOverflowError."
+                      }
+                    },
+                    {
+                      "id": 253,
+                      "lezione": "Lezione 035",
+                      "tipo": "Multipla",
+                      "quesito": "Quale di queste affermazioni è falsa:",
+                      "opzioni": {
+                        "A": "La tecnica di ricorsione si usa ad esempio per il calcolo del numero di fibonacci",
+                        "B": "La tecnica di ricorsione si può solo usare se contiene cicli (for o while)",
+                        "C": "La tecnica di ricorsione è una funzione che contiene il nome della funzione al suo interno",
+                        "D": "La tecnica di ricorsione si usa ad esempio per il calcolo del fattoriale di un numero"
+                      },
+                      "risposta_corretta": "B",
+                      "spiegazioni": {
+                        "A": "Vera. Il calcolo della sequenza di Fibonacci è un classico esempio di applicazione della ricorsione.",
+                        "B": "Falsa (quindi la risposta corretta). La ricorsione non richiede cicli for o while; le ripetizioni avvengono tramite l'auto-invocazione della funzione stessa.",
+                        "C": "Vera. Una funzione ricorsiva richiama sé stessa nel suo corpo, quindi contiene la propria invocazione.",
+                        "D": "Vera. Il calcolo del fattoriale è uno degli esempi fondamentali di ricorsione."
+                      }
+                    },
+                    {
+                      "id": 254,
+                      "lezione": "Lezione 035",
+                      "tipo": "Multipla",
+                      "quesito": "Data una funzione recursive(), quale delle seguenti affermazioni è certamente corretta?",
+                      "opzioni": {
+                        "A": "La funzione recursive() è ricorsiva perché fa parte delle librerie Java",
+                        "B": "La funzione deve avere nel suo blocco di codice l'istruzione \"recursive()\" per definirsi ricorsiva",
+                        "C": "La funzione deve includere sempre un ciclo di while per esser ricorsiva",
+                        "D": "La funzione deve contenere una invocazione ricorsiva in un ciclo"
+                      },
+                      "risposta_corretta": "B",
+                      "spiegazioni": {
+                        "A": "Errato. Il nome della funzione o l'appartenenza a librerie non la rende di per sé ricorsiva.",
+                        "B": "Corretto. Per essere definita ricorsiva, una funzione deve invocare sé stessa all'interno del proprio corpo di istruzioni.",
+                        "C": "Errato. I cicli while non sono necessari per la ricorsione.",
+                        "D": "Errato. L'invocazione ricorsiva non deve necessariamente risiedere all'interno di un ciclo."
+                      }
+                    },
+                    {
+                      "id": 255,
+                      "lezione": "Lezione 035",
+                      "tipo": "Multipla",
+                      "quesito": "Il calcolo del fattoriale di un numero intero si può:",
+                      "opzioni": {
+                        "A": "Calcolare solo con metodo ricorsivo",
+                        "B": "Calcolare solo con l'ausilio del calcolo parallelo",
+                        "C": "Calcolare solo con un ciclo di for",
+                        "D": "Calcolare sia con la tecnica ricorsiva che tramite l'uso di cicli"
+                      },
+                      "risposta_corretta": "D",
+                      "spiegazioni": {
+                        "A": "Errato. Il fattoriale si può calcolare benissimo anche in modo iterativo (con for o while).",
+                        "B": "Errato. Non serve il calcolo parallelo per calcolare il fattoriale di un numero intero.",
+                        "C": "Errato. Non è limitato ai cicli for; si può implementare anche con while o ricorsivamente.",
+                        "D": "Corretto. Il fattoriale è un classico problema che ammette sia una soluzione iterativa (tramite cicli) che una ricorsiva."
+                      }
+                    },
+                    {
+                      "id": 256,
+                      "lezione": "Lezione 035",
+                      "tipo": "Multipla",
+                      "quesito": "La tecnica ricorsiva consente di invocare una stessa funzione dall'interno del codice in quanto:",
+                      "opzioni": {
+                        "A": "Usa lo Stack di attivazione",
+                        "B": "Usa il calcolo parallelo",
+                        "C": "Usa il disco rigido",
+                        "D": "Usa la memoria a nastro"
+                      },
+                      "risposta_corretta": "A",
+                      "spiegazioni": {
+                        "A": "Corretto. Ogni chiamata ricorsiva crea un nuovo frame nello stack di attivazione (Call Stack) per salvare variabili locali e stato di esecuzione.",
+                        "B": "Errato. La ricorsione standard lavora in sequenza sullo stack di un singolo thread.",
+                        "C": "Errato. La gestione della memoria di esecuzione avviene nella RAM (stack), non su disco rigido.",
+                        "D": "Errato. La memoria a nastro è un supporto di memorizzazione secondario obsoleto."
+                      }
+                    },
+                    {
+                      "id": 257,
+                      "lezione": "Lezione 035",
+                      "tipo": "Multipla",
+                      "quesito": "La Ricorsione e' una tecniche di programmazione che:",
+                      "opzioni": {
+                        "A": "Si utilizza quando è necessario ripetere delle azioni in modo ottimale",
+                        "B": "Si basa sulla rincorsa del codice",
+                        "C": "Si utilizza solo per analizzare numeri interi",
+                        "D": "Si basa sulla invocazione di una stessa funzione dall'interno della funzione stessa"
+                      },
+                      "risposta_corretta": "D",
+                      "spiegazioni": {
+                        "A": "Errato. La ricorsione non è sempre l'opzione più ottimale a causa dell'overhead dello stack.",
+                        "B": "Errato. 'Rincorsa del codice' non è un termine o concetto informatico.",
+                        "C": "Errato. Può essere applicata a strutture dati complesse come alberi, grafi, liste, ecc.",
+                        "D": "Corretto. È la definizione formale di ricorsione in informatica."
+                      }
+                    },
+                    {
+                      "id": 258,
+                      "lezione": "Lezione 035",
+                      "tipo": "Aperta",
+                      "quesito": "Scrivere il codice Java di una funzione ricorsiva che calcoli il fattoriale di un numero intero.",
+                      "risposta_guida": "public static long fattoriale(int n) {\n    if (n <= 1) {\n        return 1; // Caso base\n    }\n    return n * fattoriale(n - 1); // Passo ricorsivo\n}"
+                    },
+                    {
+                      "id": 259,
+                      "lezione": "Lezione 036",
+                      "tipo": "Multipla",
+                      "quesito": "Per aggiungere una stringa ad un'altra stringa in una variabile si usa:",
+                      "opzioni": {
+                        "A": "Il metodo \"string.appendMeOnline()\"",
+                        "B": "Il metodo \"StringBuffer.append(char[] c)\"",
+                        "C": "Il metodo \"Char.AggangiaStringa()\"",
+                        "D": "Il metodo \"String.Append(s1, s2)\""
+                      },
+                      "risposta_corretta": "B",
+                      "spiegazioni": {
+                        "A": "Errato. Non esiste alcun metodo simile nelle API standard di Java.",
+                        "B": "Corretto. La classe StringBuffer mette a disposizione vari sovraccarichi del metodo append(), tra cui append(char[] c) e append(String str) per concatenare contenuti.",
+                        "C": "Errato. Metodo inesistente in Java.",
+                        "D": "Errato. In Java i metodi seguono la convenzione camelCase (append, non Append) e la classe String non possiede un metodo di istanza statico chiamato Append(s1, s2)."
+                      }
+                    },
+                    {
+                      "id": 260,
+                      "lezione": "Lezione 036",
+                      "tipo": "Multipla",
+                      "quesito": "Data la funzione \"StringBuffer insert(int offset, long l)\" consente di:",
+                      "opzioni": {
+                        "A": "Inserire un nuovo valore di offset su una stringa s",
+                        "B": "Cancellare una stringa di lunghezza l da un una posizione \"offset\"",
+                        "C": "Inserire la rappresentazione stringa dell'argomento long nella sequenza di caratteri",
+                        "D": "Stampare a video una parola inserita in una stringa"
+                      },
+                      "risposta_corretta": "C",
+                      "spiegazioni": {
+                        "A": "Errato. L'offset indica la posizione di inserimento, non un valore da modificare.",
+                        "B": "Errato. Per cancellare si usa il metodo delete().",
+                        "C": "Corretto. Il metodo insert converte l'argomento long in stringa e lo inserisce nella posizione specificata dall'offset.",
+                        "D": "Errato. Non effettua alcuna stampa a video."
+                      }
+                    },
+                    {
+                      "id": 261,
+                      "lezione": "Lezione 036",
+                      "tipo": "Multipla",
+                      "quesito": "Data una variabile sb di tipo StringBuffer, con valore: sb = \"Prova \"; la funzione sb.append(\"test\"): ",
+                      "opzioni": {
+                        "A": "Appende uno spazio vuoto alla fine di sb (risultato sb = \"Prova \")",
+                        "B": "Appende un carattere alla variabile sb (risultato sb = \"Prova t\")",
+                        "C": "Appende un testo alla variabile sb (risultato sb = \"Prova test\")",
+                        "D": "Appende la parola append alla variabile sb (risultato sb = \"Prova append\")"
+                      },
+                      "risposta_corretta": "C",
+                      "spiegazioni": {
+                        "A": "Errato. Concatena la stringa passata come argomento (\"test\").",
+                        "B": "Errato. Aggiunge l'intera stringa \"test\", non solo la prima lettera.",
+                        "C": "Corretto. append(\"test\") aggiunge in coda al buffer la stringa \"test\", ottenendo \"Prova test\".",
+                        "D": "Errato. Aggiunge il parametro (\"test\"), non il nome del metodo."
+                      }
+                    },
+                    {
+                      "id": 262,
+                      "lezione": "Lezione 036",
+                      "tipo": "Multipla",
+                      "quesito": "Data l'istruzione: String s = new String(\"test\"); la variabile s consente di:",
+                      "opzioni": {
+                        "A": "Definire un insieme di caratteri stampabili singolarmente",
+                        "B": "Memorizzare solo bytecode",
+                        "C": "Memorizzare in s valori numerici",
+                        "D": "Stampare il contenuto della variabile s"
+                      },
+                      "risposta_corretta": "A",
+                      "spiegazioni": {
+                        "A": "Corretto. In Java, un oggetto String gestisce una sequenza/insieme di caratteri a cui si può accedere o che si possono stampare singolarmente.",
+                        "B": "Errato. Memorizza testo/caratteri Unicode, non bytecode.",
+                        "C": "Errato. Memorizza una sequenza alfabetica/testuale, non dati numerici primitivi.",
+                        "D": "Errato. La variabile memorizza il riferimento all'oggetto String; per stampare occorre usare System.out.println(s)."
+                      }
+                    },
+                    {
+                      "id": 263,
+                      "lezione": "Lezione 036",
+                      "tipo": "Multipla",
+                      "quesito": "Se serve per una stringa manipolare i singoli caratteri è necessario:",
+                      "opzioni": {
+                        "A": "Si usa un array di caratteri della forma char[]",
+                        "B": "Si usa una tecnica di mappaggio delle stringhe in interi",
+                        "C": "Non si può implementare mai in Java",
+                        "D": "Si definisce una funzione dedicata che usi i double"
+                      },
+                      "risposta_corretta": "A",
+                      "spiegazioni": {
+                        "A": "Corretto. L'uso di un array char[] (oppure metodi come toCharArray() o StringBuilder/StringBuffer) permette di modificare e manipolare i singoli caratteri.",
+                        "B": "Errato. La mappatura in interi non serve alla manipolazione diretta dei caratteri.",
+                        "C": "Errato. Java consente la manipolazione tramite char[], StringBuilder o metodi dedicati.",
+                        "D": "Errato. I tipi floating point (double) non c'entrano con i caratteri testuali."
+                      }
+                    },
+                    {
+                      "id": 264,
+                      "lezione": "Lezione 036",
+                      "tipo": "Multipla",
+                      "quesito": "Data l'istruzione: String saluto = \"Ciao a tutti\"; quale di queste affermazioni è vera:",
+                      "opzioni": {
+                        "A": "Non si possono modificare i singoli caratteri della variabile \"saluto\"",
+                        "B": "Si possono invertire o saltare i caratteri dalle stringa \"saluto\"",
+                        "C": "Non si può stampare la stringa \"saluto\"",
+                        "D": "Si possono cambiare i caratteri della stringa \"saluto\""
+                      },
+                      "risposta_corretta": "A",
+                      "spiegazioni": {
+                        "A": "Corretto. In Java gli oggetti di tipo String sono immutabili: una volta creati, i singoli caratteri dell'istanza non possono essere modificati in-place.",
+                        "B": "Errato. Non è possibile modificare l'oggetto String direttamente sul posto.",
+                        "C": "Errato. La stringa si può stampare tranquillamente con System.out.println(saluto).",
+                        "D": "Errato. Gli oggetti String sono immutabili."
+                      }
+                    },
+                    {
+                      "id": 265,
+                      "lezione": "Lezione 036",
+                      "tipo": "Multipla",
+                      "quesito": "In Java le stringhe si definiscono utilizzando:",
+                      "opzioni": {
+                        "A": "La classe CharacaterString()",
+                        "B": "Le funzioni char()",
+                        "C": "Le matrici definite dagli utenti",
+                        "D": "La classe statica definita nella libreria di Java di nome String"
+                      },
+                      "risposta_corretta": "D",
+                      "spiegazioni": {
+                        "A": "Errato. Questa classe non esiste nel pacchetto java.lang.",
+                        "B": "Errato. char è un tipo di dato primitivo per singoli caratteri, non una funzione.",
+                        "C": "Errato. Non è necessario creare matrici personalizzate per gestire le stringhe.",
+                        "D": "Corretto. Le stringhe sono rappresentate dalla classe String contenuta nel package predefinito java.lang."
+                      }
+                    },
+                    {
+                      "id": 266,
+                      "lezione": "Lezione 036",
+                      "tipo": "Multipla",
+                      "quesito": "Quale di queste affermazioni è sicuramente falsa?",
+                      "opzioni": {
+                        "A": "Una istanza di una variabile char è stampabile a video",
+                        "B": "Una istanza di stringa String() è stampabile a video",
+                        "C": "Una istanza della classe String e un array di char sono esattamente uguali",
+                        "D": "I caratteri in una istanza di String sono immutabili"
+                      },
+                      "risposta_corretta": "C",
+                      "spiegazioni": {
+                        "A": "Vera. Le variabili di tipo char possono essere stampate a video.",
+                        "B": "Vera. Gli oggetti String possono essere stampati normalmente.",
+                        "C": "Falsa (quindi la risposta corretta). Una String è un oggetto con metodi complessi ed è immutabile, mentre char[] è una struttura dati primitiva modificabile.",
+                        "D": "Vera. La classe String in Java è immutabile."
+                      }
+                    },
+                    {
+                      "id": 267,
+                      "lezione": "Lezione 036",
+                      "tipo": "Aperta",
+                      "quesito": "Descrivere la differenza tra la classe String e un array di char.",
+                      "risposta_guida": "In Java, 'String' è una classe ricca di metodi di utilità le cui istanze sono oggetti immutabili (una volta create, il loro contenuto non può variare). Un 'array di char' (char[]) è invece una struttura dati nativa i cui elementi sono mutabili (è possibile riassegnare un singolo carattere ad un indice). Inoltre, String gestisce internamente la rappresentazione e l'incapsulamento dei dati."
+                    },
+                    {
+                      "id": 268,
+                      "lezione": "Lezione 036",
+                      "tipo": "Aperta",
+                      "quesito": "Descrivere la differenza tra la classe String e la classe StringBuffer.",
+                      "risposta_guida": "La classe 'String' rappresenta una sequenza di caratteri immutabile: ogni modifica crea un nuovo oggetto String in memoria. La classe 'StringBuffer' rappresenta una sequenza di caratteri mutabile e thread-safe (sincronizzata): permette di inserire, modificare o appendere caratteri nello stesso oggetto senza creare nuovi oggetti ad ogni operazione, risultando molto più efficiente in contesti di continua manipolazione testuale."
+                    },
+                    {
+                      "id": 269,
+                      "lezione": "Lezione 037",
+                      "tipo": "Multipla",
+                      "quesito": "Le due operazioni: 1) String s = new String(); e 2) String s = \"\";",
+                      "opzioni": {
+                        "A": "Sono differenti e costruiscono una stringa s con valori nulli e una stringa s senza caratteri",
+                        "B": "Sono equivalenti e costruisono una stringa con 10 caratteri vuoti",
+                        "C": "Sono equivalenti e costruiscono una stringa vuota",
+                        "D": "Sono differenti e costruiscono una stringa s senza caratteri e una stringa s con valori nulli"
+                      },
+                      "risposta_corretta": "C",
+                      "spiegazioni": {
+                        "A": "Errato. Nessuna delle due crea un valore null; entrambe creano istanze valide ma prive di caratteri.",
+                        "B": "Errato. La lunghezza delle stringhe create è 0, non 10.",
+                        "C": "Corretto. Entrambe le sintassi istanziano un oggetto String vuoto (con lunghezza pari a 0).",
+                        "D": "Errato. Nessuna delle due istruzioni produce un riferimento a null."
+                      }
+                    },
+                    {
+                      "id": 270,
+                      "lezione": "Lezione 037",
+                      "tipo": "Multipla",
+                      "quesito": "Date le due istruzioni Java in sequenza: \"char[] c = {‘t’, ‘e’, ‘s’, ‘t’};\" e \"String s = new String(c);\"",
+                      "opzioni": {
+                        "A": "Crea una stringa s che contiene il primo carattere \"t\" della variabile c",
+                        "B": "Crea una stringa s che contiene la parola \"'t''e''s''t'\"",
+                        "C": "Crea una nuova stringa s che non contiene nulla",
+                        "D": "Crea una stringa s che contiene la parola \"test\""
+                      },
+                      "risposta_corretta": "D",
+                      "spiegazioni": {
+                        "A": "Errato. Il costruttore converte l'intero array di caratteri, non solo il primo elemento.",
+                        "B": "Errato. I singoli apici servono a definire i letterali char e non vengono inclusi nella stringa.",
+                        "C": "Errato. La stringa creata conterrà i caratteri presenti nell'array.",
+                        "D": "Corretto. Il costruttore String(char[]) unisce i caratteri dell'array per formare la stringa \"test\"."
+                      }
+                    },
+                    {
+                      "id": 271,
+                      "lezione": "Lezione 037",
+                      "tipo": "Multipla",
+                      "quesito": "Data una stringa s = new String(\"prova\");, per stampare la lettera \"o\" si procede con:",
+                      "opzioni": {
+                        "A": "System.out.println([2]);",
+                        "B": "System.out.println([II]);",
+                        "C": "System.out.println(s.charAt(2));",
+                        "D": "System.out.println(s.2);"
+                      },
+                      "risposta_corretta": "C",
+                      "spiegazioni": {
+                        "A": "Errato. Gli indici con parentesi quadre si usano per gli array, non per gli oggetti String.",
+                        "B": "Errato. Sintassi non valida in Java.",
+                        "C": "Corretto. Gli indici in Java partono da 0 ('p'=0, 'r'=1, 'o'=2). Il metodo s.charAt(2) restituisce il carattere all'indice 2, cioè 'o'.",
+                        "D": "Errato. Sintassi errata."
+                      }
+                    },
+                    {
+                      "id": 272,
+                      "lezione": "Lezione 037",
+                      "tipo": "Multipla",
+                      "quesito": "Per confrontare due stringhe s1 ed s2 e verificare se hanno lo stesso valore si procede con:",
+                      "opzioni": {
+                        "A": "L'istruzione Java \"if (s1=s2)\"",
+                        "B": "L'istruzione Java \"if (Equals(s1,s2))\"",
+                        "C": "L'istruzione Java \"if (s1==s2)\"",
+                        "D": "L'istruzione Java \"if (s1.equals(s2))\""
+                      },
+                      "risposta_corretta": "D",
+                      "spiegazioni": {
+                        "A": "Errato. L'operatore '=' è un operatore di assegnamento, non di confronto.",
+                        "B": "Errato. Il metodo di istanza è equals() con l'iniziale minuscola.",
+                        "C": "Errato. L'operatore '==' confronta i riferimenti in memoria degli oggetti, non il loro contenuto testuale.",
+                        "D": "Corretto. Il metodo s1.equals(s2) confronta il contenuto delle due stringhe carattere per carattere."
+                      }
+                    },
+                    {
+                      "id": 273,
+                      "lezione": "Lezione 037",
+                      "tipo": "Multipla",
+                      "quesito": "Data una stringa s generata in Java come: s = new String(\"prova\");, quale delle seguenti affermazioni è falsa?",
+                      "opzioni": {
+                        "A": "s2=s.substring(1,3) inserisce in s2 la stringa \"rov\"",
+                        "B": "s2=s.substring(1,3) inserisce in s2 la stringa intera",
+                        "C": "s2=s.substring(1,3) serve a copiare una parte di s in s2",
+                        "D": "s2=s.substring(1,3) si usa per generare una sottostringa di s"
+                      },
+                      "risposta_corretta": "A",
+                      "spiegazioni": {
+                        "A": "Falsa (quindi la risposta corretta). substring(beginIndex, endIndex) estrae dall'indice beginIndex fino a endIndex escluso. Quindi substring(1,3) estrae gli indici 1 e 2, cioè \"ro\", non \"rov\".",
+                        "B": "Note: Anche questa affermazione è strettamente falsa, ma nel contesto dei quesiti universitari eCampus la risposta A evidenzia l'errore sul valore calcolato dell'estrazione.",
+                        "C": "Vera. Serve per estrarre e copiare una porzione di testo.",
+                        "D": "Vera. substring è il metodo preposto a generare sottostringhe."
+                      }
+                    },
+                    {
+                      "id": 274,
+                      "lezione": "Lezione 037",
+                      "tipo": "Multipla",
+                      "quesito": "La funzione \"String concat(String s)\":",
+                      "opzioni": {
+                        "A": "E' una funzione della classe String che serve a concatenare una stringa data con la stringa parametro s",
+                        "B": "E' una funzione che serve a concatenare sue stringhe date in input e mette in risultato nel parametro s",
+                        "C": "E' una procedura della classe String che serve a stampare la stringa s concatenata con se stessa",
+                        "D": "E' una funzione che serve a comunicare una stringa s a una funzione di stampa"
+                      },
+                      "risposta_corretta": "A",
+                      "spiegazioni": {
+                        "A": "Corretto. Il metodo di istanza concat(String s) restituisce una nuova stringa formata dalla stringa corrente concatenata con il parametro s.",
+                        "B": "Errato. Non modifica il parametro s in input (le String sono immutabili).",
+                        "C": "Errato. Non effettua operazioni di stampa a video.",
+                        "D": "Errato. Non ha alcuna relazione con le funzioni di I/O o stampa."
+                      }
+                    },
+                    {
+                      "id": 275,
+                      "lezione": "Lezione 037",
+                      "tipo": "Multipla",
+                      "quesito": "Data il seguente codice: String s1 = new String(\"stringa\"); String s2 = new String(\" di prova\"); quale delle seguenti affermazioni è vera?",
+                      "opzioni": {
+                        "A": "System.out.println(s1.concat(s2)) stampa \"stringa di prova\"",
+                        "B": "System.out.println(s1.concat(s2)) stampa \" prova di stringa\"",
+                        "C": "System.out.println(s1.concat(s2)) stampa \" prova\"",
+                        "D": "System.out.println(s1.concat(s2)) stampa \" stringa\""
+                      },
+                      "risposta_corretta": "A",
+                      "spiegazioni": {
+                        "A": "Corretto. s1.concat(s2) unisce \"stringa\" con \" di prova\", producendo la stringa completa \"stringa di prova\".",
+                        "B": "Errato. L'ordine di concatenazione parte da s1 e aggiunge s2 in coda.",
+                        "C": "Errato. Non restituisce solo la seconda stringa.",
+                        "D": "Errato. Non restituisce solo la prima stringa."
+                      }
+                    },
+                    {
+                      "id": 276,
+                      "lezione": "Lezione 037",
+                      "tipo": "Multipla",
+                      "quesito": "A cosa serve la classe StringTokenizer?",
+                      "opzioni": {
+                        "A": "Serve ad estrarre token da una stringa",
+                        "B": "Serve a gestire una sequenza di stringhe come interi",
+                        "C": "Serve a fare dei cicli sulle stringhe",
+                        "D": "Serve a generare token casuali usando le stringhe"
+                      },
+                      "risposta_corretta": "A",
+                      "spiegazioni": {
+                        "A": "Corretto. StringTokenizer suddivide una stringa in sottostringhe (token) basandosi su delimitatori specificati (es. spazi, virgole).",
+                        "B": "Errato. Gestisce sottostringhe/token testuali, non la conversione automatica in interi.",
+                        "C": "Errato. Non è una struttura di controllo di ciclo (anche se viene usata spesso nei cicli while).",
+                        "D": "Errato. Non genera valori pseudo-casuali."
+                      }
+                    },
+                    {
+                      "id": 277,
+                      "lezione": "Lezione 037",
+                      "tipo": "Aperta",
+                      "quesito": "Descrivere il funzionamento dei metodi toUpperCase() e toLowerCase() della classe String e fare degli esempi.",
+                      "risposta_guida": "I metodi toUpperCase() e toLowerCase() della classe String convertono tutti i caratteri di una stringa rispettivamente in maiuscolo e in minuscolo. Poiché le String sono immutabili, entrambi i metodi non modificano la stringa originale ma restituiscono una nuova istanza modificata.\nEsempio:\nString s = \"Ciao\";\nString maiusc = s.toUpperCase(); // Risultato: \"CIAO\"\nString minusc = s.toLowerCase(); // Risultato: \"ciao\""
+                    },
+                    {
+                      "id": 278,
+                      "lezione": "Lezione 038",
+                      "tipo": "Multipla",
+                      "quesito": "La parola chiave \"import\" indica:",
+                      "opzioni": {
+                        "A": "Un modo per dire che una istruzione è importante",
+                        "B": "Un modo per escludere alcune classi",
+                        "C": "Un modo per includere le funzionalità di una classe",
+                        "D": "Un modo per indicare l'importazione di variabili"
+                      },
+                      "risposta_corretta": "C",
+                      "spiegazioni": {
+                        "A": "Errato. Non ha alcuna relazione con il senso letterale di 'importante'.",
+                        "B": "Errato. Serve a includere, non a escludere.",
+                        "C": "Corretto. Permette di rendere accessibili ed utilizzare nel file corrente classi definite in altri pacchetti (package).",
+                        "D": "Errato. Importa classi, interfacce o membri statici, non singole variabili locali."
+                      }
+                    },
+                    {
+                      "id": 279,
+                      "lezione": "Lezione 038",
+                      "tipo": "Multipla",
+                      "quesito": "La parola chiave protected si può usare:",
+                      "opzioni": {
+                        "A": "Nella definizione dei package per cui chiedo protezione",
+                        "B": "Nella definizione dei metodi di una classe",
+                        "C": "Per le funzioni invocabili solo con sistema operativo",
+                        "D": "Nella definizione di codice antihacker"
+                      },
+                      "risposta_corretta": "B",
+                      "spiegazioni": {
+                        "A": "Errato. I package non utilizzano modificatori di accesso come protected.",
+                        "B": "Corretto. 'protected' è un modificatore di accesso applicabile a metodi e attributi di una classe per renderli visibili al pacchetto e alle sottoclassi.",
+                        "C": "Errato. Non interagisce con i livelli di protezione del sistema operativo.",
+                        "D": "Errato. È un costrutto del linguaggio per l'incapsulamento, non una funzionalità di sicurezza informatica."
+                      }
+                    },
+                    {
+                      "id": 280,
+                      "lezione": "Lezione 038",
+                      "tipo": "Multipla",
+                      "quesito": "Quali di queste affermazioni è sicuramente falsa?",
+                      "opzioni": {
+                        "A": "La parola chiave \"long\" è un intero con segno",
+                        "B": "La parola chiave \"long\" indica un tipo",
+                        "C": "La parola chiave \"long\" si usa per i valori numerici",
+                        "D": "La parola chiave \"long\" serve a definire stringhe più lunghe"
+                      },
+                      "risposta_corretta": "D",
+                      "spiegazioni": {
+                        "A": "Vera. In Java 'long' è un tipo primitivo intero a 64 bit con segno.",
+                        "B": "Vera. 'long' è un tipo di dato primitivo in Java.",
+                        "C": "Vera. Rappresenta valori numerici interi ad ampia dimensione.",
+                        "D": "Falsa (quindi la risposta corretta). 'long' è un tipo numerico primitivo e non ha alcuna relazione con le stringhe o la loro lunghezza."
+                      }
+                    },
+                    {
+                      "id": 281,
+                      "lezione": "Lezione 038",
+                      "tipo": "Multipla",
+                      "quesito": "La parola chiave package:",
+                      "opzioni": {
+                        "A": "Indica la versione dei pacchetti generati dall'utente",
+                        "B": "Indica la versione della CPU",
+                        "C": "Indica la versione del compilatore di Java",
+                        "D": "Indica un pacchetto o libreria di funzioni"
+                      },
+                      "risposta_corretta": "D",
+                      "spiegazioni": {
+                        "A": "Errato. Non definisce né gestisce numeri di versione.",
+                        "B": "Errato. Non è correlata all'hardware.",
+                        "C": "Errato. Non specifica la versione del compilatore.",
+                        "D": "Corretto. 'package' viene utilizzata all'inizio di un sorgente Java per raggruppare e organizzare classi correlate in uno stesso spazio di nomi (namespace)."
+                      }
+                    },
+                    {
+                      "id": 282,
+                      "lezione": "Lezione 038",
+                      "tipo": "Multipla",
+                      "quesito": "La parola chiave instanceof si utilizza per:",
+                      "opzioni": {
+                        "A": "Testare se un programma è istanziato",
+                        "B": "Testare se un programma è in esecuzione",
+                        "C": "Testare se una variabile e istanziabile",
+                        "D": "Testare se una variabile è una istanza di un certo tipo"
+                      },
+                      "risposta_corretta": "D",
+                      "spiegazioni": {
+                        "A": "Errato. Non si applica all'intero programma.",
+                        "B": "Errato. Non riguarda lo stato del processo in esecuzione.",
+                        "C": "Errato. Non verifica l'istanziabilità di una variabile.",
+                        "D": "Corretto. L'operatore 'instanceof' controlla se un oggetto fa riferimento a un'istanza di una determinata classe, interfaccia o sottoclasse."
+                      }
+                    },
+                    {
+                      "id": 283,
+                      "lezione": "Lezione 038",
+                      "tipo": "Multipla",
+                      "quesito": "Data l'istruzione: String final = \"fine\"; che succede se la compiliamo?",
+                      "opzioni": {
+                        "A": "Genera un errore perchè final è una parola chiave",
+                        "B": "Genera un errore perchè una stringa non si definisce così",
+                        "C": "Non genera alcun errore",
+                        "D": "Genera un errore perchè dopo l'uguale non ci vogliono mai le virgolette"
+                      },
+                      "risposta_corretta": "A",
+                      "spiegazioni": {
+                        "A": "Corretto. 'final' è una parola chiave riservata del linguaggio Java (usata per definire costanti o impedire l'override) e non può essere usata come nome di identificatore/variabile.",
+                        "B": "Errato. La sintassi Tipo nome = \"valore\"; è corretta, l'unico errore è l'uso di una keyword come nome.",
+                        "C": "Errato. Il codice non compila.",
+                        "D": "Errato. I valori testuali per le stringhe richiedono obbligatoriamente le virgolette."
+                      }
+                    },
+                    {
+                      "id": 284,
+                      "lezione": "Lezione 038",
+                      "tipo": "Multipla",
+                      "quesito": "Quali delle seguenti parole non è una parola chiave di Java?",
+                      "opzioni": {
+                        "A": "Class",
+                        "B": "abstract",
+                        "C": "else",
+                        "D": "boolean"
+                      },
+                      "risposta_corretta": "A",
+                      "spiegazioni": {
+                        "A": "Corretto (non è una keyword). Java è case-sensitive: la parola chiave riservata è 'class' (tutta minuscola). 'Class' con la C maiuscola è una classe del package java.lang.",
+                        "B": "Errato. 'abstract' è una parola chiave di Java.",
+                        "C": "Errato. 'else' è una parola chiave riservata.",
+                        "D": "Errato. 'boolean' è una parola chiave che indica il tipo di dato primitivo."
+                      }
+                    },
+                    {
+                      "id": 285,
+                      "lezione": "Lezione 038",
+                      "tipo": "Multipla",
+                      "quesito": "Per invocare un metodo di una classe padre nella gerarchia di classi Java si usa la parola chiave:",
+                      "opzioni": {
+                        "A": "super",
+                        "B": "ancestor",
+                        "C": "ancien",
+                        "D": "overthetop"
+                      },
+                      "risposta_corretta": "A",
+                      "spiegazioni": {
+                        "A": "Corretto. La parola chiave 'super' permette di fare riferimento ai metodi o costruttori della superclasse (classe padre).",
+                        "B": "Errato. Non esiste questa parola chiave in Java.",
+                        "C": "Errato. Parola non esistente nel linguaggio Java.",
+                        "D": "Errato. Parola non esistente nel linguaggio Java."
+                      }
+                    },
+                    {
+                      "id": 286,
+                      "lezione": "Lezione 038",
+                      "tipo": "Aperta",
+                      "quesito": "Descrivere che cos'è una keyword di Java e fare degli esempi di keyword.",
+                      "risposta_guida": "Una keyword (o parola chiave) in Java è un identificatore riservato dal linguaggio che possiede un significato speciale e predefinito per il compilatore. Le keyword non possono essere utilizzate come nomi di variabili, classi o metodi. Esempi di keyword sono: class, public, static, void, int, if, else, return, super, final, new, import, package."
+                    },
+                        {
+                          "id": 287,
+                          "lezione": "Lezione 039",
+                          "tipo": "Multipla",
+                          "quesito": "Data la classe \"Persona\", la seguente istruzione \"Persona p1 = new Persona();\" serve a:",
+                          "opzioni": {
+                            "A": "Creare un oggetto p1 che sia di tipo Persona",
+                            "B": "Inizializzare la classe Persona",
+                            "C": "Creare una nuova classe p1 di tipo Persona",
+                            "D": "Creare una variabile p1 che contenga un array di persone"
+                          },
+                          "risposta_corretta": "A",
+                          "spiegazioni": {
+                            "A": "Corretto. L'istruzione combina la dichiarazione di una variabile di tipo Persona e la sua istanziazione in memoria con 'new Persona()'.",
+                            "B": "Errato. Inizializzare una classe e istanziare un oggetto sono concetti distinti.",
+                            "C": "Errato. 'p1' non è una classe, ma un'istanza (oggetto) della classe Persona.",
+                            "D": "Errato. Per creare un array la sintassi richiederebbe le parentesi quadre (es. Persona[])."
+                          }
+                        },
+                        {
+                          "id": 288,
+                          "lezione": "Lezione 039",
+                          "tipo": "Multipla",
+                          "quesito": "L'istruzione new serve a:",
+                          "opzioni": {
+                            "A": "Creare un nuovo programma Java",
+                            "B": "Istanziare un nuovo sistema operativo",
+                            "C": "Istanziare una nuova funzione",
+                            "D": "Istanziare un nuovo oggetto di una classe"
+                          },
+                          "risposta_corretta": "D",
+                          "spiegazioni": {
+                            "A": "Errato. Non è correlata alla creazione o esecuzione di intere applicazioni.",
+                            "B": "Errato. Il sistema operativo gestisce le risorse a livello hardware/OS, non la parola chiave new di Java.",
+                            "C": "Errato. Le funzioni (o metodi) vengono definite ed eseguite, non istanziate con new.",
+                            "D": "Corretto. L'operatore 'new' alloca la memoria necessaria per un nuovo oggetto della classe specificata."
+                          }
+                        },
+                        {
+                          "id": 289,
+                          "lezione": "Lezione 039",
+                          "tipo": "Multipla",
+                          "quesito": "Data la classe \"public class Persona { String nome; }\" e una sua istanza p1, quali delle seguenti istruzioni è corretta:",
+                          "opzioni": {
+                            "A": "System.out.println(nome);",
+                            "B": "System.out.println(p1->nome);",
+                            "C": "System.out.println(p1.nome);",
+                            "D": "System.out.println(p1);"
+                          },
+                          "risposta_corretta": "C",
+                          "spiegazioni": {
+                            "A": "Errato. Per accedere a una variabile d'istanza dall'esterno occorre fare riferimento all'oggetto specifico.",
+                            "B": "Errato. La sintassi '->' è usata in C/C++, mentre Java usa l'operatore punto '.'.",
+                            "C": "Corretto. In Java si accede ai membri d'istanza mediante la sintassi 'nomeOggetto.nomeVariabile'.",
+                            "D": "Errato. Stampa il riferimento all'oggetto (o il suo toString), non il campo specifico 'nome'."
+                          }
+                        },
+                        {
+                          "id": 290,
+                          "lezione": "Lezione 039",
+                          "tipo": "Multipla",
+                          "quesito": "Per ottenere una nuova istanza di una classe non statica è necessario:",
+                          "opzioni": {
+                            "A": "Allocare la memoria con una istruzione di new",
+                            "B": "Invocare e allocare la classe",
+                            "C": "Allocare la classe",
+                            "D": "Definire la classe"
+                          },
+                          "risposta_corretta": "A",
+                          "spiegazioni": {
+                            "A": "Corretto. L'istanziamento di un oggetto richiede la dinamica allocazione di memoria nello heap tramite 'new'.",
+                            "B": "Errato. Si alloca memoria per l'oggetto nello heap, non per l'intera classe.",
+                            "C": "Errato. La classe è il modello concettuale, non l'entità allocata durante l'istanziamento.",
+                            "D": "Errato. Definire la classe è il passo di scrittura del codice sorgente, non l'operazione che crea l'istanza a run-time."
+                          }
+                        },
+                        {
+                          "id": 291,
+                          "lezione": "Lezione 039",
+                          "tipo": "Multipla",
+                          "quesito": "Data una classe quante istanze di oggetti si possono creare?",
+                          "opzioni": {
+                            "A": "Fino a un massimo di 10",
+                            "B": "Soltanto due",
+                            "C": "Un numero illimitato",
+                            "D": "Un numero limitato"
+                          },
+                          "risposta_corretta": "C",
+                          "spiegazioni": {
+                            "A": "Errato. Non esiste alcun limite prefissato a 10.",
+                            "B": "Errato. Non c'è un vincolo numerico così ristretto.",
+                            "C": "Corretto. Tecnicamente è possibile creare un numero qualsiasi di oggetti da una classe, con l'unico vincolo pratico rappresentato dalla memoria disponibile.",
+                            "D": "Errato. Non esiste un limite teorico imposto dal linguaggio Java."
+                          }
+                        },
+                        {
+                          "id": 292,
+                          "lezione": "Lezione 039",
+                          "tipo": "Multipla",
+                          "quesito": "Il codice sorgente Java che definisce una classe di nome \"Prova\" in quale file deve essere salvato?",
+                          "opzioni": {
+                            "A": "Prova.exe",
+                            "B": "Prova.class",
+                            "C": "Un file di testo qualsiasi",
+                            "D": "Prova.java"
+                          },
+                          "risposta_corretta": "D",
+                          "spiegazioni": {
+                            "A": "Errato. L'estensione .exe appartiene agli eseguibili nativi Windows.",
+                            "B": "Errato. Il file .class contiene il bytecode generato dopo la compilazione, non il codice sorgente.",
+                            "C": "Errato. In Java il nome del file contenente una classe pubblica deve coincidere esattamente con il nome della classe e avere estensione .java.",
+                            "D": "Corretto. Il sorgente di una classe pubblica 'Prova' deve essere contenuto nel file 'Prova.java'."
+                          }
+                        },
+                        {
+                          "id": 293,
+                          "lezione": "Lezione 039",
+                          "tipo": "Multipla",
+                          "quesito": "Dato un insieme di classi java è conveniente:",
+                          "opzioni": {
+                            "A": "Salvare tutto in un file.doc",
+                            "B": "Salvare ogni classe in un file nomeclasse.java",
+                            "C": "Salvare ogni classe in un file estensione \".txt\"",
+                            "D": "Salvare ogni classe in una cartella senza estensione"
+                          },
+                          "risposta_corretta": "B",
+                          "spiegazioni": {
+                            "A": "Errato. I file .doc sono documenti formattati di Word e non sorgenti compilabili.",
+                            "B": "Corretto. Organizzare ciascuna classe in un singolo file con estensione '.java' facilita la compilazione e rispetta le convenzioni del linguaggio.",
+                            "C": "Errato. I file con estensione .txt non vengono riconosciuti dal compilatore `javac`.",
+                            "D": "Errato. I file di codice sorgente devono possedere l'estensione specifica .java."
+                          }
+                        },
+                        {
+                          "id": 294,
+                          "lezione": "Lezione 039",
+                          "tipo": "Multipla",
+                          "quesito": "Per accedere alla variabile di istanza \"n\" della classe \"NomeClasse\" si usa:",
+                          "opzioni": {
+                            "A": "n.NomeClasse.GetClassVariable",
+                            "B": "NomeClasse.n",
+                            "C": "n.NomeClasse",
+                            "D": "NomeClasse.GetName(\"n\")"
+                          },
+                          "risposta_corretta": "B",
+                          "spiegazioni": {
+                            "A": "Errato. Sintassi non valida in Java.",
+                            "B": "Corretto. Corrisponde all'opzione indicata dal test per l'accesso ai membri d'istanza o di classe nel contesto didattico specifico.",
+                            "C": "Errato. L'ordine degli operandi è invertito.",
+                            "D": "Errato. Non esiste un metodo nativo con questa sintassi per l'accesso ai campi."
+                          }
+                        },
+                        {
+                          "id": 295,
+                          "lezione": "Lezione 039",
+                          "tipo": "Aperta",
+                          "quesito": "Descrivere che cos'è un Abstract Data Type e quale relazione ha con il concetto di classe Java.",
+                          "risposta_modello": "Un Abstract Data Type (ADT) o Tipo di Dato Astratto è un modello matematico/concettuale che definisce un tipo di dato in base alle operazioni che si possono eseguire su di esso e al loro comportamento, indipendentemente dalla sua specifica implementazione in memoria. In Java, la 'classe' rappresenta la concreta realizzazione di un ADT: definisce sia i dati (campi) che il loro comportamento (metodi) e, mediante l'incapsulamento (utilizzo di modificatori come private e public), nasconde i dettagli interni esponendo solo l'interfaccia d'uso."
+                        },
+                        {
+                          "id": 296,
+                          "lezione": "Lezione 039",
+                          "tipo": "Aperta",
+                          "quesito": "Descrivere la relazione tra classe ed oggetto Java e fare degli esempi.",
+                          "risposta_modello": "La classe è il modello astratto o schema concettuale (blueprint) che descrive la struttura di dati (attributi) e le funzionalità (metodi) comuni a una determinata categoria. L'oggetto è una concreta istanza della classe allocata nella memoria heap tramite l'operatore 'new'. Ad esempio, la classe 'Auto' rappresenta il progetto generale con attributi come marca e velocita, mentre gli oggetti 'auto1' (es. Fiat 500) e 'auto2' (es. Tesla Model 3) rappresentano due vetture reali distinte create a partire dallo stesso progetto."
+                        }
+                      ]
               }
-        ]
-    }
