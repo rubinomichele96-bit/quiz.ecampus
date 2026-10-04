@@ -1,4 +1,4 @@
-   {
+    {
         "titolo": "Quiz e Schemi di Ripasso - Fondamenti di Informatica (Lezioni 001 - 015)",
         "domande": [
             {
@@ -4795,12 +4795,12 @@
                                 "lezione": "Lezione 037",
                                 "tipo": "Multipla",
                                 "quesito": "Data una stringa s = new String(\"prova\");, per stampare la lettera \"o\" si procede con:",
-                                "opzioni": {
-                                  "A": "System.out.println([2]);",
-                                  "B": "System.out.println([II]);",
-                                  "C": "System.out.println(s.charAt(2));",
-                                  "D": "System.out.println(s.2);"
-                                },
+                                "opzioni": [
+                                  "A) System.out.println([2])",
+                                  "B) System.out.println([II])",
+                                  "C) System.out.println(s.charAt(2))",
+                                  "D) System.out.println(s.2)"
+                                ],
                                 "risposta_corretta": "C",
                                 "spiegazioni": {
                                   "A": "Errato. Gli indici con parentesi quadre si usano per gli array, non per gli oggetti String.",
@@ -4814,12 +4814,12 @@
                                 "lezione": "Lezione 037",
                                 "tipo": "Multipla",
                                 "quesito": "Per confrontare due stringhe s1 ed s2 e verificare se hanno lo stesso valore si procede con:",
-                                "opzioni": {
-                                  "A": "L'istruzione Java \"if (s1=s2)\"",
-                                  "B": "L'istruzione Java \"if (Equals(s1,s2))\"",
-                                  "C": "L'istruzione Java \"if (s1==s2)\"",
-                                  "D": "L'istruzione Java \"if (s1.equals(s2))\""
-                                },
+                                "opzioni": [
+                                  "A) L'istruzione Java \"if (s1=s2)\"",
+                                  "B) L'istruzione Java \"if (Equals(s1,s2))\"",
+                                  "C) L'istruzione Java \"if (s1==s2)\"",
+                                  "D) L'istruzione Java \"if (s1.equals(s2))\""
+                                ],
                                 "risposta_corretta": "D",
                                 "spiegazioni": {
                                   "A": "Errato. L'operatore '=' è un operatore di assegnamento, non di confronto.",
@@ -4833,12 +4833,12 @@
                                 "lezione": "Lezione 037",
                                 "tipo": "Multipla",
                                 "quesito": "Data una stringa s generata in Java come: s = new String(\"prova\");, quale delle seguenti affermazioni è falsa?",
-                                "opzioni": {
-                                  "A": "s2=s.substring(1,3) inserisce in s2 la stringa \"rov\"",
-                                  "B": "s2=s.substring(1,3) inserisce in s2 la stringa intera",
-                                  "C": "s2=s.substring(1,3) serve a copiare una parte di s in s2",
-                                  "D": "s2=s.substring(1,3) si usa per generare una sottostringa di s"
-                                },
+                                "opzioni": [
+                                  "A) s2=s.substring(1,3) inserisce in s2 la stringa \"rov\"",
+                                  "B) s2=s.substring(1,3) inserisce in s2 la stringa intera",
+                                  "C) s2=s.substring(1,3) serve a copiare una parte di s in s2",
+                                  "D) s2=s.substring(1,3) si usa per generare una sottostringa di s"
+                                ],
                                 "risposta_corretta": "A",
                                 "spiegazioni": {
                                   "A": "Falsa (quindi la risposta corretta). substring(beginIndex, endIndex) estrae dall'indice beginIndex fino a endIndex escluso. Quindi substring(1,3) estrae gli indici 1 e 2, cioè \"ro\", non \"rov\".",
@@ -4852,12 +4852,12 @@
                                 "lezione": "Lezione 037",
                                 "tipo": "Multipla",
                                 "quesito": "La funzione \"String concat(String s)\":",
-                                "opzioni": {
-                                  "A": "E' una funzione della classe String che serve a concatenare una stringa data con la stringa parametro s",
-                                  "B": "E' una funzione che serve a concatenare sue stringhe date in input e mette in risultato nel parametro s",
-                                  "C": "E' una procedura della classe String che serve a stampare la stringa s concatenata con se stessa",
-                                  "D": "E' una funzione che serve a comunicare una stringa s a una funzione di stampa"
-                                },
+                                "opzioni": [
+                                  "A) E' una funzione della classe String che serve a concatenare una stringa data con la stringa parametro s",
+                                  "B) E' una funzione che serve a concatenare sue stringhe date in input e mette in risultato nel parametro s",
+                                  "C) E' una procedura della classe String che serve a stampare la stringa s concatenata con se stessa",
+                                  "D) E' una funzione che serve a comunicare una stringa s a una funzione di stampa"
+                                ],
                                 "risposta_corretta": "A",
                                 "spiegazioni": {
                                   "A": "Corretto. Il metodo di istanza concat(String s) restituisce una nuova stringa formata dalla stringa corrente concatenata con il parametro s.",
@@ -4871,12 +4871,12 @@
                                 "lezione": "Lezione 037",
                                 "tipo": "Multipla",
                                 "quesito": "Data il seguente codice: String s1 = new String(\"stringa\"); String s2 = new String(\" di prova\"); quale delle seguenti affermazioni è vera?",
-                                "opzioni": {
-                                  "A": "System.out.println(s1.concat(s2)) stampa \"stringa di prova\"",
-                                  "B": "System.out.println(s1.concat(s2)) stampa \" prova di stringa\"",
-                                  "C": "System.out.println(s1.concat(s2)) stampa \" prova\"",
-                                  "D": "System.out.println(s1.concat(s2)) stampa \" stringa\""
-                                },
+                                "opzioni": [
+                                  "A) System.out.println(s1.concat(s2)) stampa \"stringa di prova\"",
+                                  "B) System.out.println(s1.concat(s2)) stampa \" prova di stringa\"",
+                                  "C) System.out.println(s1.concat(s2)) stampa \" prova\"",
+                                  "D) System.out.println(s1.concat(s2)) stampa \" stringa\""
+                                ],
                                 "risposta_corretta": "A",
                                 "spiegazioni": {
                                   "A": "Corretto. s1.concat(s2) unisce \"stringa\" con \" di prova\", producendo la stringa completa \"stringa di prova\".",
@@ -4890,12 +4890,12 @@
                                 "lezione": "Lezione 037",
                                 "tipo": "Multipla",
                                 "quesito": "A cosa serve la classe StringTokenizer?",
-                                "opzioni": {
-                                  "A": "Serve ad estrarre token da una stringa",
-                                  "B": "Serve a gestire una sequenza di stringhe come interi",
-                                  "C": "Serve a fare dei cicli sulle stringhe",
-                                  "D": "Serve a generare token casuali usando le stringhe"
-                                },
+                                "opzioni": [
+                                  "A) Serve ad estrarre token da una stringa",
+                                  "B) Serve a gestire una sequenza di stringhe come interi",
+                                  "C) Serve a fare dei cicli sulle stringhe",
+                                  "D) Serve a generare token casuali usando le stringhe"
+                                ],
                                 "risposta_corretta": "A",
                                 "spiegazioni": {
                                   "A": "Corretto. StringTokenizer suddivide una stringa in sottostringhe (token) basandosi su delimitatori specificati (es. spazi, virgole).",
@@ -4909,19 +4909,23 @@
                                 "lezione": "Lezione 037",
                                 "tipo": "Aperta",
                                 "quesito": "Descrivere il funzionamento dei metodi toUpperCase() e toLowerCase() della classe String e fare degli esempi.",
-                                "risposta_guida": "I metodi toUpperCase() e toLowerCase() della classe String convertono tutti i caratteri di una stringa rispettivamente in maiuscolo e in minuscolo. Poiché le String sono immutabili, entrambi i metodi non modificano la stringa originale ma restituiscono una nuova istanza modificata.\nEsempio:\nString s = \"Ciao\";\nString maiusc = s.toUpperCase(); // Risultato: \"CIAO\"\nString minusc = s.toLowerCase(); // Risultato: \"ciao\""
+                                "opzioni": [],
+                                "risposta_corretta": "",
+                                "spiegazioni": {
+                                "risposta_modello": "I metodi toUpperCase() e toLowerCase() della classe String convertono tutti i caratteri di una stringa rispettivamente in maiuscolo e in minuscolo. Poiché le String sono immutabili, entrambi i metodi non modificano la stringa originale ma restituiscono una nuova istanza modificata.\nEsempio:\nString s = \"Ciao\";\nString maiusc = s.toUpperCase(); // Risultato: \"CIAO\"\nString minusc = s.toLowerCase(); // Risultato: \"ciao\""
+                                }
                               },
                               {
                                 "id": 278,
                                 "lezione": "Lezione 038",
                                 "tipo": "Multipla",
                                 "quesito": "La parola chiave \"import\" indica:",
-                                "opzioni": {
-                                  "A": "Un modo per dire che una istruzione è importante",
-                                  "B": "Un modo per escludere alcune classi",
-                                  "C": "Un modo per includere le funzionalità di una classe",
-                                  "D": "Un modo per indicare l'importazione di variabili"
-                                },
+                                "opzioni": [
+                                  "A) Un modo per dire che una istruzione è importante",
+                                  "B) Un modo per escludere alcune classi",
+                                  "C) Un modo per includere le funzionalità di una classe",
+                                  "D) Un modo per indicare l'importazione di variabili"
+                                ],
                                 "risposta_corretta": "C",
                                 "spiegazioni": {
                                   "A": "Errato. Non ha alcuna relazione con il senso letterale di 'importante'.",
@@ -4935,12 +4939,12 @@
                                 "lezione": "Lezione 038",
                                 "tipo": "Multipla",
                                 "quesito": "La parola chiave protected si può usare:",
-                                "opzioni": {
-                                  "A": "Nella definizione dei package per cui chiedo protezione",
-                                  "B": "Nella definizione dei metodi di una classe",
-                                  "C": "Per le funzioni invocabili solo con sistema operativo",
-                                  "D": "Nella definizione di codice antihacker"
-                                },
+                                "opzioni": [
+                                  "A) Nella definizione dei package per cui chiedo protezione",
+                                  "B) Nella definizione dei metodi di una classe",
+                                  "C) Per le funzioni invocabili solo con sistema operativo",
+                                  "D) Nella definizione di codice antihacker"
+                                ],
                                 "risposta_corretta": "B",
                                 "spiegazioni": {
                                   "A": "Errato. I package non utilizzano modificatori di accesso come protected.",
@@ -4954,12 +4958,12 @@
                                 "lezione": "Lezione 038",
                                 "tipo": "Multipla",
                                 "quesito": "Quali di queste affermazioni è sicuramente falsa?",
-                                "opzioni": {
-                                  "A": "La parola chiave \"long\" è un intero con segno",
-                                  "B": "La parola chiave \"long\" indica un tipo",
-                                  "C": "La parola chiave \"long\" si usa per i valori numerici",
-                                  "D": "La parola chiave \"long\" serve a definire stringhe più lunghe"
-                                },
+                                "opzioni": [
+                                  "A) La parola chiave \"long\" è un intero con segno",
+                                  "B) La parola chiave \"long\" indica un tipo",
+                                  "C) La parola chiave \"long\" si usa per i valori numerici",
+                                  "D) La parola chiave \"long\" serve a definire stringhe più lunghe"
+                                ],
                                 "risposta_corretta": "D",
                                 "spiegazioni": {
                                   "A": "Vera. In Java 'long' è un tipo primitivo intero a 64 bit con segno.",
@@ -4973,12 +4977,12 @@
                                 "lezione": "Lezione 038",
                                 "tipo": "Multipla",
                                 "quesito": "La parola chiave package:",
-                                "opzioni": {
-                                  "A": "Indica la versione dei pacchetti generati dall'utente",
-                                  "B": "Indica la versione della CPU",
-                                  "C": "Indica la versione del compilatore di Java",
-                                  "D": "Indica un pacchetto o libreria di funzioni"
-                                },
+                                "opzioni": [
+                                  "A) Indica la versione dei pacchetti generati dall'utente",
+                                  "B) Indica la versione della CPU",
+                                  "C) Indica la versione del compilatore di Java",
+                                  "D) Indica un pacchetto o libreria di funzioni"
+                                ],
                                 "risposta_corretta": "D",
                                 "spiegazioni": {
                                   "A": "Errato. Non definisce né gestisce numeri di versione.",
@@ -4992,12 +4996,12 @@
                                 "lezione": "Lezione 038",
                                 "tipo": "Multipla",
                                 "quesito": "La parola chiave instanceof si utilizza per:",
-                                "opzioni": {
-                                  "A": "Testare se un programma è istanziato",
-                                  "B": "Testare se un programma è in esecuzione",
-                                  "C": "Testare se una variabile e istanziabile",
-                                  "D": "Testare se una variabile è una istanza di un certo tipo"
-                                },
+                                "opzioni": [
+                                  "A) Testare se un programma è istanziato",
+                                  "B) Testare se un programma è in esecuzione",
+                                  "C) Testare se una variabile e istanziabile",
+                                  "D) Testare se una variabile è una istanza di un certo tipo"
+                                ],
                                 "risposta_corretta": "D",
                                 "spiegazioni": {
                                   "A": "Errato. Non si applica all'intero programma.",
@@ -5011,12 +5015,12 @@
                                 "lezione": "Lezione 038",
                                 "tipo": "Multipla",
                                 "quesito": "Data l'istruzione: String final = \"fine\"; che succede se la compiliamo?",
-                                "opzioni": {
-                                  "A": "Genera un errore perchè final è una parola chiave",
-                                  "B": "Genera un errore perchè una stringa non si definisce così",
-                                  "C": "Non genera alcun errore",
-                                  "D": "Genera un errore perchè dopo l'uguale non ci vogliono mai le virgolette"
-                                },
+                                "opzioni": [
+                                  "A) Genera un errore perchè final è una parola chiave",
+                                  "B) Genera un errore perchè una stringa non si definisce così",
+                                  "C) Non genera alcun errore",
+                                  "D) Genera un errore perchè dopo l'uguale non ci vogliono mai le virgolette"
+                                ],
                                 "risposta_corretta": "A",
                                 "spiegazioni": {
                                   "A": "Corretto. 'final' è una parola chiave riservata del linguaggio Java (usata per definire costanti o impedire l'override) e non può essere usata come nome di identificatore/variabile.",
@@ -5030,12 +5034,12 @@
                                 "lezione": "Lezione 038",
                                 "tipo": "Multipla",
                                 "quesito": "Quali delle seguenti parole non è una parola chiave di Java?",
-                                "opzioni": {
-                                  "A": "Class",
-                                  "B": "abstract",
-                                  "C": "else",
-                                  "D": "boolean"
-                                },
+                                "opzioni": [
+                                  "A) Class",
+                                  "B) abstract",
+                                  "C) else",
+                                  "D) boolean"
+                                ],
                                 "risposta_corretta": "A",
                                 "spiegazioni": {
                                   "A": "Corretto (non è una keyword). Java è case-sensitive: la parola chiave riservata è 'class' (tutta minuscola). 'Class' con la C maiuscola è una classe del package java.lang.",
@@ -5049,12 +5053,12 @@
                                 "lezione": "Lezione 038",
                                 "tipo": "Multipla",
                                 "quesito": "Per invocare un metodo di una classe padre nella gerarchia di classi Java si usa la parola chiave:",
-                                "opzioni": {
-                                  "A": "super",
-                                  "B": "ancestor",
-                                  "C": "ancien",
-                                  "D": "overthetop"
-                                },
+                                "opzioni": [
+                                  "A) super",
+                                  "B) ancestor",
+                                  "C) ancien",
+                                  "D) overthetop"
+                                ],
                                 "risposta_corretta": "A",
                                 "spiegazioni": {
                                   "A": "Corretto. La parola chiave 'super' permette di fare riferimento ai metodi o costruttori della superclasse (classe padre).",
@@ -5068,19 +5072,23 @@
                                 "lezione": "Lezione 038",
                                 "tipo": "Aperta",
                                 "quesito": "Descrivere che cos'è una keyword di Java e fare degli esempi di keyword.",
-                                "risposta_guida": "Una keyword (o parola chiave) in Java è un identificatore riservato dal linguaggio che possiede un significato speciale e predefinito per il compilatore. Le keyword non possono essere utilizzate come nomi di variabili, classi o metodi. Esempi di keyword sono: class, public, static, void, int, if, else, return, super, final, new, import, package."
-                              },
+                                "opzioni": [],
+                                "risposta_corretta": "",
+                                "spiegazioni": {
+                                "risposta_modello": "Una keyword (o parola chiave) in Java è un identificatore riservato dal linguaggio che possiede un significato speciale e predefinito per il compilatore. Le keyword non possono essere utilizzate come nomi di variabili, classi o metodi. Esempi di keyword sono: class, public, static, void, int, if, else, return, super, final, new, import, package."
+                              }
+                            },
                               {
                                 "id": 287,
                                 "lezione": "Lezione 039",
                                 "tipo": "Multipla",
                                 "quesito": "Data la classe \"Persona\", la seguente istruzione \"Persona p1 = new Persona();\" serve a:",
-                                "opzioni": {
-                                  "A": "Creare un oggetto p1 che sia di tipo Persona",
-                                  "B": "Inizializzare la classe Persona",
-                                  "C": "Creare una nuova classe p1 di tipo Persona",
-                                  "D": "Creare una variabile p1 che contenga un array di persone"
-                                },
+                                "opzioni": [
+                                  "A) Creare un oggetto p1 che sia di tipo Persona",
+                                  "B) Inizializzare la classe Persona",
+                                  "C) Creare una nuova classe p1 di tipo Persona",
+                                  "D) Creare una variabile p1 che contenga un array di persone"
+                                ],
                                 "risposta_corretta": "A",
                                 "spiegazioni": {
                                   "A": "Corretto. L'istruzione combina la dichiarazione di una variabile di tipo Persona e la sua istanziazione in memoria con 'new Persona()'.",
@@ -5094,12 +5102,12 @@
                                 "lezione": "Lezione 039",
                                 "tipo": "Multipla",
                                 "quesito": "L'istruzione new serve a:",
-                                "opzioni": {
-                                  "A": "Creare un nuovo programma Java",
-                                  "B": "Istanziare un nuovo sistema operativo",
-                                  "C": "Istanziare una nuova funzione",
-                                  "D": "Istanziare un nuovo oggetto di una classe"
-                                },
+                                "opzioni": [
+                                  "A) Creare un nuovo programma Java",
+                                  "B) Istanziare un nuovo sistema operativo",
+                                  "C) Istanziare una nuova funzione",
+                                  "D) stanziare un nuovo oggetto di una classe"
+                                ],
                                 "risposta_corretta": "D",
                                 "spiegazioni": {
                                   "A": "Errato. Non è correlata alla creazione o esecuzione di intere applicazioni.",
@@ -5113,12 +5121,12 @@
                                 "lezione": "Lezione 039",
                                 "tipo": "Multipla",
                                 "quesito": "Data la classe \"public class Persona { String nome; }\" e una sua istanza p1, quali delle seguenti istruzioni è corretta:",
-                                "opzioni": {
-                                  "A": "System.out.println(nome);",
-                                  "B": "System.out.println(p1->nome);",
-                                  "C": "System.out.println(p1.nome);",
-                                  "D": "System.out.println(p1);"
-                                },
+                                "opzioni": [
+                                  "A) System.out.println(nome);",
+                                  "B) System.out.println(p1->nome);",
+                                  "C) System.out.println(p1.nome);",
+                                  "D) System.out.println(p1);"
+                                ],
                                 "risposta_corretta": "C",
                                 "spiegazioni": {
                                   "A": "Errato. Per accedere a una variabile d'istanza dall'esterno occorre fare riferimento all'oggetto specifico.",
@@ -5132,12 +5140,12 @@
                                 "lezione": "Lezione 039",
                                 "tipo": "Multipla",
                                 "quesito": "Per ottenere una nuova istanza di una classe non statica è necessario:",
-                                "opzioni": {
-                                  "A": "Allocare la memoria con una istruzione di new",
-                                  "B": "Invocare e allocare la classe",
-                                  "C": "Allocare la classe",
-                                  "D": "Definire la classe"
-                                },
+                                "opzioni": [
+                                  "A) Allocare la memoria con una istruzione di new",
+                                  "B) Invocare e allocare la classe",
+                                  "C) Allocare la classe",
+                                  "D) Definire la classe"
+                                ],
                                 "risposta_corretta": "A",
                                 "spiegazioni": {
                                   "A": "Corretto. L'istanziamento di un oggetto richiede la dinamica allocazione di memoria nello heap tramite 'new'.",
@@ -5151,12 +5159,12 @@
                                 "lezione": "Lezione 039",
                                 "tipo": "Multipla",
                                 "quesito": "Data una classe quante istanze di oggetti si possono creare?",
-                                "opzioni": {
-                                  "A": "Fino a un massimo di 10",
-                                  "B": "Soltanto due",
-                                  "C": "Un numero illimitato",
-                                  "D": "Un numero limitato"
-                                },
+                                "opzioni": [
+                                  "A) Fino a un massimo di 10",
+                                  "B) Soltanto due",
+                                  "C) Un numero illimitato",
+                                  "D) Un numero limitato"
+                                ],
                                 "risposta_corretta": "C",
                                 "spiegazioni": {
                                   "A": "Errato. Non esiste alcun limite prefissato a 10.",
@@ -5170,12 +5178,12 @@
                                 "lezione": "Lezione 039",
                                 "tipo": "Multipla",
                                 "quesito": "Il codice sorgente Java che definisce una classe di nome \"Prova\" in quale file deve essere salvato?",
-                                "opzioni": {
-                                  "A": "Prova.exe",
-                                  "B": "Prova.class",
-                                  "C": "Un file di testo qualsiasi",
-                                  "D": "Prova.java"
-                                },
+                                "opzioni": [
+                                  "A) Prova.exe",
+                                  "B) Prova.class",
+                                  "C) Un file di testo qualsiasi",
+                                  "D) Prova.java"
+                                ],
                                 "risposta_corretta": "D",
                                 "spiegazioni": {
                                   "A": "Errato. L'estensione .exe appartiene agli eseguibili nativi Windows.",
@@ -5189,12 +5197,12 @@
                                 "lezione": "Lezione 039",
                                 "tipo": "Multipla",
                                 "quesito": "Dato un insieme di classi java è conveniente:",
-                                "opzioni": {
-                                  "A": "Salvare tutto in un file.doc",
-                                  "B": "Salvare ogni classe in un file nomeclasse.java",
-                                  "C": "Salvare ogni classe in un file estensione \".txt\"",
-                                  "D": "Salvare ogni classe in una cartella senza estensione"
-                                },
+                                "opzioni": [
+                                  "A) Salvare tutto in un file.doc",
+                                  "B) Salvare ogni classe in un file nomeclasse.java",
+                                  "C)Salvare ogni classe in un file estensione \".txt\"",
+                                  "D) Salvare ogni classe in una cartella senza estensione"
+                                ],
                                 "risposta_corretta": "B",
                                 "spiegazioni": {
                                   "A": "Errato. I file .doc sono documenti formattati di Word e non sorgenti compilabili.",
@@ -5208,12 +5216,12 @@
                                 "lezione": "Lezione 039",
                                 "tipo": "Multipla",
                                 "quesito": "Per accedere alla variabile di istanza \"n\" della classe \"NomeClasse\" si usa:",
-                                "opzioni": {
-                                  "A": "n.NomeClasse.GetClassVariable",
-                                  "B": "NomeClasse.n",
-                                  "C": "n.NomeClasse",
-                                  "D": "NomeClasse.GetName(\"n\")"
-                                },
+                                "opzioni": [
+                                  "A) n.NomeClasse.GetClassVariable",
+                                  "B) NomeClasse.n",
+                                  "C) n.NomeClasse",
+                                  "D) NomeClasse.GetName(\"n\")"
+                                ],
                                 "risposta_corretta": "B",
                                 "spiegazioni": {
                                   "A": "Errato. Sintassi non valida in Java.",
@@ -5227,14 +5235,22 @@
                                 "lezione": "Lezione 039",
                                 "tipo": "Aperta",
                                 "quesito": "Descrivere che cos'è un Abstract Data Type e quale relazione ha con il concetto di classe Java.",
+                                "opzioni": [],
+                                "risposta_corretta": "",
+                                "spiegazioni": {
                                 "risposta_modello": "Un Abstract Data Type (ADT) o Tipo di Dato Astratto è un modello matematico/concettuale che definisce un tipo di dato in base alle operazioni che si possono eseguire su di esso e al loro comportamento, indipendentemente dalla sua specifica implementazione in memoria. In Java, la 'classe' rappresenta la concreta realizzazione di un ADT: definisce sia i dati (campi) che il loro comportamento (metodi) e, mediante l'incapsulamento (utilizzo di modificatori come private e public), nasconde i dettagli interni esponendo solo l'interfaccia d'uso."
-                              },
+                              }
+                            },
                               {
                                 "id": 296,
                                 "lezione": "Lezione 039",
                                 "tipo": "Aperta",
                                 "quesito": "Descrivere la relazione tra classe ed oggetto Java e fare degli esempi.",
+                                "opzioni": [],
+                                "risposta_corretta": "",
+                                "spiegazioni": {
                                 "risposta_modello": "La classe è il modello astratto o schema concettuale (blueprint) che descrive la struttura di dati (attributi) e le funzionalità (metodi) comuni a una determinata categoria. L'oggetto è una concreta istanza della classe allocata nella memoria heap tramite l'operatore 'new'. Ad esempio, la classe 'Auto' rappresenta il progetto generale con attributi come marca e velocita, mentre gli oggetti 'auto1' (es. Fiat 500) e 'auto2' (es. Tesla Model 3) rappresentano due vetture reali distinte create a partire dallo stesso progetto."
+                                }
                               }
                             ]
     }
