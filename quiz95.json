@@ -4912,7 +4912,7 @@
                                 "opzioni": [],
                                 "risposta_corretta": "",
                                 "spiegazioni": {
-                                "risposta_modello": "I metodi toUpperCase() e toLowerCase() della classe String convertono tutti i caratteri di una stringa rispettivamente in maiuscolo e in minuscolo. Poiché le String sono immutabili, entrambi i metodi non modificano la stringa originale ma restituiscono una nuova istanza modificata.\nEsempio:\nString s = \"Ciao\";\nString maiusc = s.toUpperCase(); // Risultato: \"CIAO\"\nString minusc = s.toLowerCase(); // Risultato: \"ciao\""
+                                "risposta_modello": "I metodi toUpperCase() e toLowerCase() della classe String convertono tutti i caratteri di una stringa rispettivamente in maiuscolo e in minuscolo. Poiché le String sono immutabili, entrambi i metodi non modificano la stringa originale ma restituiscono una nuova istanza modificata."
                                 }
                               },
                               {
